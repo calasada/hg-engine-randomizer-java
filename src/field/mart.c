@@ -38,6 +38,7 @@ const struct BadgeMartItems sBadgeMart[] = {
     { ITEM_REPEL,          1 },
     { ITEM_SUPER_REPEL,    3 },
     { ITEM_MAX_REPEL,      5 },
+    { ITEM_RARE_CANDY,     0 },
 };
 
 void LONG_CALL InitMartUI(void *taskManager, FieldSystem *fieldSystem, const u16 *items, int kind, int buySell, int decoWhich, const struct MartItem *priceOverrides);
