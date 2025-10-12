@@ -1,111 +1,260 @@
-# GENERATED ENTIRELY BY CHATGPT
-
+#!/usr/bin/env python3
+import argparse
 import json
-import math
-import pandas as pd
 from pathlib import Path
+import pandas as pd
 
-INPUT_XLSX = Path("PokemonData.xlsx")          # your Excel file (same dir as this script)
-OUTPUT_JSON = Path("pokemondata.json")         # output file
-ALT_COL = "alt_spawns"                         # column containing "SPECIES_X:rate,SPECIES_Y:rate"
+# ---------------- Defaults ----------------
+BASE_DIR = Path(__file__).resolve().parent
 
-# Columns that should be treated as booleans if they come in as strings TRUE/FALSE
-BOOL_COLS = [
-    "form","encounter_valid","trainer_valid","starter",
-    "legendary","pseudolegendary","ultrabeast","paradox",
+POKEMON_INPUT_DEFAULT = BASE_DIR / "PokemonData.xlsx"
+POKEMON_OUTPUT_DEFAULT = BASE_DIR / "pokemondata.json"
+
+MOVES_INPUT_DEFAULT = BASE_DIR / "MoveData.xlsx"
+MOVES_OUTPUT_DEFAULT = BASE_DIR / "movedata.json"
+
+AREAS_INPUT_DEFAULT = BASE_DIR / "AreaData.xlsx"
+AREAS_OUTPUT_DEFAULT = BASE_DIR / "areadata.json"
+
+# Boolean-like columns for Pokémon data
+POKEMON_BOOL_COLS = [
+    "form",
+    "encounter_valid",
+    "trainer_valid",
+    "has_all_sprites",
+    "has_front_sprite",
+    "starter",
+    "legendary",
+    "pseudolegendary",
+    "ultrabeast",
+    "paradox",
+    "evil",
 ]
 
-def to_bool(v):
-    if isinstance(v, bool):
-        return v
-    if v is None or (isinstance(v, float) and math.isnan(v)):
-        return False
-    s = str(v).strip().upper()
-    if s in {"TRUE","T","YES","Y","1"}:
-        return True
-    if s in {"FALSE","F","NO","N","0",""}:
-        return False
-    # fallback: keep original (or cast to bool?) — we’ll default to False to be safe
-    return False
+# Pokémon special columns
+ALT_SPAWNS_COL   = "alt_spawns"     # "SPECIES_X:33,SPECIES_Y:50"
+EVOLUTION_COL    = "evolution_tree" # "SPECIES_A:16,SPECIES_B:36" or JSON
+MOVESET_COL      = "moveset"        # "MOVE_A,MOVE_B,MOVE_C"
 
-def parse_alt_spawns(cell: str):
-    """
-    Parse a string like:
-      "SPECIES_PIKACHU_ROCK_STAR:33,SPECIES_PIKACHU_BELLE:33"
-    into:
-      [{"species":"SPECIES_PIKACHU_ROCK_STAR","rate":33}, {"species":"SPECIES_PIKACHU_BELLE","rate":33}]
-    """
-    if cell is None or (isinstance(cell, float) and math.isnan(cell)):
-        return []
+# Boolean-like columns for Moves data
+MOVES_BOOL_COLS = ["implemented", "status"]
+AREAS_BOOL_COLS = ["special"]
+
+TRUE_SET  = {"TRUE","T","YES","Y","1","true","True"}
+FALSE_SET = {"FALSE","F","NO","N","0","","false","False"}
+
+# ---------------- Helpers ----------------
+def coerce_bool(val):
+    s = str(val).strip()
+    if s in TRUE_SET: return True
+    if s in FALSE_SET: return False
+    return bool(s)  # fallback: any other non-empty -> True
+
+def read_sheet_as_df(path, sheet=None):
+    """Read Excel as strings, auto-picking first sheet if not specified.
+       Always return a DataFrame and preserve blanks as ""."""
+    data = pd.read_excel(path, sheet_name=(sheet if sheet is not None else 0), dtype=str)
+    if isinstance(data, dict):
+        # Multiple sheets returned
+        first_key = list(data.keys())[0]
+        df = data[first_key]
+    else:
+        df = data
+    return df.fillna("")
+
+def parse_alt_spawns(cell, item_sep=",", kv_sep=":"):
     s = str(cell).strip()
     if not s:
         return []
     out = []
-    # split by commas, then each into name:rate
-    for chunk in s.split(","):
+    for chunk in s.split(item_sep):
         chunk = chunk.strip()
         if not chunk:
             continue
-        if ":" in chunk:
-            name, rate_str = chunk.split(":", 1)
+        if kv_sep in chunk:
+            name, rate_str = chunk.split(kv_sep, 1)
             name = name.strip()
             try:
-                rate = int(rate_str.strip())
+                rate = float(str(rate_str).strip())
             except ValueError:
-                rate = 100  # default if malformed
+                rate = 100.0
         else:
-            # no rate provided → default 100
             name = chunk
-            rate = 100
+            rate = 100.0
         if name:
             out.append({"species_name": name, "rate": rate})
     return out
 
-def main():
-    if not INPUT_XLSX.exists():
-        raise FileNotFoundError(f"Excel file not found: {INPUT_XLSX.resolve()}")
+def parse_moveset(cell, delim=","):
+    s = str(cell).strip()
+    if not s:
+        return []
+    return [part.strip() for part in s.split(delim) if part.strip()]
 
-    df = pd.read_excel(INPUT_XLSX)
+def parse_evolution(cell, item_sep=",", kv_sep=":"):
+    """Return a list of {"species_name": name, "level": int?}."""
+    s = str(cell).strip()
+    if not s:
+        return []
+    # Try JSON first
+    if (s.startswith("[") and s.endswith("]")) or (s.startswith("{") and s.endswith("}")):
+        try:
+            data = json.loads(s)
+            if isinstance(data, dict):
+                data = [data]
+            norm = []
+            for item in data:
+                if isinstance(item, dict):
+                    pokemon = item.get("species_name")
+                    level = item.get("level")
+                    try:
+                        level = int(level) if level is not None else None
+                    except Exception:
+                        level = None
+                    if pokemon:
+                        obj = {"species_name": str(pokemon).strip()}
+                        if level is not None:
+                            obj["level"] = level
+                        norm.append(obj)
+            return norm
+        except Exception:
+            pass
 
-    # Normalize boolean-like columns
-    for col in BOOL_COLS:
-        if col in df.columns:
-            df[col] = df[col].map(to_bool)
+    # Fallback: "SPECIES_A:16,SPECIES_B:36"
+    out = []
+    for chunk in s.split(item_sep):
+        chunk = chunk.strip()
+        if not chunk:
+            continue
+        if kv_sep in chunk:
+            name, lvl = chunk.split(kv_sep, 1)
+            name = name.strip()
+            try:
+                level = int(str(lvl).strip())
+            except ValueError:
+                level = None
+            if name:
+                obj = {"species_name": name}
+                if level is not None:
+                    obj["level"] = level
+                out.append(obj)
+        else:
+            # No level provided
+            name = chunk
+            if name:
+                out.append({"species_name": name})
+    return out
 
-    # Build list of dicts row-by-row
+# ---------------- Converters ----------------
+def convert_pokemon_excel_to_json(input_xlsx, output_json, sheet=None):
+    in_path = Path(input_xlsx)
+    if not in_path.exists():
+        raise FileNotFoundError(f"Pokemon Excel not found: {in_path.resolve()}")
+
+    df = read_sheet_as_df(in_path, sheet=sheet)
+
     records = []
-    cols = list(df.columns)
-
     for _, row in df.iterrows():
-        rec = {}
-        for col in cols:
-            val = row[col]
-            # Convert NaN to empty string or None based on field name preference
-            if isinstance(val, float) and math.isnan(val):
-                # For typeB (often empty), keep "" to match your existing JSON
-                rec[col] = "" if col.lower() in {"typeb"} else None
-            else:
-                rec[col] = val
+        rec = {col: ("" if str(row[col]) == "" else str(row[col])) for col in df.columns}
 
-        # Parse alt spawns column into nested list of objects
-        if ALT_COL in rec:
-            rec["alt_spawns"] = parse_alt_spawns(rec[ALT_COL])
-            # Drop the original text form if you don’t want it duplicated:
-            # del rec[ALT_COL]
+        # Booleans
+        for b in POKEMON_BOOL_COLS:
+            if b in rec:
+                rec[b] = coerce_bool(rec[b])
+
+        # Specials
+        if ALT_SPAWNS_COL in rec:
+            rec[ALT_SPAWNS_COL] = parse_alt_spawns(row[ALT_SPAWNS_COL])
+
+        if EVOLUTION_COL in rec:
+            rec[EVOLUTION_COL] = parse_evolution(row[EVOLUTION_COL])
+
+        if MOVESET_COL in rec:
+            rec[MOVESET_COL] = parse_moveset(row[MOVESET_COL])
 
         records.append(rec)
 
-    # Optional: clean up None values in non-boolean/string columns:
-    # (Comment out if you want to keep explicit nulls.)
-    for r in records:
-        # Example: ensure typeB is "" not None
-        if "typeB" in r and r["typeB"] is None:
-            r["typeB"] = ""
+    out_path = Path(output_json)
+    out_path.write_text(json.dumps(records, indent=2, ensure_ascii=False), encoding="utf-8")
+    return len(records), out_path
 
-    with OUTPUT_JSON.open("w", encoding="utf-8") as f:
-        json.dump(records, f, indent=2, ensure_ascii=False)
+def convert_moves_excel_to_json(input_xlsx, output_json, sheet=None):
+    in_path = Path(input_xlsx)
+    if not in_path.exists():
+        raise FileNotFoundError(f"Moves Excel not found: {in_path.resolve()}")
 
-    print(f"Wrote {len(records)} Pokémon → {OUTPUT_JSON.resolve()}")
+    df = read_sheet_as_df(in_path, sheet=sheet)
+
+    records = []
+    for _, row in df.iterrows():
+        rec = {col: ("" if str(row[col]) == "" else str(row[col])) for col in df.columns}
+        for b in MOVES_BOOL_COLS:
+            if b in rec:
+                rec[b] = coerce_bool(rec[b])
+        records.append(rec)
+
+    out_path = Path(output_json)
+    out_path.write_text(json.dumps(records, indent=2, ensure_ascii=False), encoding="utf-8")
+    return len(records), out_path
+
+def convert_areas_excel_to_json(input_xlsx, output_json, sheet=None):
+    in_path = Path(input_xlsx)
+    if not in_path.exists():
+        raise FileNotFoundError(f"Areas Excel not found: {in_path.resolve()}")
+
+    df = read_sheet_as_df(in_path, sheet=sheet)
+
+    records = []
+    for _, row in df.iterrows():
+        rec = {col: ("" if str(row[col]) == "" else str(row[col])) for col in df.columns}
+
+        # Convert booleans
+        for b in AREAS_BOOL_COLS:
+            if b in rec:
+                rec[b] = coerce_bool(rec[b])
+
+        # Parse encounter_ids as list of ints
+        if "encounter_ids" in rec:
+            raw = str(row["encounter_ids"]).strip()
+            if raw:
+                try:
+                    rec["encounter_ids"] = [int(x.strip()) for x in raw.split(",") if x.strip()]
+                except ValueError:
+                    # If not valid integers, fall back to empty list
+                    rec["encounter_ids"] = []
+            else:
+                rec["encounter_ids"] = []
+
+        records.append(rec)
+
+    out_path = Path(output_json)
+    out_path.write_text(json.dumps(records, indent=2, ensure_ascii=False), encoding="utf-8")
+    return len(records), out_path
+
+# ---------------- CLI ----------------
+def main():
+    ap = argparse.ArgumentParser(description="Convert PokemonData.xlsx and MoveData.xlsx to JSON in one go.")
+    ap.add_argument("--pokemon-xlsx", default=POKEMON_INPUT_DEFAULT, help="Path to PokemonData.xlsx")
+    ap.add_argument("--pokemon-json", default=POKEMON_OUTPUT_DEFAULT, help="Output pokemondata.json")
+    ap.add_argument("--pokemon-sheet", default=None, help="Pokemon sheet name/index (default: first)")
+
+    ap.add_argument("--moves-xlsx", default=MOVES_INPUT_DEFAULT, help="Path to MoveData.xlsx")
+    ap.add_argument("--moves-json", default=MOVES_OUTPUT_DEFAULT, help="Output movedata.json")
+    ap.add_argument("--moves-sheet", default=None, help="Moves sheet name/index (default: first)")
+
+    ap.add_argument("--areas-xlsx", default=AREAS_INPUT_DEFAULT, help="Path to AreaData.xlsx")
+    ap.add_argument("--areas-json", default=AREAS_OUTPUT_DEFAULT, help="Output areadata.json")
+    ap.add_argument("--areas-sheet", default=None, help="Areas sheet name/index (default: first)")
+
+    args = ap.parse_args()
+
+    poke_count, poke_out = convert_pokemon_excel_to_json(args.pokemon_xlsx, args.pokemon_json, sheet=args.pokemon_sheet)
+    moves_count, moves_out = convert_moves_excel_to_json(args.moves_xlsx, args.moves_json, sheet=args.moves_sheet)
+    areas_count, areas_out = convert_areas_excel_to_json(args.areas_xlsx, args.areas_json, sheet=args.areas_sheet)
+
+    print(f"Wrote {poke_count} Pokémon -> {poke_out.resolve()}")
+    print(f"Wrote {moves_count} Moves -> {moves_out.resolve()}")
+    print(f"Wrote {areas_count} Areas -> {areas_out.resolve()}")
 
 if __name__ == "__main__":
     main()

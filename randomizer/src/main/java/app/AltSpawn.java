@@ -3,15 +3,15 @@ package app;
 public class AltSpawn {
 
     public Pokemon pokemon;
-    public int rate;
+    public double rate;
 
-    public AltSpawn(Pokemon pokemon, int rate) {
+    public AltSpawn(Pokemon pokemon, double rate) {
         this.pokemon = pokemon;
         this.rate = rate;
     }
 
     @Override public String toString() {
-        return "id: " + pokemon.toString() + ", rate: " + rate;
+        return "id: " + (this.pokemon == null ? "" : pokemon.toString()) + ", rate: " + rate;
     }
 
 }

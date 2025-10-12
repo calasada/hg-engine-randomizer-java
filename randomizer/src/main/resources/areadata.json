@@ -1,0 +1,723 @@
+[
+  {
+    "area_name": "DEX_SPROUT_TOWER",
+    "encounter_ids": [
+      6,
+      7
+    ],
+    "special": true
+  },
+  {
+    "area_name": "DEX_RUINS_OF_ALPH",
+    "encounter_ids": [
+      9,
+      10,
+      11,
+      12,
+      13
+    ],
+    "special": true
+  },
+  {
+    "area_name": "DEX_UNION_CAVE",
+    "encounter_ids": [
+      14,
+      15,
+      16
+    ],
+    "special": true
+  },
+  {
+    "area_name": "DEX_SLOWPOKE_WELL",
+    "encounter_ids": [
+      18,
+      19
+    ],
+    "special": true
+  },
+  {
+    "area_name": "DEX_ILEX_FOREST",
+    "encounter_ids": [
+      20
+    ],
+    "special": true
+  },
+  {
+    "area_name": "DEX_NATIONAL_PARK",
+    "encounter_ids": [
+      23,
+      24
+    ],
+    "special": true
+  },
+  {
+    "area_name": "DEX_BURNED_TOWER",
+    "encounter_ids": [
+      28,
+      29
+    ],
+    "special": true
+  },
+  {
+    "area_name": "DEX_BELL_TOWER",
+    "encounter_ids": [
+      30,
+      31,
+      32,
+      33,
+      34,
+      35,
+      36,
+      37,
+      84
+    ],
+    "special": true
+  },
+  {
+    "area_name": "DEX_WHIRL_ISLANDS",
+    "encounter_ids": [
+      43,
+      44,
+      46,
+      48
+    ],
+    "special": true
+  },
+  {
+    "area_name": "DEX_MT_MORTAR",
+    "encounter_ids": [
+      53,
+      54,
+      55,
+      56
+    ],
+    "special": true
+  },
+  {
+    "area_name": "DEX_ICE_PATH",
+    "encounter_ids": [
+      60,
+      61,
+      62,
+      63
+    ],
+    "special": true
+  },
+  {
+    "area_name": "DEX_DRAGONS_DEN",
+    "encounter_ids": [
+      66
+    ],
+    "special": true
+  },
+  {
+    "area_name": "DEX_DARK_CAVE",
+    "encounter_ids": [
+      69,
+      70
+    ],
+    "special": true
+  },
+  {
+    "area_name": "DEX_MT_MOON",
+    "encounter_ids": [
+      72,
+      73,
+      106,
+      107
+    ],
+    "special": true
+  },
+  {
+    "area_name": "DEX_SEAFOAM_ISLANDS",
+    "encounter_ids": [
+      74,
+      75,
+      76,
+      77,
+      78
+    ],
+    "special": true
+  },
+  {
+    "area_name": "DEX_MT_SILVER_CAVE",
+    "encounter_ids": [
+      79,
+      80,
+      81,
+      86,
+      88
+    ],
+    "special": true
+  },
+  {
+    "area_name": "DEX_CLIFF_EDGE_GATE",
+    "encounter_ids": [
+      82
+    ],
+    "special": true
+  },
+  {
+    "area_name": "DEX_CLIFF_CAVE",
+    "encounter_ids": [
+      83
+    ],
+    "special": true
+  },
+  {
+    "area_name": "DEX_OLIVINE_CITY_SPECIAL",
+    "encounter_ids": [],
+    "special": true
+  },
+  {
+    "area_name": "DEX_ROCK_TUNNEL",
+    "encounter_ids": [
+      108,
+      109
+    ],
+    "special": true
+  },
+  {
+    "area_name": "DEX_VICTORY_ROAD",
+    "encounter_ids": [
+      110,
+      134,
+      135
+    ],
+    "special": true
+  },
+  {
+    "area_name": "DEX_TOHJO_FALLS",
+    "encounter_ids": [
+      132
+    ],
+    "special": true
+  },
+  {
+    "area_name": "DEX_DIGLETTS_CAVE",
+    "encounter_ids": [
+      133
+    ],
+    "special": true
+  },
+  {
+    "area_name": "DEX_VIRIDIAN_FOREST",
+    "encounter_ids": [
+      137
+    ],
+    "special": true
+  },
+  {
+    "area_name": "DEX_CERULEAN_CAVE",
+    "encounter_ids": [
+      139,
+      140,
+      141
+    ],
+    "special": true
+  },
+  {
+    "area_name": "DEX_FARAWAY_PLACE_KANTO",
+    "encounter_ids": [],
+    "special": true
+  },
+  {
+    "area_name": "DEX_SAFFRON_CITY",
+    "encounter_ids": [],
+    "special": true
+  },
+  {
+    "area_name": "DEX_FARAWAY_PLACE_2",
+    "encounter_ids": [],
+    "special": true
+  },
+  {
+    "area_name": "DEX_SAFFRON_CITY_2",
+    "encounter_ids": [],
+    "special": true
+  },
+  {
+    "area_name": "DEX_NEW_BARK_TOWN",
+    "encounter_ids": [
+      0
+    ],
+    "special": false
+  },
+  {
+    "area_name": "DEX_ROUTE_29",
+    "encounter_ids": [
+      1
+    ],
+    "special": false
+  },
+  {
+    "area_name": "DEX_CHERRYGROVE_CITY",
+    "encounter_ids": [
+      2
+    ],
+    "special": false
+  },
+  {
+    "area_name": "DEX_ROUTE_30",
+    "encounter_ids": [
+      3
+    ],
+    "special": false
+  },
+  {
+    "area_name": "DEX_ROUTE_31",
+    "encounter_ids": [
+      4
+    ],
+    "special": false
+  },
+  {
+    "area_name": "DEX_VIOLET_CITY",
+    "encounter_ids": [
+      5
+    ],
+    "special": false
+  },
+  {
+    "area_name": "DEX_ROUTE_32",
+    "encounter_ids": [
+      8
+    ],
+    "special": false
+  },
+  {
+    "area_name": "DEX_ROUTE_33",
+    "encounter_ids": [
+      17
+    ],
+    "special": false
+  },
+  {
+    "area_name": "DEX_ROUTE_34",
+    "encounter_ids": [
+      21
+    ],
+    "special": false
+  },
+  {
+    "area_name": "DEX_ROUTE_35",
+    "encounter_ids": [
+      22
+    ],
+    "special": false
+  },
+  {
+    "area_name": "DEX_ROUTE_36",
+    "encounter_ids": [
+      25
+    ],
+    "special": false
+  },
+  {
+    "area_name": "DEX_ROUTE_37",
+    "encounter_ids": [
+      26
+    ],
+    "special": false
+  },
+  {
+    "area_name": "DEX_ECRUTEAK_CITY",
+    "encounter_ids": [
+      27
+    ],
+    "special": false
+  },
+  {
+    "area_name": "DEX_ROUTE_38",
+    "encounter_ids": [
+      38
+    ],
+    "special": false
+  },
+  {
+    "area_name": "DEX_ROUTE_39",
+    "encounter_ids": [
+      39
+    ],
+    "special": false
+  },
+  {
+    "area_name": "DEX_OLIVINE_CITY",
+    "encounter_ids": [
+      40
+    ],
+    "special": false
+  },
+  {
+    "area_name": "DEX_ROUTE_40",
+    "encounter_ids": [
+      41
+    ],
+    "special": false
+  },
+  {
+    "area_name": "DEX_ROUTE_41",
+    "encounter_ids": [
+      42
+    ],
+    "special": false
+  },
+  {
+    "area_name": "DEX_CIANWOOD_CITY",
+    "encounter_ids": [
+      51
+    ],
+    "special": false
+  },
+  {
+    "area_name": "DEX_ROUTE_42",
+    "encounter_ids": [
+      52
+    ],
+    "special": false
+  },
+  {
+    "area_name": "DEX_ROUTE_43",
+    "encounter_ids": [
+      57
+    ],
+    "special": false
+  },
+  {
+    "area_name": "DEX_LAKE_OF_RAGE",
+    "encounter_ids": [
+      58
+    ],
+    "special": false
+  },
+  {
+    "area_name": "DEX_ROUTE_44",
+    "encounter_ids": [
+      59
+    ],
+    "special": false
+  },
+  {
+    "area_name": "DEX_BLACKTHORN_CITY",
+    "encounter_ids": [
+      65
+    ],
+    "special": false
+  },
+  {
+    "area_name": "DEX_ROUTE_45",
+    "encounter_ids": [
+      67
+    ],
+    "special": false
+  },
+  {
+    "area_name": "DEX_ROUTE_46",
+    "encounter_ids": [
+      68
+    ],
+    "special": false
+  },
+  {
+    "area_name": "DEX_ROUTE_47",
+    "encounter_ids": [
+      71
+    ],
+    "special": false
+  },
+  {
+    "area_name": "DEX_MT_SILVER",
+    "encounter_ids": [
+      85,
+      87,
+      89
+    ],
+    "special": false
+  },
+  {
+    "area_name": "DEX_ROUTE_12",
+    "encounter_ids": [
+      92
+    ],
+    "special": false
+  },
+  {
+    "area_name": "DEX_ROUTE_19",
+    "encounter_ids": [
+      93
+    ],
+    "special": false
+  },
+  {
+    "area_name": "DEX_ROUTE_20",
+    "encounter_ids": [
+      94
+    ],
+    "special": false
+  },
+  {
+    "area_name": "DEX_PALLET_TOWN",
+    "encounter_ids": [
+      95
+    ],
+    "special": false
+  },
+  {
+    "area_name": "DEX_VIRIDIAN_CITY",
+    "encounter_ids": [
+      96
+    ],
+    "special": false
+  },
+  {
+    "area_name": "DEX_CERULEAN_CITY",
+    "encounter_ids": [
+      97
+    ],
+    "special": false
+  },
+  {
+    "area_name": "DEX_VERMILION_CITY",
+    "encounter_ids": [
+      98
+    ],
+    "special": false
+  },
+  {
+    "area_name": "DEX_CELADON_CITY",
+    "encounter_ids": [
+      99
+    ],
+    "special": false
+  },
+  {
+    "area_name": "DEX_FUCHSIA_CITY",
+    "encounter_ids": [
+      100
+    ],
+    "special": false
+  },
+  {
+    "area_name": "DEX_CINNABAR_CITY",
+    "encounter_ids": [
+      101
+    ],
+    "special": false
+  },
+  {
+    "area_name": "DEX_ROUTE_48",
+    "encounter_ids": [
+      102
+    ],
+    "special": false
+  },
+  {
+    "area_name": "DEX_ROUTE_26",
+    "encounter_ids": [
+      103
+    ],
+    "special": false
+  },
+  {
+    "area_name": "DEX_ROUTE_27",
+    "encounter_ids": [
+      104
+    ],
+    "special": false
+  },
+  {
+    "area_name": "DEX_ROUTE_28",
+    "encounter_ids": [
+      105
+    ],
+    "special": false
+  },
+  {
+    "area_name": "DEX_ROUTE_1",
+    "encounter_ids": [
+      111
+    ],
+    "special": false
+  },
+  {
+    "area_name": "DEX_ROUTE_2",
+    "encounter_ids": [
+      112
+    ],
+    "special": false
+  },
+  {
+    "area_name": "DEX_ROUTE_3",
+    "encounter_ids": [
+      113
+    ],
+    "special": false
+  },
+  {
+    "area_name": "DEX_ROUTE_4",
+    "encounter_ids": [
+      114
+    ],
+    "special": false
+  },
+  {
+    "area_name": "DEX_ROUTE_5",
+    "encounter_ids": [
+      115
+    ],
+    "special": false
+  },
+  {
+    "area_name": "DEX_ROUTE_6",
+    "encounter_ids": [
+      116
+    ],
+    "special": false
+  },
+  {
+    "area_name": "DEX_ROUTE_7",
+    "encounter_ids": [
+      117
+    ],
+    "special": false
+  },
+  {
+    "area_name": "DEX_ROUTE_8",
+    "encounter_ids": [
+      118
+    ],
+    "special": false
+  },
+  {
+    "area_name": "DEX_ROUTE_9",
+    "encounter_ids": [
+      119
+    ],
+    "special": false
+  },
+  {
+    "area_name": "DEX_ROUTE_10",
+    "encounter_ids": [
+      120
+    ],
+    "special": false
+  },
+  {
+    "area_name": "DEX_ROUTE_11",
+    "encounter_ids": [
+      121
+    ],
+    "special": false
+  },
+  {
+    "area_name": "DEX_ROUTE_13",
+    "encounter_ids": [
+      122
+    ],
+    "special": false
+  },
+  {
+    "area_name": "DEX_ROUTE_14",
+    "encounter_ids": [
+      123
+    ],
+    "special": false
+  },
+  {
+    "area_name": "DEX_ROUTE_15",
+    "encounter_ids": [
+      124
+    ],
+    "special": false
+  },
+  {
+    "area_name": "DEX_ROUTE_16",
+    "encounter_ids": [
+      125
+    ],
+    "special": false
+  },
+  {
+    "area_name": "DEX_ROUTE_17",
+    "encounter_ids": [
+      126
+    ],
+    "special": false
+  },
+  {
+    "area_name": "DEX_ROUTE_18",
+    "encounter_ids": [
+      127
+    ],
+    "special": false
+  },
+  {
+    "area_name": "DEX_ROUTE_21",
+    "encounter_ids": [
+      128
+    ],
+    "special": false
+  },
+  {
+    "area_name": "DEX_ROUTE_22",
+    "encounter_ids": [
+      129
+    ],
+    "special": false
+  },
+  {
+    "area_name": "DEX_ROUTE_24",
+    "encounter_ids": [
+      130
+    ],
+    "special": false
+  },
+  {
+    "area_name": "DEX_ROUTE_25",
+    "encounter_ids": [
+      131
+    ],
+    "special": false
+  },
+  {
+    "area_name": "DEX_ROUTE_2_2",
+    "encounter_ids": [
+      136
+    ],
+    "special": false
+  },
+  {
+    "area_name": "DEX_PEWTER_CITY",
+    "encounter_ids": [],
+    "special": false
+  },
+  {
+    "area_name": "DEX_AZALEA_TOWN",
+    "encounter_ids": [],
+    "special": false
+  },
+  {
+    "area_name": "DEX_SAFARI_ZONE_GATE",
+    "encounter_ids": [],
+    "special": false
+  },
+  {
+    "area_name": "DEX_ROUTE_16_2",
+    "encounter_ids": [],
+    "special": false
+  },
+  {
+    "area_name": "UNDEFINED",
+    "encounter_ids": [
+      45,
+      47,
+      49,
+      50,
+      64,
+      90,
+      91,
+      138
+    ],
+    "special": false
+  }
+]

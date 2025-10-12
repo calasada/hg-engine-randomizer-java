@@ -1,0 +1,4682 @@
+[
+  {
+    "move_name": "MOVE_ABSORB",
+    "implemented": true,
+    "status": false,
+    "type": "Grass"
+  },
+  {
+    "move_name": "MOVE_ACCELEROCK",
+    "implemented": true,
+    "status": false,
+    "type": "Rock"
+  },
+  {
+    "move_name": "MOVE_ACID",
+    "implemented": true,
+    "status": false,
+    "type": "Poison"
+  },
+  {
+    "move_name": "MOVE_ACID_ARMOR",
+    "implemented": true,
+    "status": true,
+    "type": "Poison"
+  },
+  {
+    "move_name": "MOVE_ACID_SPRAY",
+    "implemented": true,
+    "status": false,
+    "type": "Poison"
+  },
+  {
+    "move_name": "MOVE_ACROBATICS",
+    "implemented": true,
+    "status": false,
+    "type": "Flying"
+  },
+  {
+    "move_name": "MOVE_ACUPRESSURE",
+    "implemented": true,
+    "status": true,
+    "type": "Normal"
+  },
+  {
+    "move_name": "MOVE_AERIAL_ACE",
+    "implemented": true,
+    "status": false,
+    "type": "Flying"
+  },
+  {
+    "move_name": "MOVE_AEROBLAST",
+    "implemented": true,
+    "status": false,
+    "type": "Flying"
+  },
+  {
+    "move_name": "MOVE_AFTER_YOU",
+    "implemented": true,
+    "status": true,
+    "type": "Normal"
+  },
+  {
+    "move_name": "MOVE_AGILITY",
+    "implemented": true,
+    "status": true,
+    "type": "Psychic"
+  },
+  {
+    "move_name": "MOVE_AIR_CUTTER",
+    "implemented": true,
+    "status": false,
+    "type": "Flying"
+  },
+  {
+    "move_name": "MOVE_AIR_SLASH",
+    "implemented": true,
+    "status": false,
+    "type": "Flying"
+  },
+  {
+    "move_name": "MOVE_ALLURING_VOICE",
+    "implemented": false,
+    "status": false,
+    "type": "Fairy"
+  },
+  {
+    "move_name": "MOVE_ALLY_SWITCH",
+    "implemented": false,
+    "status": true,
+    "type": "Psychic"
+  },
+  {
+    "move_name": "MOVE_AMNESIA",
+    "implemented": true,
+    "status": true,
+    "type": "Psychic"
+  },
+  {
+    "move_name": "MOVE_ANCHOR_SHOT",
+    "implemented": true,
+    "status": false,
+    "type": "Steel"
+  },
+  {
+    "move_name": "MOVE_ANCIENT_POWER",
+    "implemented": true,
+    "status": false,
+    "type": "Rock"
+  },
+  {
+    "move_name": "MOVE_APPLE_ACID",
+    "implemented": true,
+    "status": false,
+    "type": "Grass"
+  },
+  {
+    "move_name": "MOVE_AQUA_CUTTER",
+    "implemented": true,
+    "status": false,
+    "type": "Water"
+  },
+  {
+    "move_name": "MOVE_AQUA_JET",
+    "implemented": true,
+    "status": false,
+    "type": "Water"
+  },
+  {
+    "move_name": "MOVE_AQUA_RING",
+    "implemented": true,
+    "status": true,
+    "type": "Water"
+  },
+  {
+    "move_name": "MOVE_AQUA_STEP",
+    "implemented": true,
+    "status": false,
+    "type": "Water"
+  },
+  {
+    "move_name": "MOVE_AQUA_TAIL",
+    "implemented": true,
+    "status": false,
+    "type": "Water"
+  },
+  {
+    "move_name": "MOVE_ARMOR_CANNON",
+    "implemented": true,
+    "status": false,
+    "type": "Fire"
+  },
+  {
+    "move_name": "MOVE_ARM_THRUST",
+    "implemented": true,
+    "status": false,
+    "type": "Fighting"
+  },
+  {
+    "move_name": "MOVE_AROMATHERAPY",
+    "implemented": true,
+    "status": true,
+    "type": "Grass"
+  },
+  {
+    "move_name": "MOVE_AROMATIC_MIST",
+    "implemented": false,
+    "status": true,
+    "type": "Fairy"
+  },
+  {
+    "move_name": "MOVE_ASSURANCE",
+    "implemented": true,
+    "status": false,
+    "type": "Dark"
+  },
+  {
+    "move_name": "MOVE_ASTONISH",
+    "implemented": true,
+    "status": false,
+    "type": "Ghost"
+  },
+  {
+    "move_name": "MOVE_ASTRAL_BARRAGE",
+    "implemented": true,
+    "status": false,
+    "type": "Ghost"
+  },
+  {
+    "move_name": "MOVE_ATTACK_ORDER",
+    "implemented": true,
+    "status": false,
+    "type": "Bug"
+  },
+  {
+    "move_name": "MOVE_ATTRACT",
+    "implemented": true,
+    "status": true,
+    "type": "Normal"
+  },
+  {
+    "move_name": "MOVE_AURA_SPHERE",
+    "implemented": true,
+    "status": false,
+    "type": "Fighting"
+  },
+  {
+    "move_name": "MOVE_AURA_WHEEL",
+    "implemented": false,
+    "status": false,
+    "type": "Electric"
+  },
+  {
+    "move_name": "MOVE_AURORA_BEAM",
+    "implemented": true,
+    "status": false,
+    "type": "Ice"
+  },
+  {
+    "move_name": "MOVE_AURORA_VEIL",
+    "implemented": true,
+    "status": true,
+    "type": "Ice"
+  },
+  {
+    "move_name": "MOVE_AUTOTOMIZE",
+    "implemented": true,
+    "status": true,
+    "type": "Normal"
+  },
+  {
+    "move_name": "MOVE_AVALANCHE",
+    "implemented": true,
+    "status": false,
+    "type": "Ice"
+  },
+  {
+    "move_name": "MOVE_AXE_KICK",
+    "implemented": true,
+    "status": false,
+    "type": "Fighting"
+  },
+  {
+    "move_name": "MOVE_BABY_DOLL_EYES",
+    "implemented": true,
+    "status": true,
+    "type": "Fairy"
+  },
+  {
+    "move_name": "MOVE_BANEFUL_BUNKER",
+    "implemented": false,
+    "status": true,
+    "type": "Poison"
+  },
+  {
+    "move_name": "MOVE_BARB_BARRAGE",
+    "implemented": true,
+    "status": false,
+    "type": "Poison"
+  },
+  {
+    "move_name": "MOVE_BARRIER",
+    "implemented": true,
+    "status": true,
+    "type": "Psychic"
+  },
+  {
+    "move_name": "MOVE_BATON_PASS",
+    "implemented": true,
+    "status": true,
+    "type": "Normal"
+  },
+  {
+    "move_name": "MOVE_BEAK_BLAST",
+    "implemented": false,
+    "status": false,
+    "type": "Flying"
+  },
+  {
+    "move_name": "MOVE_BEAT_UP",
+    "implemented": true,
+    "status": false,
+    "type": "Dark"
+  },
+  {
+    "move_name": "MOVE_BELCH",
+    "implemented": false,
+    "status": false,
+    "type": "Poison"
+  },
+  {
+    "move_name": "MOVE_BELLY_DRUM",
+    "implemented": true,
+    "status": true,
+    "type": "Normal"
+  },
+  {
+    "move_name": "MOVE_BESTOW",
+    "implemented": false,
+    "status": true,
+    "type": "Normal"
+  },
+  {
+    "move_name": "MOVE_BIDE",
+    "implemented": true,
+    "status": false,
+    "type": "Normal"
+  },
+  {
+    "move_name": "MOVE_BIND",
+    "implemented": true,
+    "status": false,
+    "type": "Normal"
+  },
+  {
+    "move_name": "MOVE_BITE",
+    "implemented": true,
+    "status": false,
+    "type": "Dark"
+  },
+  {
+    "move_name": "MOVE_BITTER_BLADE",
+    "implemented": true,
+    "status": false,
+    "type": "Fire"
+  },
+  {
+    "move_name": "MOVE_BITTER_MALICE",
+    "implemented": true,
+    "status": false,
+    "type": "Ghost"
+  },
+  {
+    "move_name": "MOVE_BLAST_BURN",
+    "implemented": true,
+    "status": false,
+    "type": "Fire"
+  },
+  {
+    "move_name": "MOVE_BLAZE_KICK",
+    "implemented": true,
+    "status": false,
+    "type": "Fire"
+  },
+  {
+    "move_name": "MOVE_BLEAKWIND_STORM",
+    "implemented": true,
+    "status": false,
+    "type": "Flying"
+  },
+  {
+    "move_name": "MOVE_BLIZZARD",
+    "implemented": true,
+    "status": false,
+    "type": "Ice"
+  },
+  {
+    "move_name": "MOVE_BLOCK",
+    "implemented": true,
+    "status": true,
+    "type": "Normal"
+  },
+  {
+    "move_name": "MOVE_BLOOD_MOON",
+    "implemented": true,
+    "status": false,
+    "type": "Normal"
+  },
+  {
+    "move_name": "MOVE_BLUE_FLARE",
+    "implemented": true,
+    "status": false,
+    "type": "Fire"
+  },
+  {
+    "move_name": "MOVE_BODY_PRESS",
+    "implemented": true,
+    "status": false,
+    "type": "Fighting"
+  },
+  {
+    "move_name": "MOVE_BODY_SLAM",
+    "implemented": true,
+    "status": false,
+    "type": "Normal"
+  },
+  {
+    "move_name": "MOVE_BOLT_BEAK",
+    "implemented": false,
+    "status": false,
+    "type": "Electric"
+  },
+  {
+    "move_name": "MOVE_BOLT_STRIKE",
+    "implemented": true,
+    "status": false,
+    "type": "Electric"
+  },
+  {
+    "move_name": "MOVE_BONEMERANG",
+    "implemented": true,
+    "status": false,
+    "type": "Ground"
+  },
+  {
+    "move_name": "MOVE_BONE_RUSH",
+    "implemented": true,
+    "status": false,
+    "type": "Ground"
+  },
+  {
+    "move_name": "MOVE_BOOMBURST",
+    "implemented": true,
+    "status": false,
+    "type": "Normal"
+  },
+  {
+    "move_name": "MOVE_BOUNCE",
+    "implemented": true,
+    "status": false,
+    "type": "Flying"
+  },
+  {
+    "move_name": "MOVE_BRANCH_POKE",
+    "implemented": true,
+    "status": false,
+    "type": "Grass"
+  },
+  {
+    "move_name": "MOVE_BRAVE_BIRD",
+    "implemented": true,
+    "status": false,
+    "type": "Flying"
+  },
+  {
+    "move_name": "MOVE_BREAKING_SWIPE",
+    "implemented": true,
+    "status": false,
+    "type": "Dragon"
+  },
+  {
+    "move_name": "MOVE_BRICK_BREAK",
+    "implemented": true,
+    "status": false,
+    "type": "Fighting"
+  },
+  {
+    "move_name": "MOVE_BRINE",
+    "implemented": true,
+    "status": false,
+    "type": "Water"
+  },
+  {
+    "move_name": "MOVE_BRUTAL_SWING",
+    "implemented": true,
+    "status": false,
+    "type": "Dark"
+  },
+  {
+    "move_name": "MOVE_BUBBLE",
+    "implemented": true,
+    "status": false,
+    "type": "Water"
+  },
+  {
+    "move_name": "MOVE_BUBBLE_BEAM",
+    "implemented": true,
+    "status": false,
+    "type": "Water"
+  },
+  {
+    "move_name": "MOVE_BUG_BITE",
+    "implemented": true,
+    "status": false,
+    "type": "Bug"
+  },
+  {
+    "move_name": "MOVE_BUG_BUZZ",
+    "implemented": true,
+    "status": false,
+    "type": "Bug"
+  },
+  {
+    "move_name": "MOVE_BULK_UP",
+    "implemented": true,
+    "status": true,
+    "type": "Fighting"
+  },
+  {
+    "move_name": "MOVE_BULLDOZE",
+    "implemented": true,
+    "status": false,
+    "type": "Ground"
+  },
+  {
+    "move_name": "MOVE_BULLET_PUNCH",
+    "implemented": true,
+    "status": false,
+    "type": "Steel"
+  },
+  {
+    "move_name": "MOVE_BULLET_SEED",
+    "implemented": true,
+    "status": false,
+    "type": "Grass"
+  },
+  {
+    "move_name": "MOVE_BURNING_BULWARK",
+    "implemented": true,
+    "status": true,
+    "type": "Fire"
+  },
+  {
+    "move_name": "MOVE_BURNING_JEALOUSY",
+    "implemented": true,
+    "status": false,
+    "type": "Fire"
+  },
+  {
+    "move_name": "MOVE_BURN_UP",
+    "implemented": false,
+    "status": false,
+    "type": "Fire"
+  },
+  {
+    "move_name": "MOVE_CALM_MIND",
+    "implemented": true,
+    "status": true,
+    "type": "Psychic"
+  },
+  {
+    "move_name": "MOVE_CAPTIVATE",
+    "implemented": true,
+    "status": true,
+    "type": "Normal"
+  },
+  {
+    "move_name": "MOVE_CEASELESS_EDGE",
+    "implemented": true,
+    "status": false,
+    "type": "Dark"
+  },
+  {
+    "move_name": "MOVE_CHARGE",
+    "implemented": true,
+    "status": true,
+    "type": "Electric"
+  },
+  {
+    "move_name": "MOVE_CHARGE_BEAM",
+    "implemented": true,
+    "status": false,
+    "type": "Electric"
+  },
+  {
+    "move_name": "MOVE_CHARM",
+    "implemented": true,
+    "status": true,
+    "type": "Fairy"
+  },
+  {
+    "move_name": "MOVE_CHILLING_WATER",
+    "implemented": true,
+    "status": false,
+    "type": "Water"
+  },
+  {
+    "move_name": "MOVE_CHILLY_RECEPTION",
+    "implemented": true,
+    "status": false,
+    "type": "Ice"
+  },
+  {
+    "move_name": "MOVE_CHLOROBLAST",
+    "implemented": false,
+    "status": false,
+    "type": "Grass"
+  },
+  {
+    "move_name": "MOVE_CIRCLE_THROW",
+    "implemented": false,
+    "status": false,
+    "type": "Fighting"
+  },
+  {
+    "move_name": "MOVE_CLANGING_SCALES",
+    "implemented": true,
+    "status": false,
+    "type": "Dragon"
+  },
+  {
+    "move_name": "MOVE_CLANGOROUS_SOUL",
+    "implemented": true,
+    "status": true,
+    "type": "Dragon"
+  },
+  {
+    "move_name": "MOVE_CLEAR_SMOG",
+    "implemented": false,
+    "status": false,
+    "type": "Poison"
+  },
+  {
+    "move_name": "MOVE_CLOSE_COMBAT",
+    "implemented": true,
+    "status": false,
+    "type": "Fighting"
+  },
+  {
+    "move_name": "MOVE_COACHING",
+    "implemented": false,
+    "status": true,
+    "type": "Fighting"
+  },
+  {
+    "move_name": "MOVE_COIL",
+    "implemented": true,
+    "status": true,
+    "type": "Poison"
+  },
+  {
+    "move_name": "MOVE_COLLISION_COURSE",
+    "implemented": true,
+    "status": false,
+    "type": "Fighting"
+  },
+  {
+    "move_name": "MOVE_COMEUPPANCE",
+    "implemented": true,
+    "status": false,
+    "type": "Dark"
+  },
+  {
+    "move_name": "MOVE_CONFIDE",
+    "implemented": false,
+    "status": true,
+    "type": "Normal"
+  },
+  {
+    "move_name": "MOVE_CONFUSE_RAY",
+    "implemented": true,
+    "status": true,
+    "type": "Ghost"
+  },
+  {
+    "move_name": "MOVE_CONFUSION",
+    "implemented": true,
+    "status": false,
+    "type": "Psychic"
+  },
+  {
+    "move_name": "MOVE_CONVERSION",
+    "implemented": true,
+    "status": true,
+    "type": "Normal"
+  },
+  {
+    "move_name": "MOVE_CONVERSION_2",
+    "implemented": true,
+    "status": true,
+    "type": "Normal"
+  },
+  {
+    "move_name": "MOVE_COPYCAT",
+    "implemented": true,
+    "status": true,
+    "type": "Normal"
+  },
+  {
+    "move_name": "MOVE_CORE_ENFORCER",
+    "implemented": false,
+    "status": false,
+    "type": "Dragon"
+  },
+  {
+    "move_name": "MOVE_CORROSIVE_GAS",
+    "implemented": false,
+    "status": true,
+    "type": "Poison"
+  },
+  {
+    "move_name": "MOVE_COSMIC_POWER",
+    "implemented": true,
+    "status": true,
+    "type": "Psychic"
+  },
+  {
+    "move_name": "MOVE_COTTON_GUARD",
+    "implemented": true,
+    "status": true,
+    "type": "Grass"
+  },
+  {
+    "move_name": "MOVE_COTTON_SPORE",
+    "implemented": true,
+    "status": true,
+    "type": "Grass"
+  },
+  {
+    "move_name": "MOVE_COUNTER",
+    "implemented": true,
+    "status": false,
+    "type": "Fighting"
+  },
+  {
+    "move_name": "MOVE_COURT_CHANGE",
+    "implemented": false,
+    "status": true,
+    "type": "Normal"
+  },
+  {
+    "move_name": "MOVE_COVET",
+    "implemented": true,
+    "status": false,
+    "type": "Normal"
+  },
+  {
+    "move_name": "MOVE_CRABHAMMER",
+    "implemented": true,
+    "status": false,
+    "type": "Water"
+  },
+  {
+    "move_name": "MOVE_CRAFTY_SHIELD",
+    "implemented": true,
+    "status": true,
+    "type": "Fairy"
+  },
+  {
+    "move_name": "MOVE_CROSS_CHOP",
+    "implemented": true,
+    "status": false,
+    "type": "Fighting"
+  },
+  {
+    "move_name": "MOVE_CROSS_POISON",
+    "implemented": true,
+    "status": false,
+    "type": "Poison"
+  },
+  {
+    "move_name": "MOVE_CRUNCH",
+    "implemented": true,
+    "status": false,
+    "type": "Dark"
+  },
+  {
+    "move_name": "MOVE_CRUSH_CLAW",
+    "implemented": true,
+    "status": false,
+    "type": "Normal"
+  },
+  {
+    "move_name": "MOVE_CRUSH_GRIP",
+    "implemented": true,
+    "status": false,
+    "type": "Normal"
+  },
+  {
+    "move_name": "MOVE_CURSE",
+    "implemented": true,
+    "status": true,
+    "type": "Ghost"
+  },
+  {
+    "move_name": "MOVE_CUT",
+    "implemented": true,
+    "status": false,
+    "type": "Normal"
+  },
+  {
+    "move_name": "MOVE_DARKEST_LARIAT",
+    "implemented": true,
+    "status": false,
+    "type": "Dark"
+  },
+  {
+    "move_name": "MOVE_DARK_PULSE",
+    "implemented": true,
+    "status": false,
+    "type": "Dark"
+  },
+  {
+    "move_name": "MOVE_DARK_VOID",
+    "implemented": true,
+    "status": true,
+    "type": "Dark"
+  },
+  {
+    "move_name": "MOVE_DAZZLING_GLEAM",
+    "implemented": true,
+    "status": false,
+    "type": "Fairy"
+  },
+  {
+    "move_name": "MOVE_DECORATE",
+    "implemented": false,
+    "status": true,
+    "type": "Fairy"
+  },
+  {
+    "move_name": "MOVE_DEFEND_ORDER",
+    "implemented": true,
+    "status": true,
+    "type": "Bug"
+  },
+  {
+    "move_name": "MOVE_DEFENSE_CURL",
+    "implemented": true,
+    "status": true,
+    "type": "Normal"
+  },
+  {
+    "move_name": "MOVE_DEFOG",
+    "implemented": true,
+    "status": true,
+    "type": "Flying"
+  },
+  {
+    "move_name": "MOVE_DESTINY_BOND",
+    "implemented": true,
+    "status": true,
+    "type": "Ghost"
+  },
+  {
+    "move_name": "MOVE_DETECT",
+    "implemented": true,
+    "status": true,
+    "type": "Fighting"
+  },
+  {
+    "move_name": "MOVE_DIAMOND_STORM",
+    "implemented": true,
+    "status": false,
+    "type": "Rock"
+  },
+  {
+    "move_name": "MOVE_DIG",
+    "implemented": true,
+    "status": false,
+    "type": "Ground"
+  },
+  {
+    "move_name": "MOVE_DIRE_CLAW",
+    "implemented": true,
+    "status": false,
+    "type": "Poison"
+  },
+  {
+    "move_name": "MOVE_DISABLE",
+    "implemented": true,
+    "status": true,
+    "type": "Normal"
+  },
+  {
+    "move_name": "MOVE_DISARMING_VOICE",
+    "implemented": true,
+    "status": false,
+    "type": "Fairy"
+  },
+  {
+    "move_name": "MOVE_DISCHARGE",
+    "implemented": true,
+    "status": false,
+    "type": "Electric"
+  },
+  {
+    "move_name": "MOVE_DIVE",
+    "implemented": true,
+    "status": false,
+    "type": "Water"
+  },
+  {
+    "move_name": "MOVE_DOODLE",
+    "implemented": false,
+    "status": true,
+    "type": "Normal"
+  },
+  {
+    "move_name": "MOVE_DOOM_DESIRE",
+    "implemented": true,
+    "status": false,
+    "type": "Steel"
+  },
+  {
+    "move_name": "MOVE_DOUBLE_EDGE",
+    "implemented": true,
+    "status": false,
+    "type": "Normal"
+  },
+  {
+    "move_name": "MOVE_DOUBLE_HIT",
+    "implemented": true,
+    "status": false,
+    "type": "Normal"
+  },
+  {
+    "move_name": "MOVE_DOUBLE_IRON_BASH",
+    "implemented": true,
+    "status": false,
+    "type": "Steel"
+  },
+  {
+    "move_name": "MOVE_DOUBLE_KICK",
+    "implemented": true,
+    "status": false,
+    "type": "Fighting"
+  },
+  {
+    "move_name": "MOVE_DOUBLE_SHOCK",
+    "implemented": false,
+    "status": false,
+    "type": "Electric"
+  },
+  {
+    "move_name": "MOVE_DOUBLE_SLAP",
+    "implemented": true,
+    "status": false,
+    "type": "Normal"
+  },
+  {
+    "move_name": "MOVE_DOUBLE_TEAM",
+    "implemented": true,
+    "status": true,
+    "type": "Normal"
+  },
+  {
+    "move_name": "MOVE_DRACO_METEOR",
+    "implemented": true,
+    "status": false,
+    "type": "Dragon"
+  },
+  {
+    "move_name": "MOVE_DRAGON_ASCENT",
+    "implemented": true,
+    "status": false,
+    "type": "Flying"
+  },
+  {
+    "move_name": "MOVE_DRAGON_BREATH",
+    "implemented": true,
+    "status": false,
+    "type": "Dragon"
+  },
+  {
+    "move_name": "MOVE_DRAGON_CHEER",
+    "implemented": false,
+    "status": true,
+    "type": "Dragon"
+  },
+  {
+    "move_name": "MOVE_DRAGON_CLAW",
+    "implemented": true,
+    "status": false,
+    "type": "Dragon"
+  },
+  {
+    "move_name": "MOVE_DRAGON_DANCE",
+    "implemented": true,
+    "status": true,
+    "type": "Dragon"
+  },
+  {
+    "move_name": "MOVE_DRAGON_DARTS",
+    "implemented": false,
+    "status": false,
+    "type": "Dragon"
+  },
+  {
+    "move_name": "MOVE_DRAGON_ENERGY",
+    "implemented": true,
+    "status": false,
+    "type": "Dragon"
+  },
+  {
+    "move_name": "MOVE_DRAGON_HAMMER",
+    "implemented": true,
+    "status": false,
+    "type": "Dragon"
+  },
+  {
+    "move_name": "MOVE_DRAGON_PULSE",
+    "implemented": true,
+    "status": false,
+    "type": "Dragon"
+  },
+  {
+    "move_name": "MOVE_DRAGON_RAGE",
+    "implemented": true,
+    "status": false,
+    "type": "Dragon"
+  },
+  {
+    "move_name": "MOVE_DRAGON_RUSH",
+    "implemented": true,
+    "status": false,
+    "type": "Dragon"
+  },
+  {
+    "move_name": "MOVE_DRAGON_TAIL",
+    "implemented": false,
+    "status": false,
+    "type": "Dragon"
+  },
+  {
+    "move_name": "MOVE_DRAINING_KISS",
+    "implemented": true,
+    "status": false,
+    "type": "Fairy"
+  },
+  {
+    "move_name": "MOVE_DRAIN_PUNCH",
+    "implemented": true,
+    "status": false,
+    "type": "Fighting"
+  },
+  {
+    "move_name": "MOVE_DREAM_EATER",
+    "implemented": true,
+    "status": false,
+    "type": "Psychic"
+  },
+  {
+    "move_name": "MOVE_DRILL_PECK",
+    "implemented": true,
+    "status": false,
+    "type": "Flying"
+  },
+  {
+    "move_name": "MOVE_DRILL_RUN",
+    "implemented": true,
+    "status": false,
+    "type": "Ground"
+  },
+  {
+    "move_name": "MOVE_DRUM_BEATING",
+    "implemented": true,
+    "status": false,
+    "type": "Grass"
+  },
+  {
+    "move_name": "MOVE_DUAL_CHOP",
+    "implemented": true,
+    "status": false,
+    "type": "Dragon"
+  },
+  {
+    "move_name": "MOVE_DUAL_WINGBEAT",
+    "implemented": true,
+    "status": false,
+    "type": "Flying"
+  },
+  {
+    "move_name": "MOVE_DYNAMAX_CANNON",
+    "implemented": true,
+    "status": false,
+    "type": "Dragon"
+  },
+  {
+    "move_name": "MOVE_DYNAMIC_PUNCH",
+    "implemented": true,
+    "status": false,
+    "type": "Fighting"
+  },
+  {
+    "move_name": "MOVE_EARTHQUAKE",
+    "implemented": true,
+    "status": false,
+    "type": "Ground"
+  },
+  {
+    "move_name": "MOVE_EARTH_POWER",
+    "implemented": true,
+    "status": false,
+    "type": "Ground"
+  },
+  {
+    "move_name": "MOVE_ECHOED_VOICE",
+    "implemented": false,
+    "status": false,
+    "type": "Normal"
+  },
+  {
+    "move_name": "MOVE_EERIE_IMPULSE",
+    "implemented": false,
+    "status": true,
+    "type": "Electric"
+  },
+  {
+    "move_name": "MOVE_EERIE_SPELL",
+    "implemented": false,
+    "status": false,
+    "type": "Psychic"
+  },
+  {
+    "move_name": "MOVE_EGG_BOMB",
+    "implemented": true,
+    "status": false,
+    "type": "Normal"
+  },
+  {
+    "move_name": "MOVE_ELECTRIC_TERRAIN",
+    "implemented": true,
+    "status": false,
+    "type": "Electric"
+  },
+  {
+    "move_name": "MOVE_ELECTRIFY",
+    "implemented": false,
+    "status": true,
+    "type": "Electric"
+  },
+  {
+    "move_name": "MOVE_ELECTROWEB",
+    "implemented": true,
+    "status": false,
+    "type": "Electric"
+  },
+  {
+    "move_name": "MOVE_ELECTRO_BALL",
+    "implemented": true,
+    "status": false,
+    "type": "Electric"
+  },
+  {
+    "move_name": "MOVE_ELECTRO_DRIFT",
+    "implemented": true,
+    "status": false,
+    "type": "Electric"
+  },
+  {
+    "move_name": "MOVE_ELECTRO_SHOT",
+    "implemented": true,
+    "status": false,
+    "type": "Electric"
+  },
+  {
+    "move_name": "MOVE_EMBARGO",
+    "implemented": true,
+    "status": true,
+    "type": "Dark"
+  },
+  {
+    "move_name": "MOVE_EMBER",
+    "implemented": true,
+    "status": false,
+    "type": "Fire"
+  },
+  {
+    "move_name": "MOVE_ENCORE",
+    "implemented": true,
+    "status": true,
+    "type": "Normal"
+  },
+  {
+    "move_name": "MOVE_ENDEAVOR",
+    "implemented": true,
+    "status": false,
+    "type": "Normal"
+  },
+  {
+    "move_name": "MOVE_ENDURE",
+    "implemented": true,
+    "status": true,
+    "type": "Normal"
+  },
+  {
+    "move_name": "MOVE_ENERGY_BALL",
+    "implemented": true,
+    "status": false,
+    "type": "Grass"
+  },
+  {
+    "move_name": "MOVE_ENTRAINMENT",
+    "implemented": false,
+    "status": true,
+    "type": "Normal"
+  },
+  {
+    "move_name": "MOVE_ERUPTION",
+    "implemented": true,
+    "status": false,
+    "type": "Fire"
+  },
+  {
+    "move_name": "MOVE_ESPER_WING",
+    "implemented": true,
+    "status": false,
+    "type": "Psychic"
+  },
+  {
+    "move_name": "MOVE_EXPANDING_FORCE",
+    "implemented": true,
+    "status": false,
+    "type": "Psychic"
+  },
+  {
+    "move_name": "MOVE_EXPLOSION",
+    "implemented": true,
+    "status": false,
+    "type": "Normal"
+  },
+  {
+    "move_name": "MOVE_EXTRASENSORY",
+    "implemented": true,
+    "status": false,
+    "type": "Psychic"
+  },
+  {
+    "move_name": "MOVE_EXTREME_SPEED",
+    "implemented": true,
+    "status": false,
+    "type": "Normal"
+  },
+  {
+    "move_name": "MOVE_FACADE",
+    "implemented": true,
+    "status": false,
+    "type": "Normal"
+  },
+  {
+    "move_name": "MOVE_FAIRY_LOCK",
+    "implemented": false,
+    "status": true,
+    "type": "Fairy"
+  },
+  {
+    "move_name": "MOVE_FAIRY_WIND",
+    "implemented": true,
+    "status": false,
+    "type": "Fairy"
+  },
+  {
+    "move_name": "MOVE_FAKE_OUT",
+    "implemented": true,
+    "status": false,
+    "type": "Normal"
+  },
+  {
+    "move_name": "MOVE_FAKE_TEARS",
+    "implemented": true,
+    "status": true,
+    "type": "Dark"
+  },
+  {
+    "move_name": "MOVE_FALSE_SURRENDER",
+    "implemented": true,
+    "status": false,
+    "type": "Dark"
+  },
+  {
+    "move_name": "MOVE_FALSE_SWIPE",
+    "implemented": true,
+    "status": false,
+    "type": "Normal"
+  },
+  {
+    "move_name": "MOVE_FEATHER_DANCE",
+    "implemented": true,
+    "status": true,
+    "type": "Flying"
+  },
+  {
+    "move_name": "MOVE_FEINT",
+    "implemented": true,
+    "status": false,
+    "type": "Normal"
+  },
+  {
+    "move_name": "MOVE_FELL_STINGER",
+    "implemented": false,
+    "status": false,
+    "type": "Bug"
+  },
+  {
+    "move_name": "MOVE_FICKLE_BEAM",
+    "implemented": true,
+    "status": false,
+    "type": "Dragon"
+  },
+  {
+    "move_name": "MOVE_FIERY_DANCE",
+    "implemented": true,
+    "status": false,
+    "type": "Fire"
+  },
+  {
+    "move_name": "MOVE_FIERY_WRATH",
+    "implemented": true,
+    "status": false,
+    "type": "Dark"
+  },
+  {
+    "move_name": "MOVE_FILLET_AWAY",
+    "implemented": true,
+    "status": true,
+    "type": "Normal"
+  },
+  {
+    "move_name": "MOVE_FINAL_GAMBIT",
+    "implemented": false,
+    "status": false,
+    "type": "Fighting"
+  },
+  {
+    "move_name": "MOVE_FIRE_BLAST",
+    "implemented": true,
+    "status": false,
+    "type": "Fire"
+  },
+  {
+    "move_name": "MOVE_FIRE_FANG",
+    "implemented": true,
+    "status": false,
+    "type": "Fire"
+  },
+  {
+    "move_name": "MOVE_FIRE_LASH",
+    "implemented": true,
+    "status": false,
+    "type": "Fire"
+  },
+  {
+    "move_name": "MOVE_FIRE_PLEDGE",
+    "implemented": false,
+    "status": false,
+    "type": "Fire"
+  },
+  {
+    "move_name": "MOVE_FIRE_PUNCH",
+    "implemented": true,
+    "status": false,
+    "type": "Fire"
+  },
+  {
+    "move_name": "MOVE_FIRE_SPIN",
+    "implemented": true,
+    "status": false,
+    "type": "Fire"
+  },
+  {
+    "move_name": "MOVE_FIRST_IMPRESSION",
+    "implemented": true,
+    "status": false,
+    "type": "Bug"
+  },
+  {
+    "move_name": "MOVE_FISHIOUS_REND",
+    "implemented": false,
+    "status": false,
+    "type": "Water"
+  },
+  {
+    "move_name": "MOVE_FISSURE",
+    "implemented": true,
+    "status": false,
+    "type": "Ground"
+  },
+  {
+    "move_name": "MOVE_FLAIL",
+    "implemented": true,
+    "status": false,
+    "type": "Normal"
+  },
+  {
+    "move_name": "MOVE_FLAMETHROWER",
+    "implemented": true,
+    "status": false,
+    "type": "Fire"
+  },
+  {
+    "move_name": "MOVE_FLAME_BURST",
+    "implemented": false,
+    "status": false,
+    "type": "Fire"
+  },
+  {
+    "move_name": "MOVE_FLAME_CHARGE",
+    "implemented": true,
+    "status": false,
+    "type": "Fire"
+  },
+  {
+    "move_name": "MOVE_FLAME_WHEEL",
+    "implemented": true,
+    "status": false,
+    "type": "Fire"
+  },
+  {
+    "move_name": "MOVE_FLARE_BLITZ",
+    "implemented": true,
+    "status": false,
+    "type": "Fire"
+  },
+  {
+    "move_name": "MOVE_FLASH",
+    "implemented": true,
+    "status": true,
+    "type": "Normal"
+  },
+  {
+    "move_name": "MOVE_FLASH_CANNON",
+    "implemented": true,
+    "status": false,
+    "type": "Steel"
+  },
+  {
+    "move_name": "MOVE_FLATTER",
+    "implemented": true,
+    "status": true,
+    "type": "Dark"
+  },
+  {
+    "move_name": "MOVE_FLEUR_CANNON",
+    "implemented": true,
+    "status": false,
+    "type": "Water"
+  },
+  {
+    "move_name": "MOVE_FLING",
+    "implemented": true,
+    "status": false,
+    "type": "Dark"
+  },
+  {
+    "move_name": "MOVE_FLIP_TURN",
+    "implemented": true,
+    "status": false,
+    "type": "Water"
+  },
+  {
+    "move_name": "MOVE_FLORAL_HEALING",
+    "implemented": false,
+    "status": true,
+    "type": "Fairy"
+  },
+  {
+    "move_name": "MOVE_FLOWER_SHIELD",
+    "implemented": false,
+    "status": true,
+    "type": "Fairy"
+  },
+  {
+    "move_name": "MOVE_FLOWER_TRICK",
+    "implemented": true,
+    "status": false,
+    "type": "Grass"
+  },
+  {
+    "move_name": "MOVE_FLY",
+    "implemented": true,
+    "status": false,
+    "type": "Flying"
+  },
+  {
+    "move_name": "MOVE_FLYING_PRESS",
+    "implemented": false,
+    "status": false,
+    "type": "Fighting"
+  },
+  {
+    "move_name": "MOVE_FOCUS_BLAST",
+    "implemented": true,
+    "status": false,
+    "type": "Fighting"
+  },
+  {
+    "move_name": "MOVE_FOCUS_ENERGY",
+    "implemented": true,
+    "status": true,
+    "type": "Normal"
+  },
+  {
+    "move_name": "MOVE_FOCUS_PUNCH",
+    "implemented": true,
+    "status": false,
+    "type": "Fighting"
+  },
+  {
+    "move_name": "MOVE_FOLLOW_ME",
+    "implemented": true,
+    "status": true,
+    "type": "Normal"
+  },
+  {
+    "move_name": "MOVE_FORCE_PALM",
+    "implemented": true,
+    "status": false,
+    "type": "Fighting"
+  },
+  {
+    "move_name": "MOVE_FORESIGHT",
+    "implemented": true,
+    "status": true,
+    "type": "Normal"
+  },
+  {
+    "move_name": "MOVE_FORESTS_CURSE",
+    "implemented": false,
+    "status": true,
+    "type": "Grass"
+  },
+  {
+    "move_name": "MOVE_FOUL_PLAY",
+    "implemented": true,
+    "status": false,
+    "type": "Dark"
+  },
+  {
+    "move_name": "MOVE_FREEZE_DRY",
+    "implemented": false,
+    "status": false,
+    "type": "Ice"
+  },
+  {
+    "move_name": "MOVE_FREEZE_SHOCK",
+    "implemented": true,
+    "status": false,
+    "type": "Ice"
+  },
+  {
+    "move_name": "MOVE_FREEZING_GLARE",
+    "implemented": true,
+    "status": false,
+    "type": "Psychic"
+  },
+  {
+    "move_name": "MOVE_FRENZY_PLANT",
+    "implemented": true,
+    "status": false,
+    "type": "Grass"
+  },
+  {
+    "move_name": "MOVE_FROST_BREATH",
+    "implemented": true,
+    "status": false,
+    "type": "Ice"
+  },
+  {
+    "move_name": "MOVE_FRUSTRATION",
+    "implemented": true,
+    "status": false,
+    "type": "Normal"
+  },
+  {
+    "move_name": "MOVE_FURY_ATTACK",
+    "implemented": true,
+    "status": false,
+    "type": "Normal"
+  },
+  {
+    "move_name": "MOVE_FURY_CUTTER",
+    "implemented": true,
+    "status": false,
+    "type": "Bug"
+  },
+  {
+    "move_name": "MOVE_FURY_SWIPES",
+    "implemented": true,
+    "status": false,
+    "type": "Normal"
+  },
+  {
+    "move_name": "MOVE_FUSION_BOLT",
+    "implemented": false,
+    "status": false,
+    "type": "Electric"
+  },
+  {
+    "move_name": "MOVE_FUSION_FLARE",
+    "implemented": false,
+    "status": false,
+    "type": "Fire"
+  },
+  {
+    "move_name": "MOVE_FUTURE_SIGHT",
+    "implemented": true,
+    "status": false,
+    "type": "Psychic"
+  },
+  {
+    "move_name": "MOVE_GASTRO_ACID",
+    "implemented": true,
+    "status": true,
+    "type": "Poison"
+  },
+  {
+    "move_name": "MOVE_GEAR_GRIND",
+    "implemented": true,
+    "status": false,
+    "type": "Steel"
+  },
+  {
+    "move_name": "MOVE_GEAR_UP",
+    "implemented": false,
+    "status": true,
+    "type": "Steel"
+  },
+  {
+    "move_name": "MOVE_GEOMANCY",
+    "implemented": true,
+    "status": true,
+    "type": "Fairy"
+  },
+  {
+    "move_name": "MOVE_GIGATON_HAMMER",
+    "implemented": true,
+    "status": false,
+    "type": "Steel"
+  },
+  {
+    "move_name": "MOVE_GIGA_DRAIN",
+    "implemented": true,
+    "status": false,
+    "type": "Grass"
+  },
+  {
+    "move_name": "MOVE_GIGA_IMPACT",
+    "implemented": true,
+    "status": false,
+    "type": "Normal"
+  },
+  {
+    "move_name": "MOVE_GLACIAL_LANCE",
+    "implemented": true,
+    "status": false,
+    "type": "Ice"
+  },
+  {
+    "move_name": "MOVE_GLACIATE",
+    "implemented": true,
+    "status": false,
+    "type": "Ice"
+  },
+  {
+    "move_name": "MOVE_GLAIVE_RUSH",
+    "implemented": false,
+    "status": false,
+    "type": "Dragon"
+  },
+  {
+    "move_name": "MOVE_GLARE",
+    "implemented": true,
+    "status": true,
+    "type": "Normal"
+  },
+  {
+    "move_name": "MOVE_GRASSY_GLIDE",
+    "implemented": true,
+    "status": false,
+    "type": "Grass"
+  },
+  {
+    "move_name": "MOVE_GRASSY_TERRAIN",
+    "implemented": true,
+    "status": true,
+    "type": "Grass"
+  },
+  {
+    "move_name": "MOVE_GRASS_KNOT",
+    "implemented": true,
+    "status": false,
+    "type": "Grass"
+  },
+  {
+    "move_name": "MOVE_GRASS_PLEDGE",
+    "implemented": false,
+    "status": false,
+    "type": "Grass"
+  },
+  {
+    "move_name": "MOVE_GRASS_WHISTLE",
+    "implemented": true,
+    "status": true,
+    "type": "Grass"
+  },
+  {
+    "move_name": "MOVE_GRAVITY",
+    "implemented": true,
+    "status": true,
+    "type": "Psychic"
+  },
+  {
+    "move_name": "MOVE_GRAV_APPLE",
+    "implemented": true,
+    "status": false,
+    "type": "Grass"
+  },
+  {
+    "move_name": "MOVE_GROWL",
+    "implemented": true,
+    "status": true,
+    "type": "Normal"
+  },
+  {
+    "move_name": "MOVE_GROWTH",
+    "implemented": true,
+    "status": true,
+    "type": "Normal"
+  },
+  {
+    "move_name": "MOVE_GRUDGE",
+    "implemented": true,
+    "status": true,
+    "type": "Ghost"
+  },
+  {
+    "move_name": "MOVE_GUARD_SPLIT",
+    "implemented": true,
+    "status": true,
+    "type": "Psychic"
+  },
+  {
+    "move_name": "MOVE_GUARD_SWAP",
+    "implemented": true,
+    "status": true,
+    "type": "Psychic"
+  },
+  {
+    "move_name": "MOVE_GUILLOTINE",
+    "implemented": true,
+    "status": false,
+    "type": "Normal"
+  },
+  {
+    "move_name": "MOVE_GUNK_SHOT",
+    "implemented": true,
+    "status": false,
+    "type": "Poison"
+  },
+  {
+    "move_name": "MOVE_GUST",
+    "implemented": true,
+    "status": false,
+    "type": "Flying"
+  },
+  {
+    "move_name": "MOVE_GYRO_BALL",
+    "implemented": true,
+    "status": false,
+    "type": "Steel"
+  },
+  {
+    "move_name": "MOVE_HAIL",
+    "implemented": true,
+    "status": true,
+    "type": "Ice"
+  },
+  {
+    "move_name": "MOVE_HAMMER_ARM",
+    "implemented": true,
+    "status": false,
+    "type": "Fighting"
+  },
+  {
+    "move_name": "MOVE_HARDEN",
+    "implemented": true,
+    "status": true,
+    "type": "Normal"
+  },
+  {
+    "move_name": "MOVE_HARD_PRESS",
+    "implemented": false,
+    "status": false,
+    "type": "Steel"
+  },
+  {
+    "move_name": "MOVE_HAZE",
+    "implemented": true,
+    "status": true,
+    "type": "Ice"
+  },
+  {
+    "move_name": "MOVE_HEADBUTT",
+    "implemented": true,
+    "status": false,
+    "type": "Normal"
+  },
+  {
+    "move_name": "MOVE_HEADLONG_RUSH",
+    "implemented": true,
+    "status": false,
+    "type": "Ground"
+  },
+  {
+    "move_name": "MOVE_HEAD_CHARGE",
+    "implemented": true,
+    "status": false,
+    "type": "Normal"
+  },
+  {
+    "move_name": "MOVE_HEAD_SMASH",
+    "implemented": true,
+    "status": false,
+    "type": "Rock"
+  },
+  {
+    "move_name": "MOVE_HEALING_WISH",
+    "implemented": true,
+    "status": true,
+    "type": "Psychic"
+  },
+  {
+    "move_name": "MOVE_HEAL_BELL",
+    "implemented": true,
+    "status": true,
+    "type": "Normal"
+  },
+  {
+    "move_name": "MOVE_HEAL_PULSE",
+    "implemented": false,
+    "status": true,
+    "type": "Psychic"
+  },
+  {
+    "move_name": "MOVE_HEART_SWAP",
+    "implemented": true,
+    "status": true,
+    "type": "Psychic"
+  },
+  {
+    "move_name": "MOVE_HEAT_CRASH",
+    "implemented": true,
+    "status": false,
+    "type": "Fire"
+  },
+  {
+    "move_name": "MOVE_HEAT_WAVE",
+    "implemented": true,
+    "status": false,
+    "type": "Fire"
+  },
+  {
+    "move_name": "MOVE_HEAVY_SLAM",
+    "implemented": true,
+    "status": false,
+    "type": "Steel"
+  },
+  {
+    "move_name": "MOVE_HELPING_HAND",
+    "implemented": true,
+    "status": true,
+    "type": "Normal"
+  },
+  {
+    "move_name": "MOVE_HEX",
+    "implemented": true,
+    "status": false,
+    "type": "Ghost"
+  },
+  {
+    "move_name": "MOVE_HIDDEN_POWER",
+    "implemented": true,
+    "status": false,
+    "type": "Normal"
+  },
+  {
+    "move_name": "MOVE_HIGH_HORSEPOWER",
+    "implemented": true,
+    "status": false,
+    "type": "Ground"
+  },
+  {
+    "move_name": "MOVE_HIGH_JUMP_KICK",
+    "implemented": true,
+    "status": false,
+    "type": "Fighting"
+  },
+  {
+    "move_name": "MOVE_HONE_CLAWS",
+    "implemented": true,
+    "status": true,
+    "type": "Dark"
+  },
+  {
+    "move_name": "MOVE_HORN_ATTACK",
+    "implemented": true,
+    "status": false,
+    "type": "Normal"
+  },
+  {
+    "move_name": "MOVE_HORN_DRILL",
+    "implemented": true,
+    "status": false,
+    "type": "Normal"
+  },
+  {
+    "move_name": "MOVE_HORN_LEECH",
+    "implemented": true,
+    "status": false,
+    "type": "Grass"
+  },
+  {
+    "move_name": "MOVE_HOWL",
+    "implemented": true,
+    "status": true,
+    "type": "Normal"
+  },
+  {
+    "move_name": "MOVE_HURRICANE",
+    "implemented": true,
+    "status": false,
+    "type": "Flying"
+  },
+  {
+    "move_name": "MOVE_HYDRO_CANNON",
+    "implemented": true,
+    "status": false,
+    "type": "Water"
+  },
+  {
+    "move_name": "MOVE_HYDRO_PUMP",
+    "implemented": true,
+    "status": false,
+    "type": "Water"
+  },
+  {
+    "move_name": "MOVE_HYDRO_STEAM",
+    "implemented": true,
+    "status": false,
+    "type": "Water"
+  },
+  {
+    "move_name": "MOVE_HYPERSPACE_FURY",
+    "implemented": true,
+    "status": false,
+    "type": "Dark"
+  },
+  {
+    "move_name": "MOVE_HYPERSPACE_HOLE",
+    "implemented": true,
+    "status": false,
+    "type": "Psychic"
+  },
+  {
+    "move_name": "MOVE_HYPER_BEAM",
+    "implemented": true,
+    "status": false,
+    "type": "Normal"
+  },
+  {
+    "move_name": "MOVE_HYPER_DRILL",
+    "implemented": true,
+    "status": false,
+    "type": "Normal"
+  },
+  {
+    "move_name": "MOVE_HYPER_FANG",
+    "implemented": true,
+    "status": false,
+    "type": "Normal"
+  },
+  {
+    "move_name": "MOVE_HYPER_VOICE",
+    "implemented": true,
+    "status": false,
+    "type": "Normal"
+  },
+  {
+    "move_name": "MOVE_HYPNOSIS",
+    "implemented": true,
+    "status": true,
+    "type": "Psychic"
+  },
+  {
+    "move_name": "MOVE_ICE_BALL",
+    "implemented": true,
+    "status": false,
+    "type": "Ice"
+  },
+  {
+    "move_name": "MOVE_ICE_BEAM",
+    "implemented": true,
+    "status": false,
+    "type": "Ice"
+  },
+  {
+    "move_name": "MOVE_ICE_BURN",
+    "implemented": true,
+    "status": false,
+    "type": "Ice"
+  },
+  {
+    "move_name": "MOVE_ICE_FANG",
+    "implemented": true,
+    "status": false,
+    "type": "Ice"
+  },
+  {
+    "move_name": "MOVE_ICE_HAMMER",
+    "implemented": true,
+    "status": false,
+    "type": "Ice"
+  },
+  {
+    "move_name": "MOVE_ICE_PUNCH",
+    "implemented": true,
+    "status": false,
+    "type": "Ice"
+  },
+  {
+    "move_name": "MOVE_ICE_SHARD",
+    "implemented": true,
+    "status": false,
+    "type": "Ice"
+  },
+  {
+    "move_name": "MOVE_ICE_SPINNER",
+    "implemented": false,
+    "status": false,
+    "type": "Ice"
+  },
+  {
+    "move_name": "MOVE_ICICLE_CRASH",
+    "implemented": true,
+    "status": false,
+    "type": "Ice"
+  },
+  {
+    "move_name": "MOVE_ICICLE_SPEAR",
+    "implemented": true,
+    "status": false,
+    "type": "Ice"
+  },
+  {
+    "move_name": "MOVE_ICY_WIND",
+    "implemented": true,
+    "status": false,
+    "type": "Ice"
+  },
+  {
+    "move_name": "MOVE_IMPRISON",
+    "implemented": true,
+    "status": true,
+    "type": "Psychic"
+  },
+  {
+    "move_name": "MOVE_INCINERATE",
+    "implemented": false,
+    "status": false,
+    "type": "Fire"
+  },
+  {
+    "move_name": "MOVE_INFERNAL_PARADE",
+    "implemented": true,
+    "status": false,
+    "type": "Ghost"
+  },
+  {
+    "move_name": "MOVE_INFERNO",
+    "implemented": true,
+    "status": false,
+    "type": "Fire"
+  },
+  {
+    "move_name": "MOVE_INFESTATION",
+    "implemented": false,
+    "status": false,
+    "type": "Bug"
+  },
+  {
+    "move_name": "MOVE_INGRAIN",
+    "implemented": true,
+    "status": true,
+    "type": "Grass"
+  },
+  {
+    "move_name": "MOVE_INSTRUCT",
+    "implemented": false,
+    "status": true,
+    "type": "Psychic"
+  },
+  {
+    "move_name": "MOVE_IRON_DEFENSE",
+    "implemented": true,
+    "status": true,
+    "type": "Steel"
+  },
+  {
+    "move_name": "MOVE_IRON_HEAD",
+    "implemented": true,
+    "status": false,
+    "type": "Steel"
+  },
+  {
+    "move_name": "MOVE_IRON_TAIL",
+    "implemented": true,
+    "status": false,
+    "type": "Steel"
+  },
+  {
+    "move_name": "MOVE_IVY_CUDGEL",
+    "implemented": true,
+    "status": false,
+    "type": "Grass"
+  },
+  {
+    "move_name": "MOVE_JAW_LOCK",
+    "implemented": true,
+    "status": false,
+    "type": "Dark"
+  },
+  {
+    "move_name": "MOVE_JET_PUNCH",
+    "implemented": true,
+    "status": false,
+    "type": "Water"
+  },
+  {
+    "move_name": "MOVE_JUDGMENT",
+    "implemented": true,
+    "status": false,
+    "type": "Normal"
+  },
+  {
+    "move_name": "MOVE_JUNGLE_HEALING",
+    "implemented": false,
+    "status": true,
+    "type": "Grass"
+  },
+  {
+    "move_name": "MOVE_KINGS_SHIELD",
+    "implemented": false,
+    "status": true,
+    "type": "Steel"
+  },
+  {
+    "move_name": "MOVE_KNOCK_OFF",
+    "implemented": true,
+    "status": false,
+    "type": "Dark"
+  },
+  {
+    "move_name": "MOVE_KOWTOW_CLEAVE",
+    "implemented": true,
+    "status": false,
+    "type": "Dark"
+  },
+  {
+    "move_name": "MOVE_LANDS_WRATH",
+    "implemented": true,
+    "status": false,
+    "type": "Ground"
+  },
+  {
+    "move_name": "MOVE_LASER_FOCUS",
+    "implemented": false,
+    "status": true,
+    "type": "Normal"
+  },
+  {
+    "move_name": "MOVE_LASH_OUT",
+    "implemented": false,
+    "status": false,
+    "type": "Dark"
+  },
+  {
+    "move_name": "MOVE_LAST_RESORT",
+    "implemented": true,
+    "status": false,
+    "type": "Normal"
+  },
+  {
+    "move_name": "MOVE_LAST_RESPECTS",
+    "implemented": false,
+    "status": false,
+    "type": "Ghost"
+  },
+  {
+    "move_name": "MOVE_LAVA_PLUME",
+    "implemented": true,
+    "status": false,
+    "type": "Fire"
+  },
+  {
+    "move_name": "MOVE_LEAFAGE",
+    "implemented": true,
+    "status": false,
+    "type": "Grass"
+  },
+  {
+    "move_name": "MOVE_LEAF_BLADE",
+    "implemented": true,
+    "status": false,
+    "type": "Grass"
+  },
+  {
+    "move_name": "MOVE_LEAF_STORM",
+    "implemented": true,
+    "status": false,
+    "type": "Grass"
+  },
+  {
+    "move_name": "MOVE_LEAF_TORNADO",
+    "implemented": true,
+    "status": false,
+    "type": "Grass"
+  },
+  {
+    "move_name": "MOVE_LEECH_LIFE",
+    "implemented": true,
+    "status": false,
+    "type": "Bug"
+  },
+  {
+    "move_name": "MOVE_LEECH_SEED",
+    "implemented": true,
+    "status": true,
+    "type": "Grass"
+  },
+  {
+    "move_name": "MOVE_LEER",
+    "implemented": true,
+    "status": true,
+    "type": "Normal"
+  },
+  {
+    "move_name": "MOVE_LICK",
+    "implemented": true,
+    "status": false,
+    "type": "Ghost"
+  },
+  {
+    "move_name": "MOVE_LIFE_DEW",
+    "implemented": false,
+    "status": true,
+    "type": "Water"
+  },
+  {
+    "move_name": "MOVE_LIGHT_OF_RUIN",
+    "implemented": true,
+    "status": false,
+    "type": "Fairy"
+  },
+  {
+    "move_name": "MOVE_LIGHT_SCREEN",
+    "implemented": true,
+    "status": true,
+    "type": "Psychic"
+  },
+  {
+    "move_name": "MOVE_LIQUIDATION",
+    "implemented": true,
+    "status": false,
+    "type": "Water"
+  },
+  {
+    "move_name": "MOVE_LOCK_ON",
+    "implemented": true,
+    "status": true,
+    "type": "Normal"
+  },
+  {
+    "move_name": "MOVE_LOVELY_KISS",
+    "implemented": true,
+    "status": true,
+    "type": "Normal"
+  },
+  {
+    "move_name": "MOVE_LOW_KICK",
+    "implemented": true,
+    "status": false,
+    "type": "Fighting"
+  },
+  {
+    "move_name": "MOVE_LOW_SWEEP",
+    "implemented": true,
+    "status": false,
+    "type": "Fighting"
+  },
+  {
+    "move_name": "MOVE_LUCKY_CHANT",
+    "implemented": true,
+    "status": true,
+    "type": "Normal"
+  },
+  {
+    "move_name": "MOVE_LUMINA_CRASH",
+    "implemented": true,
+    "status": false,
+    "type": "Psychic"
+  },
+  {
+    "move_name": "MOVE_LUNAR_BLESSING",
+    "implemented": false,
+    "status": true,
+    "type": "Psychic"
+  },
+  {
+    "move_name": "MOVE_LUNAR_DANCE",
+    "implemented": true,
+    "status": true,
+    "type": "Psychic"
+  },
+  {
+    "move_name": "MOVE_LUNGE",
+    "implemented": true,
+    "status": false,
+    "type": "Bug"
+  },
+  {
+    "move_name": "MOVE_LUSTER_PURGE",
+    "implemented": true,
+    "status": false,
+    "type": "Psychic"
+  },
+  {
+    "move_name": "MOVE_MACH_PUNCH",
+    "implemented": true,
+    "status": false,
+    "type": "Fighting"
+  },
+  {
+    "move_name": "MOVE_MAGICAL_LEAF",
+    "implemented": true,
+    "status": false,
+    "type": "Grass"
+  },
+  {
+    "move_name": "MOVE_MAGIC_COAT",
+    "implemented": true,
+    "status": true,
+    "type": "Psychic"
+  },
+  {
+    "move_name": "MOVE_MAGIC_POWDER",
+    "implemented": false,
+    "status": true,
+    "type": "Psychic"
+  },
+  {
+    "move_name": "MOVE_MAGIC_ROOM",
+    "implemented": false,
+    "status": true,
+    "type": "Psychic"
+  },
+  {
+    "move_name": "MOVE_MAGMA_STORM",
+    "implemented": true,
+    "status": false,
+    "type": "Fire"
+  },
+  {
+    "move_name": "MOVE_MAGNETIC_FLUX",
+    "implemented": false,
+    "status": true,
+    "type": "Electric"
+  },
+  {
+    "move_name": "MOVE_MAGNET_RISE",
+    "implemented": true,
+    "status": true,
+    "type": "Electric"
+  },
+  {
+    "move_name": "MOVE_MAGNITUDE",
+    "implemented": true,
+    "status": false,
+    "type": "Ground"
+  },
+  {
+    "move_name": "MOVE_MAKE_IT_RAIN",
+    "implemented": true,
+    "status": false,
+    "type": "Steel"
+  },
+  {
+    "move_name": "MOVE_MALIGNANT_CHAIN",
+    "implemented": true,
+    "status": false,
+    "type": "Poison"
+  },
+  {
+    "move_name": "MOVE_MATCHA_GOTCHA",
+    "implemented": true,
+    "status": false,
+    "type": "Grass"
+  },
+  {
+    "move_name": "MOVE_MEAN_LOOK",
+    "implemented": true,
+    "status": true,
+    "type": "Normal"
+  },
+  {
+    "move_name": "MOVE_MEGAHORN",
+    "implemented": true,
+    "status": false,
+    "type": "Bug"
+  },
+  {
+    "move_name": "MOVE_MEGA_DRAIN",
+    "implemented": true,
+    "status": false,
+    "type": "Grass"
+  },
+  {
+    "move_name": "MOVE_MEGA_KICK",
+    "implemented": true,
+    "status": false,
+    "type": "Normal"
+  },
+  {
+    "move_name": "MOVE_MEGA_PUNCH",
+    "implemented": true,
+    "status": false,
+    "type": "Normal"
+  },
+  {
+    "move_name": "MOVE_MEMENTO",
+    "implemented": true,
+    "status": true,
+    "type": "Dark"
+  },
+  {
+    "move_name": "MOVE_METAL_BURST",
+    "implemented": true,
+    "status": false,
+    "type": "Steel"
+  },
+  {
+    "move_name": "MOVE_METAL_CLAW",
+    "implemented": true,
+    "status": false,
+    "type": "Steel"
+  },
+  {
+    "move_name": "MOVE_METAL_SOUND",
+    "implemented": true,
+    "status": true,
+    "type": "Steel"
+  },
+  {
+    "move_name": "MOVE_METEOR_ASSAULT",
+    "implemented": true,
+    "status": false,
+    "type": "Fighting"
+  },
+  {
+    "move_name": "MOVE_METEOR_BEAM",
+    "implemented": true,
+    "status": false,
+    "type": "Rock"
+  },
+  {
+    "move_name": "MOVE_METEOR_MASH",
+    "implemented": true,
+    "status": false,
+    "type": "Steel"
+  },
+  {
+    "move_name": "MOVE_METRONOME",
+    "implemented": true,
+    "status": true,
+    "type": "Normal"
+  },
+  {
+    "move_name": "MOVE_ME_FIRST",
+    "implemented": true,
+    "status": true,
+    "type": "Normal"
+  },
+  {
+    "move_name": "MOVE_MIGHTY_CLEAVE",
+    "implemented": true,
+    "status": false,
+    "type": "Rock"
+  },
+  {
+    "move_name": "MOVE_MILK_DRINK",
+    "implemented": true,
+    "status": true,
+    "type": "Normal"
+  },
+  {
+    "move_name": "MOVE_MIMIC",
+    "implemented": true,
+    "status": true,
+    "type": "Normal"
+  },
+  {
+    "move_name": "MOVE_MIND_BLOWN",
+    "implemented": false,
+    "status": false,
+    "type": "Fire"
+  },
+  {
+    "move_name": "MOVE_MIND_READER",
+    "implemented": true,
+    "status": true,
+    "type": "Normal"
+  },
+  {
+    "move_name": "MOVE_MINIMIZE",
+    "implemented": true,
+    "status": true,
+    "type": "Normal"
+  },
+  {
+    "move_name": "MOVE_MIRROR_COAT",
+    "implemented": true,
+    "status": false,
+    "type": "Psychic"
+  },
+  {
+    "move_name": "MOVE_MIRROR_MOVE",
+    "implemented": true,
+    "status": true,
+    "type": "Flying"
+  },
+  {
+    "move_name": "MOVE_MIST",
+    "implemented": true,
+    "status": true,
+    "type": "Ice"
+  },
+  {
+    "move_name": "MOVE_MISTY_EXPLOSION",
+    "implemented": true,
+    "status": false,
+    "type": "Fairy"
+  },
+  {
+    "move_name": "MOVE_MISTY_TERRAIN",
+    "implemented": true,
+    "status": true,
+    "type": "Fairy"
+  },
+  {
+    "move_name": "MOVE_MIST_BALL",
+    "implemented": true,
+    "status": false,
+    "type": "Psychic"
+  },
+  {
+    "move_name": "MOVE_MOONBLAST",
+    "implemented": true,
+    "status": false,
+    "type": "Fairy"
+  },
+  {
+    "move_name": "MOVE_MOONGEIST_BEAM",
+    "implemented": false,
+    "status": false,
+    "type": "Ghost"
+  },
+  {
+    "move_name": "MOVE_MOONLIGHT",
+    "implemented": true,
+    "status": true,
+    "type": "Fairy"
+  },
+  {
+    "move_name": "MOVE_MORNING_SUN",
+    "implemented": true,
+    "status": true,
+    "type": "Normal"
+  },
+  {
+    "move_name": "MOVE_MORTAL_SPIN",
+    "implemented": true,
+    "status": false,
+    "type": "Poison"
+  },
+  {
+    "move_name": "MOVE_MOUNTAIN_GALE",
+    "implemented": true,
+    "status": false,
+    "type": "Ice"
+  },
+  {
+    "move_name": "MOVE_MUDDY_WATER",
+    "implemented": true,
+    "status": false,
+    "type": "Water"
+  },
+  {
+    "move_name": "MOVE_MUD_SHOT",
+    "implemented": true,
+    "status": false,
+    "type": "Ground"
+  },
+  {
+    "move_name": "MOVE_MUD_SLAP",
+    "implemented": true,
+    "status": false,
+    "type": "Ground"
+  },
+  {
+    "move_name": "MOVE_MUD_SPORT",
+    "implemented": true,
+    "status": true,
+    "type": "Ground"
+  },
+  {
+    "move_name": "MOVE_MULTI_ATTACK",
+    "implemented": true,
+    "status": false,
+    "type": "Normal"
+  },
+  {
+    "move_name": "MOVE_MYSTICAL_FIRE",
+    "implemented": true,
+    "status": false,
+    "type": "Fire"
+  },
+  {
+    "move_name": "MOVE_MYSTICAL_POWER",
+    "implemented": true,
+    "status": false,
+    "type": "Psychic"
+  },
+  {
+    "move_name": "MOVE_NASTY_PLOT",
+    "implemented": true,
+    "status": true,
+    "type": "Dark"
+  },
+  {
+    "move_name": "MOVE_NATURAL_GIFT",
+    "implemented": true,
+    "status": false,
+    "type": "Normal"
+  },
+  {
+    "move_name": "MOVE_NATURES_MADNESS",
+    "implemented": true,
+    "status": false,
+    "type": "Fairy"
+  },
+  {
+    "move_name": "MOVE_NATURE_POWER",
+    "implemented": true,
+    "status": true,
+    "type": "Normal"
+  },
+  {
+    "move_name": "MOVE_NIGHTMARE",
+    "implemented": true,
+    "status": true,
+    "type": "Ghost"
+  },
+  {
+    "move_name": "MOVE_NIGHT_DAZE",
+    "implemented": true,
+    "status": false,
+    "type": "Dark"
+  },
+  {
+    "move_name": "MOVE_NIGHT_SHADE",
+    "implemented": true,
+    "status": false,
+    "type": "Ghost"
+  },
+  {
+    "move_name": "MOVE_NIGHT_SLASH",
+    "implemented": true,
+    "status": false,
+    "type": "Dark"
+  },
+  {
+    "move_name": "MOVE_NOBLE_ROAR",
+    "implemented": true,
+    "status": true,
+    "type": "Normal"
+  },
+  {
+    "move_name": "MOVE_NO_RETREAT",
+    "implemented": false,
+    "status": true,
+    "type": "Fighting"
+  },
+  {
+    "move_name": "MOVE_NUZZLE",
+    "implemented": true,
+    "status": false,
+    "type": "Electric"
+  },
+  {
+    "move_name": "MOVE_OBLIVION_WING",
+    "implemented": true,
+    "status": false,
+    "type": "Flying"
+  },
+  {
+    "move_name": "MOVE_OBSTRUCT",
+    "implemented": true,
+    "status": true,
+    "type": "Dark"
+  },
+  {
+    "move_name": "MOVE_OCTAZOOKA",
+    "implemented": true,
+    "status": false,
+    "type": "Water"
+  },
+  {
+    "move_name": "MOVE_OCTOLOCK",
+    "implemented": false,
+    "status": true,
+    "type": "Fighting"
+  },
+  {
+    "move_name": "MOVE_ODOR_SLEUTH",
+    "implemented": true,
+    "status": true,
+    "type": "Normal"
+  },
+  {
+    "move_name": "MOVE_OMINOUS_WIND",
+    "implemented": true,
+    "status": false,
+    "type": "Ghost"
+  },
+  {
+    "move_name": "MOVE_ORDER_UP",
+    "implemented": false,
+    "status": false,
+    "type": "Dragon"
+  },
+  {
+    "move_name": "MOVE_ORIGIN_PULSE",
+    "implemented": true,
+    "status": false,
+    "type": "Water"
+  },
+  {
+    "move_name": "MOVE_OUTRAGE",
+    "implemented": true,
+    "status": false,
+    "type": "Dragon"
+  },
+  {
+    "move_name": "MOVE_OVERDRIVE",
+    "implemented": true,
+    "status": false,
+    "type": "Electric"
+  },
+  {
+    "move_name": "MOVE_OVERHEAT",
+    "implemented": true,
+    "status": false,
+    "type": "Fire"
+  },
+  {
+    "move_name": "MOVE_PAIN_SPLIT",
+    "implemented": true,
+    "status": true,
+    "type": "Normal"
+  },
+  {
+    "move_name": "MOVE_PARABOLIC_CHARGE",
+    "implemented": true,
+    "status": false,
+    "type": "Electric"
+  },
+  {
+    "move_name": "MOVE_PARTING_SHOT",
+    "implemented": false,
+    "status": true,
+    "type": "Dark"
+  },
+  {
+    "move_name": "MOVE_PAYBACK",
+    "implemented": true,
+    "status": false,
+    "type": "Dark"
+  },
+  {
+    "move_name": "MOVE_PAY_DAY",
+    "implemented": true,
+    "status": false,
+    "type": "Normal"
+  },
+  {
+    "move_name": "MOVE_PECK",
+    "implemented": true,
+    "status": false,
+    "type": "Flying"
+  },
+  {
+    "move_name": "MOVE_PERISH_SONG",
+    "implemented": true,
+    "status": true,
+    "type": "Normal"
+  },
+  {
+    "move_name": "MOVE_PETAL_BLIZZARD",
+    "implemented": true,
+    "status": false,
+    "type": "Grass"
+  },
+  {
+    "move_name": "MOVE_PETAL_DANCE",
+    "implemented": true,
+    "status": false,
+    "type": "Grass"
+  },
+  {
+    "move_name": "MOVE_PHANTOM_FORCE",
+    "implemented": true,
+    "status": false,
+    "type": "Ghost"
+  },
+  {
+    "move_name": "MOVE_PHOTON_GEYSER",
+    "implemented": true,
+    "status": false,
+    "type": "Psychic"
+  },
+  {
+    "move_name": "MOVE_PIN_MISSILE",
+    "implemented": true,
+    "status": false,
+    "type": "Bug"
+  },
+  {
+    "move_name": "MOVE_PLASMA_FISTS",
+    "implemented": false,
+    "status": false,
+    "type": "Electric"
+  },
+  {
+    "move_name": "MOVE_PLAY_NICE",
+    "implemented": true,
+    "status": true,
+    "type": "Normal"
+  },
+  {
+    "move_name": "MOVE_PLAY_ROUGH",
+    "implemented": true,
+    "status": false,
+    "type": "Fairy"
+  },
+  {
+    "move_name": "MOVE_PLUCK",
+    "implemented": true,
+    "status": false,
+    "type": "Flying"
+  },
+  {
+    "move_name": "MOVE_POISON_FANG",
+    "implemented": true,
+    "status": false,
+    "type": "Poison"
+  },
+  {
+    "move_name": "MOVE_POISON_GAS",
+    "implemented": true,
+    "status": true,
+    "type": "Poison"
+  },
+  {
+    "move_name": "MOVE_POISON_JAB",
+    "implemented": true,
+    "status": false,
+    "type": "Poison"
+  },
+  {
+    "move_name": "MOVE_POISON_POWDER",
+    "implemented": true,
+    "status": true,
+    "type": "Poison"
+  },
+  {
+    "move_name": "MOVE_POISON_STING",
+    "implemented": true,
+    "status": false,
+    "type": "Poison"
+  },
+  {
+    "move_name": "MOVE_POISON_TAIL",
+    "implemented": true,
+    "status": false,
+    "type": "Poison"
+  },
+  {
+    "move_name": "MOVE_POLLEN_PUFF",
+    "implemented": false,
+    "status": false,
+    "type": "Bug"
+  },
+  {
+    "move_name": "MOVE_POLTERGEIST",
+    "implemented": true,
+    "status": false,
+    "type": "Ghost"
+  },
+  {
+    "move_name": "MOVE_POPULATION_BOMB",
+    "implemented": true,
+    "status": false,
+    "type": "Normal"
+  },
+  {
+    "move_name": "MOVE_POUNCE",
+    "implemented": true,
+    "status": false,
+    "type": "Bug"
+  },
+  {
+    "move_name": "MOVE_POUND",
+    "implemented": true,
+    "status": false,
+    "type": "Normal"
+  },
+  {
+    "move_name": "MOVE_POWDER_SNOW",
+    "implemented": true,
+    "status": false,
+    "type": "Ice"
+  },
+  {
+    "move_name": "MOVE_POWER_GEM",
+    "implemented": true,
+    "status": false,
+    "type": "Rock"
+  },
+  {
+    "move_name": "MOVE_POWER_SHIFT",
+    "implemented": true,
+    "status": true,
+    "type": "Normal"
+  },
+  {
+    "move_name": "MOVE_POWER_SPLIT",
+    "implemented": true,
+    "status": true,
+    "type": "Psychic"
+  },
+  {
+    "move_name": "MOVE_POWER_SWAP",
+    "implemented": true,
+    "status": true,
+    "type": "Psychic"
+  },
+  {
+    "move_name": "MOVE_POWER_TRICK",
+    "implemented": true,
+    "status": true,
+    "type": "Psychic"
+  },
+  {
+    "move_name": "MOVE_POWER_TRIP",
+    "implemented": false,
+    "status": false,
+    "type": "Dark"
+  },
+  {
+    "move_name": "MOVE_POWER_UP_PUNCH",
+    "implemented": true,
+    "status": false,
+    "type": "Fighting"
+  },
+  {
+    "move_name": "MOVE_POWER_WHIP",
+    "implemented": true,
+    "status": false,
+    "type": "Grass"
+  },
+  {
+    "move_name": "MOVE_PRECIPICE_BLADES",
+    "implemented": true,
+    "status": false,
+    "type": "Ground"
+  },
+  {
+    "move_name": "MOVE_PRESENT",
+    "implemented": true,
+    "status": false,
+    "type": "Normal"
+  },
+  {
+    "move_name": "MOVE_PRISMATIC_LASER",
+    "implemented": true,
+    "status": false,
+    "type": "Psychic"
+  },
+  {
+    "move_name": "MOVE_PROTECT",
+    "implemented": true,
+    "status": true,
+    "type": "Normal"
+  },
+  {
+    "move_name": "MOVE_PSYBEAM",
+    "implemented": true,
+    "status": false,
+    "type": "Psychic"
+  },
+  {
+    "move_name": "MOVE_PSYBLADE",
+    "implemented": true,
+    "status": false,
+    "type": "Psychic"
+  },
+  {
+    "move_name": "MOVE_PSYCHIC",
+    "implemented": true,
+    "status": false,
+    "type": "Psychic"
+  },
+  {
+    "move_name": "MOVE_PSYCHIC_FANGS",
+    "implemented": true,
+    "status": false,
+    "type": "Psychic"
+  },
+  {
+    "move_name": "MOVE_PSYCHIC_NOISE",
+    "implemented": true,
+    "status": false,
+    "type": "Psychic"
+  },
+  {
+    "move_name": "MOVE_PSYCHIC_TERRAIN",
+    "implemented": true,
+    "status": true,
+    "type": "Psychic"
+  },
+  {
+    "move_name": "MOVE_PSYCHO_BOOST",
+    "implemented": true,
+    "status": false,
+    "type": "Psychic"
+  },
+  {
+    "move_name": "MOVE_PSYCHO_CUT",
+    "implemented": true,
+    "status": false,
+    "type": "Psychic"
+  },
+  {
+    "move_name": "MOVE_PSYCHO_SHIFT",
+    "implemented": true,
+    "status": true,
+    "type": "Psychic"
+  },
+  {
+    "move_name": "MOVE_PSYCH_UP",
+    "implemented": true,
+    "status": true,
+    "type": "Normal"
+  },
+  {
+    "move_name": "MOVE_PSYSHIELD_BASH",
+    "implemented": true,
+    "status": false,
+    "type": "Psychic"
+  },
+  {
+    "move_name": "MOVE_PSYSHOCK",
+    "implemented": true,
+    "status": false,
+    "type": "Psychic"
+  },
+  {
+    "move_name": "MOVE_PSYSTRIKE",
+    "implemented": true,
+    "status": false,
+    "type": "Psychic"
+  },
+  {
+    "move_name": "MOVE_PSYWAVE",
+    "implemented": true,
+    "status": false,
+    "type": "Psychic"
+  },
+  {
+    "move_name": "MOVE_PURIFY",
+    "implemented": false,
+    "status": true,
+    "type": "Poison"
+  },
+  {
+    "move_name": "MOVE_PURSUIT",
+    "implemented": true,
+    "status": false,
+    "type": "Dark"
+  },
+  {
+    "move_name": "MOVE_PYRO_BALL",
+    "implemented": true,
+    "status": false,
+    "type": "Fire"
+  },
+  {
+    "move_name": "MOVE_QUASH",
+    "implemented": true,
+    "status": true,
+    "type": "Dark"
+  },
+  {
+    "move_name": "MOVE_QUICK_ATTACK",
+    "implemented": true,
+    "status": false,
+    "type": "Normal"
+  },
+  {
+    "move_name": "MOVE_QUICK_GUARD",
+    "implemented": true,
+    "status": true,
+    "type": "Fighting"
+  },
+  {
+    "move_name": "MOVE_QUIVER_DANCE",
+    "implemented": true,
+    "status": true,
+    "type": "Bug"
+  },
+  {
+    "move_name": "MOVE_RAGE",
+    "implemented": true,
+    "status": false,
+    "type": "Normal"
+  },
+  {
+    "move_name": "MOVE_RAGE_FIST",
+    "implemented": false,
+    "status": false,
+    "type": "Ghost"
+  },
+  {
+    "move_name": "MOVE_RAGE_POWDER",
+    "implemented": true,
+    "status": true,
+    "type": "Bug"
+  },
+  {
+    "move_name": "MOVE_RAGING_BULL",
+    "implemented": true,
+    "status": false,
+    "type": "Normal"
+  },
+  {
+    "move_name": "MOVE_RAGING_FURY",
+    "implemented": true,
+    "status": false,
+    "type": "Fire"
+  },
+  {
+    "move_name": "MOVE_RAIN_DANCE",
+    "implemented": true,
+    "status": true,
+    "type": "Water"
+  },
+  {
+    "move_name": "MOVE_RAPID_SPIN",
+    "implemented": true,
+    "status": false,
+    "type": "Normal"
+  },
+  {
+    "move_name": "MOVE_RAZOR_LEAF",
+    "implemented": true,
+    "status": false,
+    "type": "Grass"
+  },
+  {
+    "move_name": "MOVE_RAZOR_SHELL",
+    "implemented": true,
+    "status": false,
+    "type": "Water"
+  },
+  {
+    "move_name": "MOVE_RAZOR_WIND",
+    "implemented": true,
+    "status": false,
+    "type": "Normal"
+  },
+  {
+    "move_name": "MOVE_RECOVER",
+    "implemented": true,
+    "status": true,
+    "type": "Normal"
+  },
+  {
+    "move_name": "MOVE_RECYCLE",
+    "implemented": true,
+    "status": true,
+    "type": "Normal"
+  },
+  {
+    "move_name": "MOVE_REFLECT",
+    "implemented": true,
+    "status": true,
+    "type": "Psychic"
+  },
+  {
+    "move_name": "MOVE_REFLECT_TYPE",
+    "implemented": false,
+    "status": true,
+    "type": "Normal"
+  },
+  {
+    "move_name": "MOVE_REFRESH",
+    "implemented": true,
+    "status": true,
+    "type": "Normal"
+  },
+  {
+    "move_name": "MOVE_RELIC_SONG",
+    "implemented": true,
+    "status": false,
+    "type": "Normal"
+  },
+  {
+    "move_name": "MOVE_REST",
+    "implemented": true,
+    "status": true,
+    "type": "Psychic"
+  },
+  {
+    "move_name": "MOVE_RETALIATE",
+    "implemented": false,
+    "status": false,
+    "type": "Normal"
+  },
+  {
+    "move_name": "MOVE_RETURN",
+    "implemented": true,
+    "status": false,
+    "type": "Normal"
+  },
+  {
+    "move_name": "MOVE_REVELATION_DANCE",
+    "implemented": true,
+    "status": false,
+    "type": "Normal"
+  },
+  {
+    "move_name": "MOVE_REVENGE",
+    "implemented": true,
+    "status": false,
+    "type": "Fighting"
+  },
+  {
+    "move_name": "MOVE_REVERSAL",
+    "implemented": true,
+    "status": false,
+    "type": "Fighting"
+  },
+  {
+    "move_name": "MOVE_REVIVAL_BLESSING",
+    "implemented": true,
+    "status": false,
+    "type": "Normal"
+  },
+  {
+    "move_name": "MOVE_RISING_VOLTAGE",
+    "implemented": true,
+    "status": false,
+    "type": "Electric"
+  },
+  {
+    "move_name": "MOVE_ROAR",
+    "implemented": true,
+    "status": true,
+    "type": "Normal"
+  },
+  {
+    "move_name": "MOVE_ROAR_OF_TIME",
+    "implemented": true,
+    "status": false,
+    "type": "Dragon"
+  },
+  {
+    "move_name": "MOVE_ROCK_BLAST",
+    "implemented": true,
+    "status": false,
+    "type": "Rock"
+  },
+  {
+    "move_name": "MOVE_ROCK_CLIMB",
+    "implemented": true,
+    "status": false,
+    "type": "Normal"
+  },
+  {
+    "move_name": "MOVE_ROCK_POLISH",
+    "implemented": true,
+    "status": true,
+    "type": "Rock"
+  },
+  {
+    "move_name": "MOVE_ROCK_SLIDE",
+    "implemented": true,
+    "status": false,
+    "type": "Rock"
+  },
+  {
+    "move_name": "MOVE_ROCK_SMASH",
+    "implemented": true,
+    "status": false,
+    "type": "Fighting"
+  },
+  {
+    "move_name": "MOVE_ROCK_THROW",
+    "implemented": true,
+    "status": false,
+    "type": "Rock"
+  },
+  {
+    "move_name": "MOVE_ROCK_TOMB",
+    "implemented": true,
+    "status": false,
+    "type": "Rock"
+  },
+  {
+    "move_name": "MOVE_ROCK_WRECKER",
+    "implemented": true,
+    "status": false,
+    "type": "Rock"
+  },
+  {
+    "move_name": "MOVE_ROLE_PLAY",
+    "implemented": true,
+    "status": true,
+    "type": "Psychic"
+  },
+  {
+    "move_name": "MOVE_ROLLOUT",
+    "implemented": true,
+    "status": false,
+    "type": "Rock"
+  },
+  {
+    "move_name": "MOVE_ROOST",
+    "implemented": true,
+    "status": true,
+    "type": "Flying"
+  },
+  {
+    "move_name": "MOVE_ROTOTILLER",
+    "implemented": false,
+    "status": true,
+    "type": "Ground"
+  },
+  {
+    "move_name": "MOVE_ROUND",
+    "implemented": false,
+    "status": false,
+    "type": "Normal"
+  },
+  {
+    "move_name": "MOVE_RUINATION",
+    "implemented": true,
+    "status": false,
+    "type": "Dark"
+  },
+  {
+    "move_name": "MOVE_SACRED_FIRE",
+    "implemented": true,
+    "status": false,
+    "type": "Fire"
+  },
+  {
+    "move_name": "MOVE_SACRED_SWORD",
+    "implemented": true,
+    "status": false,
+    "type": "Fighting"
+  },
+  {
+    "move_name": "MOVE_SAFEGUARD",
+    "implemented": true,
+    "status": true,
+    "type": "Normal"
+  },
+  {
+    "move_name": "MOVE_SALT_CURE",
+    "implemented": false,
+    "status": false,
+    "type": "Rock"
+  },
+  {
+    "move_name": "MOVE_SANDSEAR_STORM",
+    "implemented": true,
+    "status": false,
+    "type": "Ground"
+  },
+  {
+    "move_name": "MOVE_SANDSTORM",
+    "implemented": true,
+    "status": true,
+    "type": "Rock"
+  },
+  {
+    "move_name": "MOVE_SAND_ATTACK",
+    "implemented": true,
+    "status": true,
+    "type": "Ground"
+  },
+  {
+    "move_name": "MOVE_SAND_TOMB",
+    "implemented": true,
+    "status": false,
+    "type": "Ground"
+  },
+  {
+    "move_name": "MOVE_SCALD",
+    "implemented": true,
+    "status": false,
+    "type": "Water"
+  },
+  {
+    "move_name": "MOVE_SCALE_SHOT",
+    "implemented": false,
+    "status": false,
+    "type": "Dragon"
+  },
+  {
+    "move_name": "MOVE_SCARY_FACE",
+    "implemented": true,
+    "status": true,
+    "type": "Normal"
+  },
+  {
+    "move_name": "MOVE_SCORCHING_SANDS",
+    "implemented": true,
+    "status": false,
+    "type": "Ground"
+  },
+  {
+    "move_name": "MOVE_SCRATCH",
+    "implemented": true,
+    "status": false,
+    "type": "Normal"
+  },
+  {
+    "move_name": "MOVE_SCREECH",
+    "implemented": true,
+    "status": true,
+    "type": "Normal"
+  },
+  {
+    "move_name": "MOVE_SEARING_SHOT",
+    "implemented": true,
+    "status": false,
+    "type": "Fire"
+  },
+  {
+    "move_name": "MOVE_SECRET_POWER",
+    "implemented": true,
+    "status": false,
+    "type": "Normal"
+  },
+  {
+    "move_name": "MOVE_SECRET_SWORD",
+    "implemented": true,
+    "status": false,
+    "type": "Fighting"
+  },
+  {
+    "move_name": "MOVE_SEED_BOMB",
+    "implemented": true,
+    "status": false,
+    "type": "Grass"
+  },
+  {
+    "move_name": "MOVE_SEED_FLARE",
+    "implemented": true,
+    "status": false,
+    "type": "Grass"
+  },
+  {
+    "move_name": "MOVE_SEISMIC_TOSS",
+    "implemented": true,
+    "status": false,
+    "type": "Fighting"
+  },
+  {
+    "move_name": "MOVE_SELF_DESTRUCT",
+    "implemented": true,
+    "status": false,
+    "type": "Normal"
+  },
+  {
+    "move_name": "MOVE_SHADOW_BALL",
+    "implemented": true,
+    "status": false,
+    "type": "Ghost"
+  },
+  {
+    "move_name": "MOVE_SHADOW_BONE",
+    "implemented": true,
+    "status": false,
+    "type": "Ghost"
+  },
+  {
+    "move_name": "MOVE_SHADOW_CLAW",
+    "implemented": true,
+    "status": false,
+    "type": "Ghost"
+  },
+  {
+    "move_name": "MOVE_SHADOW_FORCE",
+    "implemented": true,
+    "status": false,
+    "type": "Ghost"
+  },
+  {
+    "move_name": "MOVE_SHADOW_PUNCH",
+    "implemented": true,
+    "status": false,
+    "type": "Ghost"
+  },
+  {
+    "move_name": "MOVE_SHADOW_SNEAK",
+    "implemented": true,
+    "status": false,
+    "type": "Ghost"
+  },
+  {
+    "move_name": "MOVE_SHED_TAIL",
+    "implemented": true,
+    "status": true,
+    "type": "Normal"
+  },
+  {
+    "move_name": "MOVE_SHEER_COLD",
+    "implemented": true,
+    "status": false,
+    "type": "Ice"
+  },
+  {
+    "move_name": "MOVE_SHELL_SIDE_ARM",
+    "implemented": false,
+    "status": false,
+    "type": "Poison"
+  },
+  {
+    "move_name": "MOVE_SHELL_SMASH",
+    "implemented": true,
+    "status": true,
+    "type": "Normal"
+  },
+  {
+    "move_name": "MOVE_SHELL_TRAP",
+    "implemented": false,
+    "status": false,
+    "type": "Fire"
+  },
+  {
+    "move_name": "MOVE_SHELTER",
+    "implemented": true,
+    "status": true,
+    "type": "Steel"
+  },
+  {
+    "move_name": "MOVE_SHIFT_GEAR",
+    "implemented": true,
+    "status": true,
+    "type": "Steel"
+  },
+  {
+    "move_name": "MOVE_SHOCK_WAVE",
+    "implemented": true,
+    "status": false,
+    "type": "Electric"
+  },
+  {
+    "move_name": "MOVE_SHORE_UP",
+    "implemented": false,
+    "status": true,
+    "type": "Ground"
+  },
+  {
+    "move_name": "MOVE_SIGNAL_BEAM",
+    "implemented": true,
+    "status": false,
+    "type": "Bug"
+  },
+  {
+    "move_name": "MOVE_SILK_TRAP",
+    "implemented": true,
+    "status": true,
+    "type": "Bug"
+  },
+  {
+    "move_name": "MOVE_SILVER_WIND",
+    "implemented": true,
+    "status": false,
+    "type": "Bug"
+  },
+  {
+    "move_name": "MOVE_SIMPLE_BEAM",
+    "implemented": true,
+    "status": true,
+    "type": "Normal"
+  },
+  {
+    "move_name": "MOVE_SING",
+    "implemented": true,
+    "status": true,
+    "type": "Normal"
+  },
+  {
+    "move_name": "MOVE_SKETCH",
+    "implemented": true,
+    "status": true,
+    "type": "Normal"
+  },
+  {
+    "move_name": "MOVE_SKILL_SWAP",
+    "implemented": true,
+    "status": true,
+    "type": "Psychic"
+  },
+  {
+    "move_name": "MOVE_SKITTER_SMACK",
+    "implemented": true,
+    "status": false,
+    "type": "Bug"
+  },
+  {
+    "move_name": "MOVE_SKULL_BASH",
+    "implemented": true,
+    "status": false,
+    "type": "Normal"
+  },
+  {
+    "move_name": "MOVE_SKY_ATTACK",
+    "implemented": true,
+    "status": false,
+    "type": "Flying"
+  },
+  {
+    "move_name": "MOVE_SKY_DROP",
+    "implemented": false,
+    "status": false,
+    "type": "Flying"
+  },
+  {
+    "move_name": "MOVE_SLACK_OFF",
+    "implemented": true,
+    "status": true,
+    "type": "Normal"
+  },
+  {
+    "move_name": "MOVE_SLAM",
+    "implemented": true,
+    "status": false,
+    "type": "Normal"
+  },
+  {
+    "move_name": "MOVE_SLASH",
+    "implemented": true,
+    "status": false,
+    "type": "Normal"
+  },
+  {
+    "move_name": "MOVE_SLEEP_POWDER",
+    "implemented": true,
+    "status": true,
+    "type": "Grass"
+  },
+  {
+    "move_name": "MOVE_SLEEP_TALK",
+    "implemented": true,
+    "status": true,
+    "type": "Normal"
+  },
+  {
+    "move_name": "MOVE_SLUDGE",
+    "implemented": true,
+    "status": false,
+    "type": "Poison"
+  },
+  {
+    "move_name": "MOVE_SLUDGE_BOMB",
+    "implemented": true,
+    "status": false,
+    "type": "Poison"
+  },
+  {
+    "move_name": "MOVE_SLUDGE_WAVE",
+    "implemented": true,
+    "status": false,
+    "type": "Poison"
+  },
+  {
+    "move_name": "MOVE_SMACK_DOWN",
+    "implemented": false,
+    "status": false,
+    "type": "Rock"
+  },
+  {
+    "move_name": "MOVE_SMART_STRIKE",
+    "implemented": true,
+    "status": false,
+    "type": "Steel"
+  },
+  {
+    "move_name": "MOVE_SMOG",
+    "implemented": true,
+    "status": false,
+    "type": "Poison"
+  },
+  {
+    "move_name": "MOVE_SMOKESCREEN",
+    "implemented": true,
+    "status": true,
+    "type": "Normal"
+  },
+  {
+    "move_name": "MOVE_SNAP_TRAP",
+    "implemented": false,
+    "status": false,
+    "type": "Grass"
+  },
+  {
+    "move_name": "MOVE_SNARL",
+    "implemented": true,
+    "status": false,
+    "type": "Dark"
+  },
+  {
+    "move_name": "MOVE_SNATCH",
+    "implemented": true,
+    "status": true,
+    "type": "Dark"
+  },
+  {
+    "move_name": "MOVE_SNIPE_SHOT",
+    "implemented": true,
+    "status": false,
+    "type": "Water"
+  },
+  {
+    "move_name": "MOVE_SNORE",
+    "implemented": true,
+    "status": false,
+    "type": "Normal"
+  },
+  {
+    "move_name": "MOVE_SNOWSCAPE",
+    "implemented": true,
+    "status": true,
+    "type": "Ice"
+  },
+  {
+    "move_name": "MOVE_SOAK",
+    "implemented": true,
+    "status": true,
+    "type": "Water"
+  },
+  {
+    "move_name": "MOVE_SOFT_BOILED",
+    "implemented": true,
+    "status": true,
+    "type": "Normal"
+  },
+  {
+    "move_name": "MOVE_SOLAR_BEAM",
+    "implemented": true,
+    "status": false,
+    "type": "Grass"
+  },
+  {
+    "move_name": "MOVE_SOLAR_BLADE",
+    "implemented": true,
+    "status": false,
+    "type": "Grass"
+  },
+  {
+    "move_name": "MOVE_SPACIAL_REND",
+    "implemented": true,
+    "status": false,
+    "type": "Dragon"
+  },
+  {
+    "move_name": "MOVE_SPARK",
+    "implemented": true,
+    "status": false,
+    "type": "Electric"
+  },
+  {
+    "move_name": "MOVE_SPARKLING_ARIA",
+    "implemented": true,
+    "status": false,
+    "type": "Water"
+  },
+  {
+    "move_name": "MOVE_SPECTRAL_THIEF",
+    "implemented": false,
+    "status": false,
+    "type": "Ghost"
+  },
+  {
+    "move_name": "MOVE_SPEED_SWAP",
+    "implemented": false,
+    "status": true,
+    "type": "Psychic"
+  },
+  {
+    "move_name": "MOVE_SPICY_EXTRACT",
+    "implemented": true,
+    "status": true,
+    "type": "Grass"
+  },
+  {
+    "move_name": "MOVE_SPIKES",
+    "implemented": true,
+    "status": true,
+    "type": "Ground"
+  },
+  {
+    "move_name": "MOVE_SPIKY_SHIELD",
+    "implemented": false,
+    "status": true,
+    "type": "Grass"
+  },
+  {
+    "move_name": "MOVE_SPIN_OUT",
+    "implemented": true,
+    "status": false,
+    "type": "Steel"
+  },
+  {
+    "move_name": "MOVE_SPIRIT_BREAK",
+    "implemented": true,
+    "status": false,
+    "type": "Fairy"
+  },
+  {
+    "move_name": "MOVE_SPIRIT_SHACKLE",
+    "implemented": true,
+    "status": false,
+    "type": "Ghost"
+  },
+  {
+    "move_name": "MOVE_SPITE",
+    "implemented": true,
+    "status": true,
+    "type": "Ghost"
+  },
+  {
+    "move_name": "MOVE_SPIT_UP",
+    "implemented": true,
+    "status": false,
+    "type": "Normal"
+  },
+  {
+    "move_name": "MOVE_SPLASH",
+    "implemented": true,
+    "status": true,
+    "type": "Normal"
+  },
+  {
+    "move_name": "MOVE_SPORE",
+    "implemented": true,
+    "status": true,
+    "type": "Grass"
+  },
+  {
+    "move_name": "MOVE_SPRINGTIDE_STORM",
+    "implemented": true,
+    "status": false,
+    "type": "Fairy"
+  },
+  {
+    "move_name": "MOVE_STEALTH_ROCK",
+    "implemented": true,
+    "status": true,
+    "type": "Rock"
+  },
+  {
+    "move_name": "MOVE_STEAM_ERUPTION",
+    "implemented": true,
+    "status": false,
+    "type": "Water"
+  },
+  {
+    "move_name": "MOVE_STEEL_BEAM",
+    "implemented": false,
+    "status": false,
+    "type": "Steel"
+  },
+  {
+    "move_name": "MOVE_STEEL_ROLLER",
+    "implemented": false,
+    "status": false,
+    "type": "Steel"
+  },
+  {
+    "move_name": "MOVE_STEEL_WING",
+    "implemented": true,
+    "status": false,
+    "type": "Steel"
+  },
+  {
+    "move_name": "MOVE_STICKY_WEB",
+    "implemented": true,
+    "status": true,
+    "type": "Bug"
+  },
+  {
+    "move_name": "MOVE_STOCKPILE",
+    "implemented": true,
+    "status": true,
+    "type": "Normal"
+  },
+  {
+    "move_name": "MOVE_STOMP",
+    "implemented": true,
+    "status": false,
+    "type": "Normal"
+  },
+  {
+    "move_name": "MOVE_STOMPING_TANTRUM",
+    "implemented": true,
+    "status": false,
+    "type": "Ground"
+  },
+  {
+    "move_name": "MOVE_STONE_AXE",
+    "implemented": true,
+    "status": false,
+    "type": "Rock"
+  },
+  {
+    "move_name": "MOVE_STONE_EDGE",
+    "implemented": true,
+    "status": false,
+    "type": "Rock"
+  },
+  {
+    "move_name": "MOVE_STORED_POWER",
+    "implemented": true,
+    "status": false,
+    "type": "Psychic"
+  },
+  {
+    "move_name": "MOVE_STORM_THROW",
+    "implemented": true,
+    "status": false,
+    "type": "Fighting"
+  },
+  {
+    "move_name": "MOVE_STRANGE_STEAM",
+    "implemented": true,
+    "status": false,
+    "type": "Fairy"
+  },
+  {
+    "move_name": "MOVE_STRENGTH",
+    "implemented": true,
+    "status": false,
+    "type": "Normal"
+  },
+  {
+    "move_name": "MOVE_STRENGTH_SAP",
+    "implemented": false,
+    "status": true,
+    "type": "Grass"
+  },
+  {
+    "move_name": "MOVE_STRING_SHOT",
+    "implemented": true,
+    "status": true,
+    "type": "Bug"
+  },
+  {
+    "move_name": "MOVE_STRUGGLE_BUG",
+    "implemented": true,
+    "status": false,
+    "type": "Bug"
+  },
+  {
+    "move_name": "MOVE_STUFF_CHEEKS",
+    "implemented": false,
+    "status": true,
+    "type": "Normal"
+  },
+  {
+    "move_name": "MOVE_STUN_SPORE",
+    "implemented": true,
+    "status": true,
+    "type": "Grass"
+  },
+  {
+    "move_name": "MOVE_SUBMISSION",
+    "implemented": true,
+    "status": false,
+    "type": "Fighting"
+  },
+  {
+    "move_name": "MOVE_SUBSTITUTE",
+    "implemented": true,
+    "status": true,
+    "type": "Normal"
+  },
+  {
+    "move_name": "MOVE_SUCKER_PUNCH",
+    "implemented": true,
+    "status": false,
+    "type": "Dark"
+  },
+  {
+    "move_name": "MOVE_SUNNY_DAY",
+    "implemented": true,
+    "status": true,
+    "type": "Fire"
+  },
+  {
+    "move_name": "MOVE_SUNSTEEL_STRIKE",
+    "implemented": false,
+    "status": false,
+    "type": "Steel"
+  },
+  {
+    "move_name": "MOVE_SUPERCELL_SLAM",
+    "implemented": true,
+    "status": false,
+    "type": "Electric"
+  },
+  {
+    "move_name": "MOVE_SUPERPOWER",
+    "implemented": true,
+    "status": false,
+    "type": "Fighting"
+  },
+  {
+    "move_name": "MOVE_SUPERSONIC",
+    "implemented": true,
+    "status": true,
+    "type": "Normal"
+  },
+  {
+    "move_name": "MOVE_SUPER_FANG",
+    "implemented": true,
+    "status": false,
+    "type": "Normal"
+  },
+  {
+    "move_name": "MOVE_SURF",
+    "implemented": true,
+    "status": false,
+    "type": "Water"
+  },
+  {
+    "move_name": "MOVE_SURGING_STRIKES",
+    "implemented": true,
+    "status": false,
+    "type": "Water"
+  },
+  {
+    "move_name": "MOVE_SWAGGER",
+    "implemented": true,
+    "status": true,
+    "type": "Normal"
+  },
+  {
+    "move_name": "MOVE_SWALLOW",
+    "implemented": true,
+    "status": true,
+    "type": "Normal"
+  },
+  {
+    "move_name": "MOVE_SWEET_KISS",
+    "implemented": true,
+    "status": true,
+    "type": "Fairy"
+  },
+  {
+    "move_name": "MOVE_SWEET_SCENT",
+    "implemented": true,
+    "status": true,
+    "type": "Normal"
+  },
+  {
+    "move_name": "MOVE_SWIFT",
+    "implemented": true,
+    "status": false,
+    "type": "Normal"
+  },
+  {
+    "move_name": "MOVE_SWITCHEROO",
+    "implemented": true,
+    "status": true,
+    "type": "Dark"
+  },
+  {
+    "move_name": "MOVE_SWORDS_DANCE",
+    "implemented": true,
+    "status": true,
+    "type": "Normal"
+  },
+  {
+    "move_name": "MOVE_SYNTHESIS",
+    "implemented": true,
+    "status": true,
+    "type": "Grass"
+  },
+  {
+    "move_name": "MOVE_SYRUP_BOMB",
+    "implemented": false,
+    "status": false,
+    "type": "Grass"
+  },
+  {
+    "move_name": "MOVE_TACHYON_CUTTER",
+    "implemented": true,
+    "status": false,
+    "type": "Steel"
+  },
+  {
+    "move_name": "MOVE_TACKLE",
+    "implemented": true,
+    "status": false,
+    "type": "Normal"
+  },
+  {
+    "move_name": "MOVE_TAILWIND",
+    "implemented": true,
+    "status": true,
+    "type": "Flying"
+  },
+  {
+    "move_name": "MOVE_TAIL_GLOW",
+    "implemented": true,
+    "status": true,
+    "type": "Bug"
+  },
+  {
+    "move_name": "MOVE_TAIL_SLAP",
+    "implemented": true,
+    "status": false,
+    "type": "Normal"
+  },
+  {
+    "move_name": "MOVE_TAIL_WHIP",
+    "implemented": true,
+    "status": true,
+    "type": "Normal"
+  },
+  {
+    "move_name": "MOVE_TAKE_DOWN",
+    "implemented": true,
+    "status": false,
+    "type": "Normal"
+  },
+  {
+    "move_name": "MOVE_TAKE_HEART",
+    "implemented": true,
+    "status": true,
+    "type": "Psychic"
+  },
+  {
+    "move_name": "MOVE_TAR_SHOT",
+    "implemented": false,
+    "status": true,
+    "type": "Rock"
+  },
+  {
+    "move_name": "MOVE_TAUNT",
+    "implemented": true,
+    "status": true,
+    "type": "Dark"
+  },
+  {
+    "move_name": "MOVE_TEARFUL_LOOK",
+    "implemented": true,
+    "status": true,
+    "type": "Normal"
+  },
+  {
+    "move_name": "MOVE_TEATIME",
+    "implemented": false,
+    "status": true,
+    "type": "Normal"
+  },
+  {
+    "move_name": "MOVE_TECHNO_BLAST",
+    "implemented": true,
+    "status": false,
+    "type": "Normal"
+  },
+  {
+    "move_name": "MOVE_TEETER_DANCE",
+    "implemented": true,
+    "status": true,
+    "type": "Normal"
+  },
+  {
+    "move_name": "MOVE_TELEKINESIS",
+    "implemented": false,
+    "status": true,
+    "type": "Psychic"
+  },
+  {
+    "move_name": "MOVE_TELEPORT",
+    "implemented": true,
+    "status": true,
+    "type": "Psychic"
+  },
+  {
+    "move_name": "MOVE_TEMPER_FLARE",
+    "implemented": false,
+    "status": false,
+    "type": "Fire"
+  },
+  {
+    "move_name": "MOVE_TERA_BLAST",
+    "implemented": false,
+    "status": false,
+    "type": "Normal"
+  },
+  {
+    "move_name": "MOVE_TERA_STARSTORM",
+    "implemented": false,
+    "status": false,
+    "type": "Normal"
+  },
+  {
+    "move_name": "MOVE_TERRAIN_PULSE",
+    "implemented": false,
+    "status": false,
+    "type": "Normal"
+  },
+  {
+    "move_name": "MOVE_THIEF",
+    "implemented": true,
+    "status": false,
+    "type": "Dark"
+  },
+  {
+    "move_name": "MOVE_THOUSAND_ARROWS",
+    "implemented": false,
+    "status": false,
+    "type": "Ground"
+  },
+  {
+    "move_name": "MOVE_THOUSAND_WAVES",
+    "implemented": true,
+    "status": false,
+    "type": "Ground"
+  },
+  {
+    "move_name": "MOVE_THRASH",
+    "implemented": true,
+    "status": false,
+    "type": "Normal"
+  },
+  {
+    "move_name": "MOVE_THROAT_CHOP",
+    "implemented": false,
+    "status": false,
+    "type": "Dark"
+  },
+  {
+    "move_name": "MOVE_THUNDER",
+    "implemented": true,
+    "status": false,
+    "type": "Electric"
+  },
+  {
+    "move_name": "MOVE_THUNDERBOLT",
+    "implemented": true,
+    "status": false,
+    "type": "Electric"
+  },
+  {
+    "move_name": "MOVE_THUNDERCLAP",
+    "implemented": true,
+    "status": false,
+    "type": "Electric"
+  },
+  {
+    "move_name": "MOVE_THUNDEROUS_KICK",
+    "implemented": true,
+    "status": false,
+    "type": "Fighting"
+  },
+  {
+    "move_name": "MOVE_THUNDER_CAGE",
+    "implemented": false,
+    "status": false,
+    "type": "Electric"
+  },
+  {
+    "move_name": "MOVE_THUNDER_FANG",
+    "implemented": true,
+    "status": false,
+    "type": "Electric"
+  },
+  {
+    "move_name": "MOVE_THUNDER_PUNCH",
+    "implemented": true,
+    "status": false,
+    "type": "Electric"
+  },
+  {
+    "move_name": "MOVE_THUNDER_SHOCK",
+    "implemented": true,
+    "status": false,
+    "type": "Electric"
+  },
+  {
+    "move_name": "MOVE_THUNDER_WAVE",
+    "implemented": true,
+    "status": true,
+    "type": "Electric"
+  },
+  {
+    "move_name": "MOVE_TICKLE",
+    "implemented": true,
+    "status": true,
+    "type": "Normal"
+  },
+  {
+    "move_name": "MOVE_TIDY_UP",
+    "implemented": true,
+    "status": true,
+    "type": "Normal"
+  },
+  {
+    "move_name": "MOVE_TOPSY_TURVY",
+    "implemented": false,
+    "status": true,
+    "type": "Dark"
+  },
+  {
+    "move_name": "MOVE_TORCH_SONG",
+    "implemented": true,
+    "status": false,
+    "type": "Fire"
+  },
+  {
+    "move_name": "MOVE_TORMENT",
+    "implemented": true,
+    "status": true,
+    "type": "Dark"
+  },
+  {
+    "move_name": "MOVE_TOXIC",
+    "implemented": true,
+    "status": true,
+    "type": "Poison"
+  },
+  {
+    "move_name": "MOVE_TOXIC_SPIKES",
+    "implemented": true,
+    "status": true,
+    "type": "Poison"
+  },
+  {
+    "move_name": "MOVE_TOXIC_THREAD",
+    "implemented": true,
+    "status": true,
+    "type": "Poison"
+  },
+  {
+    "move_name": "MOVE_TRAILBLAZE",
+    "implemented": true,
+    "status": false,
+    "type": "Grass"
+  },
+  {
+    "move_name": "MOVE_TRANSFORM",
+    "implemented": true,
+    "status": true,
+    "type": "Normal"
+  },
+  {
+    "move_name": "MOVE_TRICK",
+    "implemented": true,
+    "status": true,
+    "type": "Psychic"
+  },
+  {
+    "move_name": "MOVE_TRICK_OR_TREAT",
+    "implemented": false,
+    "status": true,
+    "type": "Ghost"
+  },
+  {
+    "move_name": "MOVE_TRICK_ROOM",
+    "implemented": true,
+    "status": true,
+    "type": "Psychic"
+  },
+  {
+    "move_name": "MOVE_TRIPLE_ARROWS",
+    "implemented": false,
+    "status": false,
+    "type": "Fighting"
+  },
+  {
+    "move_name": "MOVE_TRIPLE_AXEL",
+    "implemented": true,
+    "status": false,
+    "type": "Ice"
+  },
+  {
+    "move_name": "MOVE_TRIPLE_DIVE",
+    "implemented": true,
+    "status": false,
+    "type": "Water"
+  },
+  {
+    "move_name": "MOVE_TRIPLE_KICK",
+    "implemented": true,
+    "status": false,
+    "type": "Fighting"
+  },
+  {
+    "move_name": "MOVE_TRI_ATTACK",
+    "implemented": true,
+    "status": false,
+    "type": "Normal"
+  },
+  {
+    "move_name": "MOVE_TROP_KICK",
+    "implemented": true,
+    "status": false,
+    "type": "Grass"
+  },
+  {
+    "move_name": "MOVE_TWIN_BEAM",
+    "implemented": true,
+    "status": false,
+    "type": "Psychic"
+  },
+  {
+    "move_name": "MOVE_TWISTER",
+    "implemented": true,
+    "status": false,
+    "type": "Dragon"
+  },
+  {
+    "move_name": "MOVE_UPPER_HAND",
+    "implemented": false,
+    "status": false,
+    "type": "Fighting"
+  },
+  {
+    "move_name": "MOVE_UPROAR",
+    "implemented": true,
+    "status": false,
+    "type": "Normal"
+  },
+  {
+    "move_name": "MOVE_U_TURN",
+    "implemented": true,
+    "status": false,
+    "type": "Bug"
+  },
+  {
+    "move_name": "MOVE_VACUUM_WAVE",
+    "implemented": true,
+    "status": false,
+    "type": "Fighting"
+  },
+  {
+    "move_name": "MOVE_VENOM_DRENCH",
+    "implemented": true,
+    "status": true,
+    "type": "Poison"
+  },
+  {
+    "move_name": "MOVE_VENOSHOCK",
+    "implemented": true,
+    "status": false,
+    "type": "Poison"
+  },
+  {
+    "move_name": "MOVE_VICE_GRIP",
+    "implemented": true,
+    "status": false,
+    "type": "Normal"
+  },
+  {
+    "move_name": "MOVE_VICTORY_DANCE",
+    "implemented": true,
+    "status": true,
+    "type": "Fighting"
+  },
+  {
+    "move_name": "MOVE_VINE_WHIP",
+    "implemented": true,
+    "status": false,
+    "type": "Grass"
+  },
+  {
+    "move_name": "MOVE_VITAL_THROW",
+    "implemented": true,
+    "status": false,
+    "type": "Fighting"
+  },
+  {
+    "move_name": "MOVE_VOLT_SWITCH",
+    "implemented": true,
+    "status": false,
+    "type": "Electric"
+  },
+  {
+    "move_name": "MOVE_VOLT_TACKLE",
+    "implemented": true,
+    "status": false,
+    "type": "Electric"
+  },
+  {
+    "move_name": "MOVE_V_CREATE",
+    "implemented": true,
+    "status": false,
+    "type": "Fire"
+  },
+  {
+    "move_name": "MOVE_WATERFALL",
+    "implemented": true,
+    "status": false,
+    "type": "Water"
+  },
+  {
+    "move_name": "MOVE_WATER_GUN",
+    "implemented": true,
+    "status": false,
+    "type": "Water"
+  },
+  {
+    "move_name": "MOVE_WATER_PLEDGE",
+    "implemented": false,
+    "status": false,
+    "type": "Water"
+  },
+  {
+    "move_name": "MOVE_WATER_PULSE",
+    "implemented": true,
+    "status": false,
+    "type": "Water"
+  },
+  {
+    "move_name": "MOVE_WATER_SHURIKEN",
+    "implemented": true,
+    "status": false,
+    "type": "Water"
+  },
+  {
+    "move_name": "MOVE_WATER_SPORT",
+    "implemented": true,
+    "status": true,
+    "type": "Water"
+  },
+  {
+    "move_name": "MOVE_WATER_SPOUT",
+    "implemented": true,
+    "status": false,
+    "type": "Water"
+  },
+  {
+    "move_name": "MOVE_WAVE_CRASH",
+    "implemented": true,
+    "status": false,
+    "type": "Water"
+  },
+  {
+    "move_name": "MOVE_WEATHER_BALL",
+    "implemented": true,
+    "status": false,
+    "type": "Normal"
+  },
+  {
+    "move_name": "MOVE_WHIRLPOOL",
+    "implemented": true,
+    "status": false,
+    "type": "Water"
+  },
+  {
+    "move_name": "MOVE_WHIRLWIND",
+    "implemented": true,
+    "status": true,
+    "type": "Normal"
+  },
+  {
+    "move_name": "MOVE_WICKED_BLOW",
+    "implemented": true,
+    "status": false,
+    "type": "Dark"
+  },
+  {
+    "move_name": "MOVE_WIDE_GUARD",
+    "implemented": true,
+    "status": true,
+    "type": "Rock"
+  },
+  {
+    "move_name": "MOVE_WILDBOLT_STORM",
+    "implemented": true,
+    "status": false,
+    "type": "Electric"
+  },
+  {
+    "move_name": "MOVE_WILD_CHARGE",
+    "implemented": true,
+    "status": false,
+    "type": "Electric"
+  },
+  {
+    "move_name": "MOVE_WILL_O_WISP",
+    "implemented": true,
+    "status": true,
+    "type": "Fire"
+  },
+  {
+    "move_name": "MOVE_WING_ATTACK",
+    "implemented": true,
+    "status": false,
+    "type": "Flying"
+  },
+  {
+    "move_name": "MOVE_WISH",
+    "implemented": true,
+    "status": true,
+    "type": "Normal"
+  },
+  {
+    "move_name": "MOVE_WITHDRAW",
+    "implemented": true,
+    "status": true,
+    "type": "Water"
+  },
+  {
+    "move_name": "MOVE_WONDER_ROOM",
+    "implemented": false,
+    "status": true,
+    "type": "Psychic"
+  },
+  {
+    "move_name": "MOVE_WOOD_HAMMER",
+    "implemented": true,
+    "status": false,
+    "type": "Grass"
+  },
+  {
+    "move_name": "MOVE_WORK_UP",
+    "implemented": true,
+    "status": true,
+    "type": "Normal"
+  },
+  {
+    "move_name": "MOVE_WORRY_SEED",
+    "implemented": true,
+    "status": true,
+    "type": "Grass"
+  },
+  {
+    "move_name": "MOVE_WRAP",
+    "implemented": true,
+    "status": false,
+    "type": "Normal"
+  },
+  {
+    "move_name": "MOVE_X_SCISSOR",
+    "implemented": true,
+    "status": false,
+    "type": "Bug"
+  },
+  {
+    "move_name": "MOVE_YAWN",
+    "implemented": true,
+    "status": true,
+    "type": "Normal"
+  },
+  {
+    "move_name": "MOVE_ZAP_CANNON",
+    "implemented": true,
+    "status": false,
+    "type": "Electric"
+  },
+  {
+    "move_name": "MOVE_ZEN_HEADBUTT",
+    "implemented": true,
+    "status": false,
+    "type": "Psychic"
+  },
+  {
+    "move_name": "MOVE_ZING_ZAP",
+    "implemented": true,
+    "status": false,
+    "type": "Electric"
+  }
+]
