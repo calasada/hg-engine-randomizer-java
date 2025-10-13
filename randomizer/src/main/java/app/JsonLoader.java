@@ -50,7 +50,7 @@ public final class JsonLoader {
         try {
             raws = readRawAreas(resourcePath);
         } catch (Exception ex) {
-            ex.printStackTrace();
+            System.out.println("it fked up");
         }
         return raws;
     }
@@ -61,6 +61,8 @@ public final class JsonLoader {
         try {
             raws = readRawPokemon(resourcePath);
         } catch (Exception ex) {
+            System.out.println("it fked up");
+            System.exit(3);
         }
 
         // map moves to their move_name
@@ -137,6 +139,16 @@ public final class JsonLoader {
         return raws.stream().map(r -> pokeById.get(r.species_name)).collect(Collectors.toList());
     }
 
+    public static List<Trainer> loadTrainers(String resourcePath) {
+        List<Trainer> raws = null;
+        try {
+            raws = readRawTrainers(resourcePath);
+        } catch (Exception ex) {
+            System.out.println("it fked up");
+        }
+        return raws;
+    }
+
     // --- internal: read raw list from classpath ---
     private static List<Move> readRawMoves(String resourcePath) throws Exception {
         try (InputStream in = JsonLoader.class.getResourceAsStream(resourcePath)) {
@@ -158,6 +170,14 @@ public final class JsonLoader {
         try (InputStream in = JsonLoader.class.getResourceAsStream(resourcePath)) {
             if (in == null) throw new IllegalStateException("Resource not found: " + resourcePath);
             return MAPPER.readValue(in, new TypeReference<List<RawPokemon>>() {});
+        }
+    }
+
+    // --- internal: read raw list from classpath ---
+    private static List<Trainer> readRawTrainers(String resourcePath) throws Exception {
+        try (InputStream in = JsonLoader.class.getResourceAsStream(resourcePath)) {
+            if (in == null) throw new IllegalStateException("Resource not found: " + resourcePath);
+            return MAPPER.readValue(in, new TypeReference<List<Trainer>>() {});
         }
     }
 }

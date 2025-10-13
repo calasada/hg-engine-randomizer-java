@@ -1,0 +1,5906 @@
+[
+  {
+    "id": "0",
+    "trainer_name": "-",
+    "type": "TRAINERCLASS_UNIMPORTANT",
+    "original_gym": "",
+    "ace_level": "0",
+    "moves_defined": false
+  },
+  {
+    "id": "1",
+    "trainer_name": "Silver",
+    "type": "TRAINERCLASS_RIVAL",
+    "original_gym": "",
+    "ace_level": "18",
+    "moves_defined": false
+  },
+  {
+    "id": "2",
+    "trainer_name": "Silver",
+    "type": "TRAINERCLASS_RIVAL",
+    "original_gym": "",
+    "ace_level": "5",
+    "moves_defined": false
+  },
+  {
+    "id": "3",
+    "trainer_name": "Silver",
+    "type": "TRAINERCLASS_RIVAL",
+    "original_gym": "",
+    "ace_level": "5",
+    "moves_defined": false
+  },
+  {
+    "id": "4",
+    "trainer_name": "Wade",
+    "type": "TRAINERCLASS_UNIMPORTANT",
+    "original_gym": "",
+    "ace_level": "3",
+    "moves_defined": false
+  },
+  {
+    "id": "5",
+    "trainer_name": "Victoria",
+    "type": "TRAINERCLASS_UNIMPORTANT",
+    "original_gym": "3",
+    "ace_level": "16",
+    "moves_defined": false
+  },
+  {
+    "id": "6",
+    "trainer_name": "Keith",
+    "type": "TRAINERCLASS_UNIMPORTANT",
+    "original_gym": "",
+    "ace_level": "17",
+    "moves_defined": false
+  },
+  {
+    "id": "7",
+    "trainer_name": "Irwin",
+    "type": "TRAINERCLASS_UNIMPORTANT",
+    "original_gym": "",
+    "ace_level": "14",
+    "moves_defined": false
+  },
+  {
+    "id": "8",
+    "trainer_name": "Joey",
+    "type": "TRAINERCLASS_UNIMPORTANT",
+    "original_gym": "",
+    "ace_level": "4",
+    "moves_defined": false
+  },
+  {
+    "id": "9",
+    "trainer_name": "Elaine",
+    "type": "TRAINERCLASS_UNIMPORTANT",
+    "original_gym": "",
+    "ace_level": "21",
+    "moves_defined": false
+  },
+  {
+    "id": "10",
+    "trainer_name": "Amy & Mimi",
+    "type": "TRAINERCLASS_UNIMPORTANT",
+    "original_gym": "",
+    "ace_level": "10",
+    "moves_defined": false
+  },
+  {
+    "id": "11",
+    "trainer_name": "Mickey",
+    "type": "TRAINERCLASS_UNIMPORTANT",
+    "original_gym": "",
+    "ace_level": "20",
+    "moves_defined": false
+  },
+  {
+    "id": "12",
+    "trainer_name": "Grunt",
+    "type": "TRAINERCLASS_TEAM_ROCKET",
+    "original_gym": "",
+    "ace_level": "9",
+    "moves_defined": false
+  },
+  {
+    "id": "13",
+    "trainer_name": "Grunt",
+    "type": "TRAINERCLASS_TEAM_ROCKET",
+    "original_gym": "",
+    "ace_level": "11",
+    "moves_defined": false
+  },
+  {
+    "id": "14",
+    "trainer_name": "Duncan",
+    "type": "TRAINERCLASS_UNIMPORTANT",
+    "original_gym": "",
+    "ace_level": "25",
+    "moves_defined": false
+  },
+  {
+    "id": "15",
+    "trainer_name": "Otis",
+    "type": "TRAINERCLASS_UNIMPORTANT",
+    "original_gym": "",
+    "ace_level": "47",
+    "moves_defined": false
+  },
+  {
+    "id": "16",
+    "trainer_name": "Simon",
+    "type": "TRAINERCLASS_UNIMPORTANT",
+    "original_gym": "",
+    "ace_level": "20",
+    "moves_defined": false
+  },
+  {
+    "id": "17",
+    "trainer_name": "Kenji",
+    "type": "TRAINERCLASS_UNIMPORTANT",
+    "original_gym": "",
+    "ace_level": "28",
+    "moves_defined": false
+  },
+  {
+    "id": "18",
+    "trainer_name": "Justin",
+    "type": "TRAINERCLASS_UNIMPORTANT",
+    "original_gym": "",
+    "ace_level": "15",
+    "moves_defined": false
+  },
+  {
+    "id": "19",
+    "trainer_name": "Mickey",
+    "type": "TRAINERCLASS_UNIMPORTANT",
+    "original_gym": "",
+    "ace_level": "20",
+    "moves_defined": false
+  },
+  {
+    "id": "20",
+    "trainer_name": "Falkner",
+    "type": "TRAINERCLASS_LEADER",
+    "original_gym": "1",
+    "ace_level": "13",
+    "moves_defined": true
+  },
+  {
+    "id": "21",
+    "trainer_name": "Bugsy",
+    "type": "TRAINERCLASS_LEADER",
+    "original_gym": "2",
+    "ace_level": "17",
+    "moves_defined": true
+  },
+  {
+    "id": "22",
+    "trainer_name": "Carrie",
+    "type": "TRAINERCLASS_UNIMPORTANT",
+    "original_gym": "3",
+    "ace_level": "17",
+    "moves_defined": true
+  },
+  {
+    "id": "23",
+    "trainer_name": "Larry",
+    "type": "TRAINERCLASS_UNIMPORTANT",
+    "original_gym": "",
+    "ace_level": "11",
+    "moves_defined": false
+  },
+  {
+    "id": "24",
+    "trainer_name": "Alan",
+    "type": "TRAINERCLASS_UNIMPORTANT",
+    "original_gym": "",
+    "ace_level": "17",
+    "moves_defined": false
+  },
+  {
+    "id": "25",
+    "trainer_name": "Russel",
+    "type": "TRAINERCLASS_UNIMPORTANT",
+    "original_gym": "",
+    "ace_level": "8",
+    "moves_defined": false
+  },
+  {
+    "id": "26",
+    "trainer_name": "Roland",
+    "type": "TRAINERCLASS_UNIMPORTANT",
+    "original_gym": "",
+    "ace_level": "9",
+    "moves_defined": false
+  },
+  {
+    "id": "27",
+    "trainer_name": "Liz",
+    "type": "TRAINERCLASS_UNIMPORTANT",
+    "original_gym": "",
+    "ace_level": "8",
+    "moves_defined": false
+  },
+  {
+    "id": "28",
+    "trainer_name": "Jake",
+    "type": "TRAINERCLASS_UNIMPORTANT",
+    "original_gym": "",
+    "ace_level": "35",
+    "moves_defined": true
+  },
+  {
+    "id": "29",
+    "trainer_name": "Rod",
+    "type": "TRAINERCLASS_UNIMPORTANT",
+    "original_gym": "1",
+    "ace_level": "7",
+    "moves_defined": false
+  },
+  {
+    "id": "30",
+    "trainer_name": "Whitney",
+    "type": "TRAINERCLASS_LEADER",
+    "original_gym": "3",
+    "ace_level": "19",
+    "moves_defined": true
+  },
+  {
+    "id": "31",
+    "trainer_name": "Morty",
+    "type": "TRAINERCLASS_LEADER",
+    "original_gym": "4",
+    "ace_level": "25",
+    "moves_defined": true
+  },
+  {
+    "id": "32",
+    "trainer_name": "Pryce",
+    "type": "TRAINERCLASS_LEADER",
+    "original_gym": "7",
+    "ace_level": "34",
+    "moves_defined": true
+  },
+  {
+    "id": "33",
+    "trainer_name": "Jasmine",
+    "type": "TRAINERCLASS_LEADER",
+    "original_gym": "6",
+    "ace_level": "35",
+    "moves_defined": true
+  },
+  {
+    "id": "34",
+    "trainer_name": "Chuck",
+    "type": "TRAINERCLASS_LEADER",
+    "original_gym": "5",
+    "ace_level": "31",
+    "moves_defined": true
+  },
+  {
+    "id": "35",
+    "trainer_name": "Clair",
+    "type": "TRAINERCLASS_LEADER",
+    "original_gym": "8",
+    "ace_level": "41",
+    "moves_defined": true
+  },
+  {
+    "id": "36",
+    "trainer_name": "Joyce",
+    "type": "TRAINERCLASS_UNIMPORTANT",
+    "original_gym": "",
+    "ace_level": "36",
+    "moves_defined": true
+  },
+  {
+    "id": "37",
+    "trainer_name": "Preston",
+    "type": "TRAINERCLASS_UNIMPORTANT",
+    "original_gym": "",
+    "ace_level": "18",
+    "moves_defined": false
+  },
+  {
+    "id": "38",
+    "trainer_name": "Colette",
+    "type": "TRAINERCLASS_UNIMPORTANT",
+    "original_gym": "",
+    "ace_level": "45",
+    "moves_defined": false
+  },
+  {
+    "id": "39",
+    "trainer_name": "Eugene",
+    "type": "TRAINERCLASS_UNIMPORTANT",
+    "original_gym": "",
+    "ace_level": "19",
+    "moves_defined": false
+  },
+  {
+    "id": "40",
+    "trainer_name": "Mickey",
+    "type": "TRAINERCLASS_UNIMPORTANT",
+    "original_gym": "",
+    "ace_level": "20",
+    "moves_defined": false
+  },
+  {
+    "id": "41",
+    "trainer_name": "Clyde",
+    "type": "TRAINERCLASS_UNIMPORTANT",
+    "original_gym": "",
+    "ace_level": "42",
+    "moves_defined": false
+  },
+  {
+    "id": "42",
+    "trainer_name": "Nathan",
+    "type": "TRAINERCLASS_UNIMPORTANT",
+    "original_gym": "",
+    "ace_level": "26",
+    "moves_defined": false
+  },
+  {
+    "id": "43",
+    "trainer_name": "Chow",
+    "type": "TRAINERCLASS_UNIMPORTANT",
+    "original_gym": "",
+    "ace_level": "3",
+    "moves_defined": false
+  },
+  {
+    "id": "44",
+    "trainer_name": "Derek",
+    "type": "TRAINERCLASS_UNIMPORTANT",
+    "original_gym": "",
+    "ace_level": "18",
+    "moves_defined": true
+  },
+  {
+    "id": "45",
+    "trainer_name": "Ruth",
+    "type": "TRAINERCLASS_UNIMPORTANT",
+    "original_gym": "",
+    "ace_level": "17",
+    "moves_defined": true
+  },
+  {
+    "id": "46",
+    "trainer_name": "Martha",
+    "type": "TRAINERCLASS_UNIMPORTANT",
+    "original_gym": "4",
+    "ace_level": "20",
+    "moves_defined": false
+  },
+  {
+    "id": "47",
+    "trainer_name": "Mikey",
+    "type": "TRAINERCLASS_UNIMPORTANT",
+    "original_gym": "",
+    "ace_level": "4",
+    "moves_defined": false
+  },
+  {
+    "id": "48",
+    "trainer_name": "Rob",
+    "type": "TRAINERCLASS_UNIMPORTANT",
+    "original_gym": "",
+    "ace_level": "40",
+    "moves_defined": false
+  },
+  {
+    "id": "49",
+    "trainer_name": "Albert",
+    "type": "TRAINERCLASS_UNIMPORTANT",
+    "original_gym": "",
+    "ace_level": "8",
+    "moves_defined": false
+  },
+  {
+    "id": "50",
+    "trainer_name": "Abe",
+    "type": "TRAINERCLASS_UNIMPORTANT",
+    "original_gym": "1",
+    "ace_level": "9",
+    "moves_defined": false
+  },
+  {
+    "id": "51",
+    "trainer_name": "Nico",
+    "type": "TRAINERCLASS_UNIMPORTANT",
+    "original_gym": "",
+    "ace_level": "3",
+    "moves_defined": false
+  },
+  {
+    "id": "52",
+    "trainer_name": "Edmond",
+    "type": "TRAINERCLASS_UNIMPORTANT",
+    "original_gym": "",
+    "ace_level": "3",
+    "moves_defined": false
+  },
+  {
+    "id": "53",
+    "trainer_name": "Jin",
+    "type": "TRAINERCLASS_UNIMPORTANT",
+    "original_gym": "",
+    "ace_level": "6",
+    "moves_defined": false
+  },
+  {
+    "id": "54",
+    "trainer_name": "Troy",
+    "type": "TRAINERCLASS_UNIMPORTANT",
+    "original_gym": "",
+    "ace_level": "7",
+    "moves_defined": false
+  },
+  {
+    "id": "55",
+    "trainer_name": "Neal",
+    "type": "TRAINERCLASS_UNIMPORTANT",
+    "original_gym": "",
+    "ace_level": "6",
+    "moves_defined": false
+  },
+  {
+    "id": "56",
+    "trainer_name": "Gordon",
+    "type": "TRAINERCLASS_UNIMPORTANT",
+    "original_gym": "",
+    "ace_level": "10",
+    "moves_defined": false
+  },
+  {
+    "id": "57",
+    "trainer_name": "Ralph",
+    "type": "TRAINERCLASS_UNIMPORTANT",
+    "original_gym": "",
+    "ace_level": "10",
+    "moves_defined": false
+  },
+  {
+    "id": "58",
+    "trainer_name": "Arnold",
+    "type": "TRAINERCLASS_UNIMPORTANT",
+    "original_gym": "",
+    "ace_level": "44",
+    "moves_defined": false
+  },
+  {
+    "id": "59",
+    "trainer_name": "Kyle",
+    "type": "TRAINERCLASS_UNIMPORTANT",
+    "original_gym": "",
+    "ace_level": "39",
+    "moves_defined": false
+  },
+  {
+    "id": "60",
+    "trainer_name": "Henry",
+    "type": "TRAINERCLASS_UNIMPORTANT",
+    "original_gym": "",
+    "ace_level": "8",
+    "moves_defined": false
+  },
+  {
+    "id": "61",
+    "trainer_name": "Anthony",
+    "type": "TRAINERCLASS_UNIMPORTANT",
+    "original_gym": "",
+    "ace_level": "11",
+    "moves_defined": false
+  },
+  {
+    "id": "62",
+    "trainer_name": "Samuel",
+    "type": "TRAINERCLASS_UNIMPORTANT",
+    "original_gym": "",
+    "ace_level": "10",
+    "moves_defined": false
+  },
+  {
+    "id": "63",
+    "trainer_name": "Mickey",
+    "type": "TRAINERCLASS_TEAM_ROCKET",
+    "original_gym": "",
+    "ace_level": "14",
+    "moves_defined": false
+  },
+  {
+    "id": "64",
+    "trainer_name": "Ian",
+    "type": "TRAINERCLASS_UNIMPORTANT",
+    "original_gym": "",
+    "ace_level": "12",
+    "moves_defined": true
+  },
+  {
+    "id": "65",
+    "trainer_name": "Gina",
+    "type": "TRAINERCLASS_UNIMPORTANT",
+    "original_gym": "",
+    "ace_level": "12",
+    "moves_defined": false
+  },
+  {
+    "id": "66",
+    "trainer_name": "Todd",
+    "type": "TRAINERCLASS_UNIMPORTANT",
+    "original_gym": "",
+    "ace_level": "14",
+    "moves_defined": false
+  },
+  {
+    "id": "67",
+    "trainer_name": "Benny",
+    "type": "TRAINERCLASS_UNIMPORTANT",
+    "original_gym": "2",
+    "ace_level": "12",
+    "moves_defined": false
+  },
+  {
+    "id": "68",
+    "trainer_name": "Al",
+    "type": "TRAINERCLASS_UNIMPORTANT",
+    "original_gym": "2",
+    "ace_level": "12",
+    "moves_defined": false
+  },
+  {
+    "id": "69",
+    "trainer_name": "Josh",
+    "type": "TRAINERCLASS_UNIMPORTANT",
+    "original_gym": "2",
+    "ace_level": "13",
+    "moves_defined": false
+  },
+  {
+    "id": "70",
+    "trainer_name": "Samantha",
+    "type": "TRAINERCLASS_UNIMPORTANT",
+    "original_gym": "3",
+    "ace_level": "16",
+    "moves_defined": true
+  },
+  {
+    "id": "71",
+    "trainer_name": "Cathy",
+    "type": "TRAINERCLASS_UNIMPORTANT",
+    "original_gym": "3",
+    "ace_level": "15",
+    "moves_defined": false
+  },
+  {
+    "id": "72",
+    "trainer_name": "Bryan",
+    "type": "TRAINERCLASS_UNIMPORTANT",
+    "original_gym": "",
+    "ace_level": "14",
+    "moves_defined": false
+  },
+  {
+    "id": "73",
+    "trainer_name": "Theo",
+    "type": "TRAINERCLASS_UNIMPORTANT",
+    "original_gym": "",
+    "ace_level": "19",
+    "moves_defined": false
+  },
+  {
+    "id": "74",
+    "trainer_name": "Ivan",
+    "type": "TRAINERCLASS_UNIMPORTANT",
+    "original_gym": "",
+    "ace_level": "14",
+    "moves_defined": false
+  },
+  {
+    "id": "75",
+    "trainer_name": "Elliot",
+    "type": "TRAINERCLASS_UNIMPORTANT",
+    "original_gym": "",
+    "ace_level": "15",
+    "moves_defined": false
+  },
+  {
+    "id": "76",
+    "trainer_name": "Brooke",
+    "type": "TRAINERCLASS_UNIMPORTANT",
+    "original_gym": "",
+    "ace_level": "16",
+    "moves_defined": true
+  },
+  {
+    "id": "77",
+    "trainer_name": "Kim",
+    "type": "TRAINERCLASS_UNIMPORTANT",
+    "original_gym": "",
+    "ace_level": "15",
+    "moves_defined": false
+  },
+  {
+    "id": "78",
+    "trainer_name": "Arnie",
+    "type": "TRAINERCLASS_UNIMPORTANT",
+    "original_gym": "",
+    "ace_level": "15",
+    "moves_defined": false
+  },
+  {
+    "id": "79",
+    "trainer_name": "Ken",
+    "type": "TRAINERCLASS_UNIMPORTANT",
+    "original_gym": "",
+    "ace_level": "40",
+    "moves_defined": false
+  },
+  {
+    "id": "80",
+    "trainer_name": "Dirk",
+    "type": "TRAINERCLASS_UNIMPORTANT",
+    "original_gym": "",
+    "ace_level": "14",
+    "moves_defined": false
+  },
+  {
+    "id": "81",
+    "trainer_name": "Tori & Til",
+    "type": "TRAINERCLASS_UNIMPORTANT",
+    "original_gym": "",
+    "ace_level": "16",
+    "moves_defined": false
+  },
+  {
+    "id": "82",
+    "trainer_name": "Toby",
+    "type": "TRAINERCLASS_UNIMPORTANT",
+    "original_gym": "",
+    "ace_level": "18",
+    "moves_defined": false
+  },
+  {
+    "id": "83",
+    "trainer_name": "Cindy",
+    "type": "TRAINERCLASS_UNIMPORTANT",
+    "original_gym": "17",
+    "ace_level": "48",
+    "moves_defined": true
+  },
+  {
+    "id": "84",
+    "trainer_name": "Barry",
+    "type": "TRAINERCLASS_UNIMPORTANT",
+    "original_gym": "17",
+    "ace_level": "48",
+    "moves_defined": true
+  },
+  {
+    "id": "85",
+    "trainer_name": "Paula",
+    "type": "TRAINERCLASS_UNIMPORTANT",
+    "original_gym": "",
+    "ace_level": "19",
+    "moves_defined": false
+  },
+  {
+    "id": "86",
+    "trainer_name": "Randall",
+    "type": "TRAINERCLASS_UNIMPORTANT",
+    "original_gym": "",
+    "ace_level": "20",
+    "moves_defined": true
+  },
+  {
+    "id": "87",
+    "trainer_name": "Mickey",
+    "type": "TRAINERCLASS_UNIMPORTANT",
+    "original_gym": "",
+    "ace_level": "22",
+    "moves_defined": false
+  },
+  {
+    "id": "88",
+    "trainer_name": "Mickey",
+    "type": "TRAINERCLASS_UNIMPORTANT",
+    "original_gym": "",
+    "ace_level": "16",
+    "moves_defined": false
+  },
+  {
+    "id": "89",
+    "trainer_name": "Grace",
+    "type": "TRAINERCLASS_UNIMPORTANT",
+    "original_gym": "4",
+    "ace_level": "20",
+    "moves_defined": false
+  },
+  {
+    "id": "90",
+    "trainer_name": "Kaylee",
+    "type": "TRAINERCLASS_UNIMPORTANT",
+    "original_gym": "",
+    "ace_level": "20",
+    "moves_defined": true
+  },
+  {
+    "id": "91",
+    "trainer_name": "Susie",
+    "type": "TRAINERCLASS_UNIMPORTANT",
+    "original_gym": "",
+    "ace_level": "22",
+    "moves_defined": true
+  },
+  {
+    "id": "92",
+    "trainer_name": "Denise",
+    "type": "TRAINERCLASS_UNIMPORTANT",
+    "original_gym": "",
+    "ace_level": "22",
+    "moves_defined": false
+  },
+  {
+    "id": "93",
+    "trainer_name": "Kara",
+    "type": "TRAINERCLASS_UNIMPORTANT",
+    "original_gym": "",
+    "ace_level": "20",
+    "moves_defined": false
+  },
+  {
+    "id": "94",
+    "trainer_name": "Wendy",
+    "type": "TRAINERCLASS_UNIMPORTANT",
+    "original_gym": "",
+    "ace_level": "21",
+    "moves_defined": true
+  },
+  {
+    "id": "95",
+    "trainer_name": "Charlie",
+    "type": "TRAINERCLASS_UNIMPORTANT",
+    "original_gym": "",
+    "ace_level": "21",
+    "moves_defined": false
+  },
+  {
+    "id": "96",
+    "trainer_name": "George",
+    "type": "TRAINERCLASS_UNIMPORTANT",
+    "original_gym": "",
+    "ace_level": "19",
+    "moves_defined": false
+  },
+  {
+    "id": "97",
+    "trainer_name": "Berke",
+    "type": "TRAINERCLASS_UNIMPORTANT",
+    "original_gym": "",
+    "ace_level": "23",
+    "moves_defined": false
+  },
+  {
+    "id": "98",
+    "trainer_name": "Ronald",
+    "type": "TRAINERCLASS_UNIMPORTANT",
+    "original_gym": "",
+    "ace_level": "20",
+    "moves_defined": false
+  },
+  {
+    "id": "99",
+    "trainer_name": "Matthew",
+    "type": "TRAINERCLASS_UNIMPORTANT",
+    "original_gym": "",
+    "ace_level": "23",
+    "moves_defined": false
+  },
+  {
+    "id": "100",
+    "trainer_name": "Anthony",
+    "type": "TRAINERCLASS_UNIMPORTANT",
+    "original_gym": "",
+    "ace_level": "33",
+    "moves_defined": false
+  },
+  {
+    "id": "101",
+    "trainer_name": "Grunt",
+    "type": "TRAINERCLASS_TEAM_ROCKET",
+    "original_gym": "",
+    "ace_level": "9",
+    "moves_defined": false
+  },
+  {
+    "id": "102",
+    "trainer_name": "Gaven",
+    "type": "TRAINERCLASS_UNIMPORTANT",
+    "original_gym": "",
+    "ace_level": "32",
+    "moves_defined": true
+  },
+  {
+    "id": "103",
+    "trainer_name": "Blake",
+    "type": "TRAINERCLASS_UNIMPORTANT",
+    "original_gym": "",
+    "ace_level": "33",
+    "moves_defined": true
+  },
+  {
+    "id": "104",
+    "trainer_name": "Brian",
+    "type": "TRAINERCLASS_UNIMPORTANT",
+    "original_gym": "",
+    "ace_level": "35",
+    "moves_defined": true
+  },
+  {
+    "id": "105",
+    "trainer_name": "Mickey",
+    "type": "TRAINERCLASS_UNIMPORTANT",
+    "original_gym": "",
+    "ace_level": "10",
+    "moves_defined": false
+  },
+  {
+    "id": "106",
+    "trainer_name": "Mickey",
+    "type": "TRAINERCLASS_UNIMPORTANT",
+    "original_gym": "",
+    "ace_level": "10",
+    "moves_defined": false
+  },
+  {
+    "id": "107",
+    "trainer_name": "Mickey",
+    "type": "TRAINERCLASS_UNIMPORTANT",
+    "original_gym": "",
+    "ace_level": "10",
+    "moves_defined": false
+  },
+  {
+    "id": "108",
+    "trainer_name": "Ryan",
+    "type": "TRAINERCLASS_UNIMPORTANT",
+    "original_gym": "",
+    "ace_level": "27",
+    "moves_defined": true
+  },
+  {
+    "id": "109",
+    "trainer_name": "Alton",
+    "type": "TRAINERCLASS_UNIMPORTANT",
+    "original_gym": "",
+    "ace_level": "24",
+    "moves_defined": false
+  },
+  {
+    "id": "110",
+    "trainer_name": "Paulo",
+    "type": "TRAINERCLASS_UNIMPORTANT",
+    "original_gym": "8",
+    "ace_level": "35",
+    "moves_defined": false
+  },
+  {
+    "id": "111",
+    "trainer_name": "Mike",
+    "type": "TRAINERCLASS_UNIMPORTANT",
+    "original_gym": "8",
+    "ace_level": "38",
+    "moves_defined": false
+  },
+  {
+    "id": "112",
+    "trainer_name": "Cody",
+    "type": "TRAINERCLASS_UNIMPORTANT",
+    "original_gym": "8",
+    "ace_level": "37",
+    "moves_defined": false
+  },
+  {
+    "id": "113",
+    "trainer_name": "Jamie",
+    "type": "TRAINERCLASS_UNIMPORTANT",
+    "original_gym": "",
+    "ace_level": "36",
+    "moves_defined": true
+  },
+  {
+    "id": "114",
+    "trainer_name": "Reena",
+    "type": "TRAINERCLASS_UNIMPORTANT",
+    "original_gym": "",
+    "ace_level": "36",
+    "moves_defined": false
+  },
+  {
+    "id": "115",
+    "trainer_name": "Megan",
+    "type": "TRAINERCLASS_UNIMPORTANT",
+    "original_gym": "",
+    "ace_level": "32",
+    "moves_defined": true
+  },
+  {
+    "id": "116",
+    "trainer_name": "Lois",
+    "type": "TRAINERCLASS_UNIMPORTANT",
+    "original_gym": "",
+    "ace_level": "25",
+    "moves_defined": true
+  },
+  {
+    "id": "117",
+    "trainer_name": "Lola",
+    "type": "TRAINERCLASS_UNIMPORTANT",
+    "original_gym": "8",
+    "ace_level": "37",
+    "moves_defined": false
+  },
+  {
+    "id": "118",
+    "trainer_name": "Kate",
+    "type": "TRAINERCLASS_UNIMPORTANT",
+    "original_gym": "",
+    "ace_level": "28",
+    "moves_defined": false
+  },
+  {
+    "id": "119",
+    "trainer_name": "Fran",
+    "type": "TRAINERCLASS_UNIMPORTANT",
+    "original_gym": "8",
+    "ace_level": "38",
+    "moves_defined": false
+  },
+  {
+    "id": "120",
+    "trainer_name": "Irene",
+    "type": "TRAINERCLASS_UNIMPORTANT",
+    "original_gym": "",
+    "ace_level": "24",
+    "moves_defined": false
+  },
+  {
+    "id": "121",
+    "trainer_name": "Kelly",
+    "type": "TRAINERCLASS_UNIMPORTANT",
+    "original_gym": "",
+    "ace_level": "27",
+    "moves_defined": false
+  },
+  {
+    "id": "122",
+    "trainer_name": "Marvin",
+    "type": "TRAINERCLASS_UNIMPORTANT",
+    "original_gym": "",
+    "ace_level": "20",
+    "moves_defined": true
+  },
+  {
+    "id": "123",
+    "trainer_name": "Tully",
+    "type": "TRAINERCLASS_UNIMPORTANT",
+    "original_gym": "",
+    "ace_level": "19",
+    "moves_defined": false
+  },
+  {
+    "id": "124",
+    "trainer_name": "Wilton",
+    "type": "TRAINERCLASS_UNIMPORTANT",
+    "original_gym": "",
+    "ace_level": "28",
+    "moves_defined": false
+  },
+  {
+    "id": "125",
+    "trainer_name": "Edgar",
+    "type": "TRAINERCLASS_UNIMPORTANT",
+    "original_gym": "",
+    "ace_level": "28",
+    "moves_defined": true
+  },
+  {
+    "id": "126",
+    "trainer_name": "Andre",
+    "type": "TRAINERCLASS_UNIMPORTANT",
+    "original_gym": "",
+    "ace_level": "27",
+    "moves_defined": false
+  },
+  {
+    "id": "127",
+    "trainer_name": "Raymond",
+    "type": "TRAINERCLASS_UNIMPORTANT",
+    "original_gym": "",
+    "ace_level": "22",
+    "moves_defined": false
+  },
+  {
+    "id": "128",
+    "trainer_name": "Jonah",
+    "type": "TRAINERCLASS_UNIMPORTANT",
+    "original_gym": "",
+    "ace_level": "37",
+    "moves_defined": false
+  },
+  {
+    "id": "129",
+    "trainer_name": "Shane",
+    "type": "TRAINERCLASS_UNIMPORTANT",
+    "original_gym": "",
+    "ace_level": "17",
+    "moves_defined": false
+  },
+  {
+    "id": "130",
+    "trainer_name": "Beckett",
+    "type": "TRAINERCLASS_UNIMPORTANT",
+    "original_gym": "",
+    "ace_level": "20",
+    "moves_defined": false
+  },
+  {
+    "id": "131",
+    "trainer_name": "Brent",
+    "type": "TRAINERCLASS_UNIMPORTANT",
+    "original_gym": "",
+    "ace_level": "24",
+    "moves_defined": false
+  },
+  {
+    "id": "132",
+    "trainer_name": "Ron",
+    "type": "TRAINERCLASS_UNIMPORTANT",
+    "original_gym": "",
+    "ace_level": "20",
+    "moves_defined": false
+  },
+  {
+    "id": "133",
+    "trainer_name": "Morgan",
+    "type": "TRAINERCLASS_UNIMPORTANT",
+    "original_gym": "",
+    "ace_level": "39",
+    "moves_defined": false
+  },
+  {
+    "id": "134",
+    "trainer_name": "Benjamin",
+    "type": "TRAINERCLASS_UNIMPORTANT",
+    "original_gym": "",
+    "ace_level": "17",
+    "moves_defined": false
+  },
+  {
+    "id": "135",
+    "trainer_name": "Johnny",
+    "type": "TRAINERCLASS_UNIMPORTANT",
+    "original_gym": "",
+    "ace_level": "42",
+    "moves_defined": false
+  },
+  {
+    "id": "136",
+    "trainer_name": "Linda",
+    "type": "TRAINERCLASS_UNIMPORTANT",
+    "original_gym": "17",
+    "ace_level": "45",
+    "moves_defined": true
+  },
+  {
+    "id": "137",
+    "trainer_name": "Vance",
+    "type": "TRAINERCLASS_UNIMPORTANT",
+    "original_gym": "",
+    "ace_level": "28",
+    "moves_defined": false
+  },
+  {
+    "id": "138",
+    "trainer_name": "Mickey",
+    "type": "TRAINERCLASS_UNIMPORTANT",
+    "original_gym": "",
+    "ace_level": "15",
+    "moves_defined": false
+  },
+  {
+    "id": "139",
+    "trainer_name": "Debra",
+    "type": "TRAINERCLASS_UNIMPORTANT",
+    "original_gym": "",
+    "ace_level": "41",
+    "moves_defined": false
+  },
+  {
+    "id": "140",
+    "trainer_name": "Doug",
+    "type": "TRAINERCLASS_UNIMPORTANT",
+    "original_gym": "",
+    "ace_level": "39",
+    "moves_defined": false
+  },
+  {
+    "id": "141",
+    "trainer_name": "Mickey",
+    "type": "TRAINERCLASS_UNIMPORTANT",
+    "original_gym": "",
+    "ace_level": "15",
+    "moves_defined": false
+  },
+  {
+    "id": "142",
+    "trainer_name": "Gina",
+    "type": "TRAINERCLASS_UNIMPORTANT",
+    "original_gym": "",
+    "ace_level": "32",
+    "moves_defined": false
+  },
+  {
+    "id": "143",
+    "trainer_name": "Erik",
+    "type": "TRAINERCLASS_UNIMPORTANT",
+    "original_gym": "",
+    "ace_level": "27",
+    "moves_defined": false
+  },
+  {
+    "id": "144",
+    "trainer_name": "Michael",
+    "type": "TRAINERCLASS_UNIMPORTANT",
+    "original_gym": "",
+    "ace_level": "25",
+    "moves_defined": false
+  },
+  {
+    "id": "145",
+    "trainer_name": "Parry",
+    "type": "TRAINERCLASS_UNIMPORTANT",
+    "original_gym": "",
+    "ace_level": "30",
+    "moves_defined": false
+  },
+  {
+    "id": "146",
+    "trainer_name": "Timothy",
+    "type": "TRAINERCLASS_UNIMPORTANT",
+    "original_gym": "",
+    "ace_level": "27",
+    "moves_defined": true
+  },
+  {
+    "id": "147",
+    "trainer_name": "Ted",
+    "type": "TRAINERCLASS_UNIMPORTANT",
+    "original_gym": "",
+    "ace_level": "17",
+    "moves_defined": false
+  },
+  {
+    "id": "148",
+    "trainer_name": "Lloyd",
+    "type": "TRAINERCLASS_UNIMPORTANT",
+    "original_gym": "",
+    "ace_level": "46",
+    "moves_defined": false
+  },
+  {
+    "id": "149",
+    "trainer_name": "Dean",
+    "type": "TRAINERCLASS_UNIMPORTANT",
+    "original_gym": "",
+    "ace_level": "44",
+    "moves_defined": false
+  },
+  {
+    "id": "150",
+    "trainer_name": "Sid",
+    "type": "TRAINERCLASS_UNIMPORTANT",
+    "original_gym": "",
+    "ace_level": "43",
+    "moves_defined": false
+  },
+  {
+    "id": "151",
+    "trainer_name": "Erin",
+    "type": "TRAINERCLASS_UNIMPORTANT",
+    "original_gym": "",
+    "ace_level": "17",
+    "moves_defined": false
+  },
+  {
+    "id": "152",
+    "trainer_name": "Hope",
+    "type": "TRAINERCLASS_UNIMPORTANT",
+    "original_gym": "",
+    "ace_level": "44",
+    "moves_defined": false
+  },
+  {
+    "id": "153",
+    "trainer_name": "Sharon",
+    "type": "TRAINERCLASS_UNIMPORTANT",
+    "original_gym": "",
+    "ace_level": "43",
+    "moves_defined": false
+  },
+  {
+    "id": "154",
+    "trainer_name": "Bailey",
+    "type": "TRAINERCLASS_UNIMPORTANT",
+    "original_gym": "",
+    "ace_level": "13",
+    "moves_defined": false
+  },
+  {
+    "id": "155",
+    "trainer_name": "Anthony",
+    "type": "TRAINERCLASS_UNIMPORTANT",
+    "original_gym": "",
+    "ace_level": "40",
+    "moves_defined": false
+  },
+  {
+    "id": "156",
+    "trainer_name": "Yoshi",
+    "type": "TRAINERCLASS_UNIMPORTANT",
+    "original_gym": "5",
+    "ace_level": "27",
+    "moves_defined": true
+  },
+  {
+    "id": "157",
+    "trainer_name": "Lao",
+    "type": "TRAINERCLASS_UNIMPORTANT",
+    "original_gym": "5",
+    "ace_level": "27",
+    "moves_defined": true
+  },
+  {
+    "id": "158",
+    "trainer_name": "Kiyo",
+    "type": "TRAINERCLASS_UNIMPORTANT",
+    "original_gym": "",
+    "ace_level": "34",
+    "moves_defined": false
+  },
+  {
+    "id": "159",
+    "trainer_name": "Lung",
+    "type": "TRAINERCLASS_UNIMPORTANT",
+    "original_gym": "5",
+    "ace_level": "25",
+    "moves_defined": false
+  },
+  {
+    "id": "160",
+    "trainer_name": "Naoko",
+    "type": "TRAINERCLASS_UNIMPORTANT",
+    "original_gym": "",
+    "ace_level": "38",
+    "moves_defined": true
+  },
+  {
+    "id": "161",
+    "trainer_name": "Sayo",
+    "type": "TRAINERCLASS_UNIMPORTANT",
+    "original_gym": "",
+    "ace_level": "38",
+    "moves_defined": true
+  },
+  {
+    "id": "162",
+    "trainer_name": "Zuki",
+    "type": "TRAINERCLASS_UNIMPORTANT",
+    "original_gym": "",
+    "ace_level": "38",
+    "moves_defined": true
+  },
+  {
+    "id": "163",
+    "trainer_name": "Kuni",
+    "type": "TRAINERCLASS_UNIMPORTANT",
+    "original_gym": "",
+    "ace_level": "38",
+    "moves_defined": true
+  },
+  {
+    "id": "164",
+    "trainer_name": "Miki",
+    "type": "TRAINERCLASS_UNIMPORTANT",
+    "original_gym": "",
+    "ace_level": "38",
+    "moves_defined": true
+  },
+  {
+    "id": "165",
+    "trainer_name": "Mickey",
+    "type": "TRAINERCLASS_UNIMPORTANT",
+    "original_gym": "",
+    "ace_level": "28",
+    "moves_defined": false
+  },
+  {
+    "id": "166",
+    "trainer_name": "Mickey",
+    "type": "TRAINERCLASS_UNIMPORTANT",
+    "original_gym": "",
+    "ace_level": "29",
+    "moves_defined": false
+  },
+  {
+    "id": "167",
+    "trainer_name": "Mickey",
+    "type": "TRAINERCLASS_UNIMPORTANT",
+    "original_gym": "",
+    "ace_level": "20",
+    "moves_defined": false
+  },
+  {
+    "id": "168",
+    "trainer_name": "Mickey",
+    "type": "TRAINERCLASS_UNIMPORTANT",
+    "original_gym": "",
+    "ace_level": "26",
+    "moves_defined": false
+  },
+  {
+    "id": "169",
+    "trainer_name": "Mickey",
+    "type": "TRAINERCLASS_UNIMPORTANT",
+    "original_gym": "",
+    "ace_level": "27",
+    "moves_defined": false
+  },
+  {
+    "id": "170",
+    "trainer_name": "Mickey",
+    "type": "TRAINERCLASS_UNIMPORTANT",
+    "original_gym": "",
+    "ace_level": "25",
+    "moves_defined": false
+  },
+  {
+    "id": "171",
+    "trainer_name": "Mickey",
+    "type": "TRAINERCLASS_UNIMPORTANT",
+    "original_gym": "",
+    "ace_level": "20",
+    "moves_defined": false
+  },
+  {
+    "id": "172",
+    "trainer_name": "Brent",
+    "type": "TRAINERCLASS_UNIMPORTANT",
+    "original_gym": "",
+    "ace_level": "34",
+    "moves_defined": false
+  },
+  {
+    "id": "173",
+    "trainer_name": "Brent",
+    "type": "TRAINERCLASS_UNIMPORTANT",
+    "original_gym": "",
+    "ace_level": "43",
+    "moves_defined": false
+  },
+  {
+    "id": "174",
+    "trainer_name": "Mickey",
+    "type": "TRAINERCLASS_UNIMPORTANT",
+    "original_gym": "",
+    "ace_level": "20",
+    "moves_defined": false
+  },
+  {
+    "id": "175",
+    "trainer_name": "Bethany",
+    "type": "TRAINERCLASS_UNIMPORTANT",
+    "original_gym": "",
+    "ace_level": "25",
+    "moves_defined": false
+  },
+  {
+    "id": "176",
+    "trainer_name": "Margaret",
+    "type": "TRAINERCLASS_UNIMPORTANT",
+    "original_gym": "",
+    "ace_level": "25",
+    "moves_defined": false
+  },
+  {
+    "id": "177",
+    "trainer_name": "Ethel",
+    "type": "TRAINERCLASS_UNIMPORTANT",
+    "original_gym": "",
+    "ace_level": "25",
+    "moves_defined": false
+  },
+  {
+    "id": "178",
+    "trainer_name": "Jack",
+    "type": "TRAINERCLASS_UNIMPORTANT",
+    "original_gym": "",
+    "ace_level": "15",
+    "moves_defined": false
+  },
+  {
+    "id": "179",
+    "trainer_name": "Kipp",
+    "type": "TRAINERCLASS_UNIMPORTANT",
+    "original_gym": "",
+    "ace_level": "40",
+    "moves_defined": false
+  },
+  {
+    "id": "180",
+    "trainer_name": "Mickey",
+    "type": "TRAINERCLASS_UNIMPORTANT",
+    "original_gym": "",
+    "ace_level": "15",
+    "moves_defined": false
+  },
+  {
+    "id": "181",
+    "trainer_name": "William",
+    "type": "TRAINERCLASS_UNIMPORTANT",
+    "original_gym": "",
+    "ace_level": "16",
+    "moves_defined": false
+  },
+  {
+    "id": "182",
+    "trainer_name": "Beverly",
+    "type": "TRAINERCLASS_UNIMPORTANT",
+    "original_gym": "",
+    "ace_level": "16",
+    "moves_defined": false
+  },
+  {
+    "id": "183",
+    "trainer_name": "Alice",
+    "type": "TRAINERCLASS_UNIMPORTANT",
+    "original_gym": "17",
+    "ace_level": "45",
+    "moves_defined": true
+  },
+  {
+    "id": "184",
+    "trainer_name": "Krise",
+    "type": "TRAINERCLASS_UNIMPORTANT",
+    "original_gym": "",
+    "ace_level": "17",
+    "moves_defined": false
+  },
+  {
+    "id": "185",
+    "trainer_name": "Grunt",
+    "type": "TRAINERCLASS_TEAM_ROCKET",
+    "original_gym": "",
+    "ace_level": "24",
+    "moves_defined": false
+  },
+  {
+    "id": "186",
+    "trainer_name": "Grunt",
+    "type": "TRAINERCLASS_TEAM_ROCKET",
+    "original_gym": "",
+    "ace_level": "25",
+    "moves_defined": false
+  },
+  {
+    "id": "187",
+    "trainer_name": "Grunt",
+    "type": "TRAINERCLASS_TEAM_ROCKET",
+    "original_gym": "",
+    "ace_level": "23",
+    "moves_defined": false
+  },
+  {
+    "id": "188",
+    "trainer_name": "Grunt",
+    "type": "TRAINERCLASS_TEAM_ROCKET",
+    "original_gym": "",
+    "ace_level": "26",
+    "moves_defined": false
+  },
+  {
+    "id": "189",
+    "trainer_name": "Grunt",
+    "type": "TRAINERCLASS_TEAM_ROCKET",
+    "original_gym": "",
+    "ace_level": "23",
+    "moves_defined": false
+  },
+  {
+    "id": "190",
+    "trainer_name": "Grunt",
+    "type": "TRAINERCLASS_TEAM_ROCKET",
+    "original_gym": "",
+    "ace_level": "26",
+    "moves_defined": false
+  },
+  {
+    "id": "191",
+    "trainer_name": "Grunt",
+    "type": "TRAINERCLASS_TEAM_ROCKET",
+    "original_gym": "",
+    "ace_level": "26",
+    "moves_defined": false
+  },
+  {
+    "id": "192",
+    "trainer_name": "Grunt",
+    "type": "TRAINERCLASS_TEAM_ROCKET",
+    "original_gym": "",
+    "ace_level": "24",
+    "moves_defined": false
+  },
+  {
+    "id": "193",
+    "trainer_name": "Grunt",
+    "type": "TRAINERCLASS_TEAM_ROCKET",
+    "original_gym": "",
+    "ace_level": "25",
+    "moves_defined": false
+  },
+  {
+    "id": "194",
+    "trainer_name": "Mickey",
+    "type": "TRAINERCLASS_TEAM_ROCKET",
+    "original_gym": "",
+    "ace_level": "33",
+    "moves_defined": false
+  },
+  {
+    "id": "195",
+    "trainer_name": "Grunt",
+    "type": "TRAINERCLASS_TEAM_ROCKET",
+    "original_gym": "",
+    "ace_level": "27",
+    "moves_defined": false
+  },
+  {
+    "id": "196",
+    "trainer_name": "Grunt",
+    "type": "TRAINERCLASS_TEAM_ROCKET",
+    "original_gym": "",
+    "ace_level": "24",
+    "moves_defined": false
+  },
+  {
+    "id": "197",
+    "trainer_name": "Grunt",
+    "type": "TRAINERCLASS_TEAM_ROCKET",
+    "original_gym": "",
+    "ace_level": "26",
+    "moves_defined": false
+  },
+  {
+    "id": "198",
+    "trainer_name": "Grunt",
+    "type": "TRAINERCLASS_TEAM_ROCKET",
+    "original_gym": "",
+    "ace_level": "26",
+    "moves_defined": false
+  },
+  {
+    "id": "199",
+    "trainer_name": "Grunt",
+    "type": "TRAINERCLASS_TEAM_ROCKET",
+    "original_gym": "",
+    "ace_level": "25",
+    "moves_defined": false
+  },
+  {
+    "id": "200",
+    "trainer_name": "Grunt",
+    "type": "TRAINERCLASS_TEAM_ROCKET",
+    "original_gym": "",
+    "ace_level": "24",
+    "moves_defined": false
+  },
+  {
+    "id": "201",
+    "trainer_name": "Andrew",
+    "type": "TRAINERCLASS_UNIMPORTANT",
+    "original_gym": "",
+    "ace_level": "24",
+    "moves_defined": false
+  },
+  {
+    "id": "202",
+    "trainer_name": "Calvin",
+    "type": "TRAINERCLASS_UNIMPORTANT",
+    "original_gym": "",
+    "ace_level": "26",
+    "moves_defined": false
+  },
+  {
+    "id": "203",
+    "trainer_name": "Phillip",
+    "type": "TRAINERCLASS_UNIMPORTANT",
+    "original_gym": "",
+    "ace_level": "25",
+    "moves_defined": false
+  },
+  {
+    "id": "204",
+    "trainer_name": "Leonard",
+    "type": "TRAINERCLASS_UNIMPORTANT",
+    "original_gym": "",
+    "ace_level": "25",
+    "moves_defined": false
+  },
+  {
+    "id": "205",
+    "trainer_name": "Nick",
+    "type": "TRAINERCLASS_UNIMPORTANT",
+    "original_gym": "",
+    "ace_level": "26",
+    "moves_defined": true
+  },
+  {
+    "id": "206",
+    "trainer_name": "Gwen",
+    "type": "TRAINERCLASS_UNIMPORTANT",
+    "original_gym": "",
+    "ace_level": "26",
+    "moves_defined": false
+  },
+  {
+    "id": "207",
+    "trainer_name": "Mickey",
+    "type": "TRAINERCLASS_UNIMPORTANT",
+    "original_gym": "",
+    "ace_level": "15",
+    "moves_defined": false
+  },
+  {
+    "id": "208",
+    "trainer_name": "Mickey",
+    "type": "TRAINERCLASS_UNIMPORTANT",
+    "original_gym": "",
+    "ace_level": "16",
+    "moves_defined": false
+  },
+  {
+    "id": "209",
+    "trainer_name": "Cassie",
+    "type": "TRAINERCLASS_UNIMPORTANT",
+    "original_gym": "",
+    "ace_level": "42",
+    "moves_defined": false
+  },
+  {
+    "id": "210",
+    "trainer_name": "Caroline",
+    "type": "TRAINERCLASS_UNIMPORTANT",
+    "original_gym": "",
+    "ace_level": "40",
+    "moves_defined": false
+  },
+  {
+    "id": "211",
+    "trainer_name": "Huey",
+    "type": "TRAINERCLASS_UNIMPORTANT",
+    "original_gym": "",
+    "ace_level": "20",
+    "moves_defined": false
+  },
+  {
+    "id": "212",
+    "trainer_name": "Terrell",
+    "type": "TRAINERCLASS_UNIMPORTANT",
+    "original_gym": "",
+    "ace_level": "20",
+    "moves_defined": false
+  },
+  {
+    "id": "213",
+    "trainer_name": "Kent",
+    "type": "TRAINERCLASS_UNIMPORTANT",
+    "original_gym": "",
+    "ace_level": "20",
+    "moves_defined": true
+  },
+  {
+    "id": "214",
+    "trainer_name": "Roberto",
+    "type": "TRAINERCLASS_UNIMPORTANT",
+    "original_gym": "",
+    "ace_level": "18",
+    "moves_defined": false
+  },
+  {
+    "id": "215",
+    "trainer_name": "Connie",
+    "type": "TRAINERCLASS_UNIMPORTANT",
+    "original_gym": "",
+    "ace_level": "21",
+    "moves_defined": false
+  },
+  {
+    "id": "216",
+    "trainer_name": "Grunt",
+    "type": "TRAINERCLASS_TEAM_ROCKET",
+    "original_gym": "",
+    "ace_level": "16",
+    "moves_defined": false
+  },
+  {
+    "id": "217",
+    "trainer_name": "Denis",
+    "type": "TRAINERCLASS_UNIMPORTANT",
+    "original_gym": "",
+    "ace_level": "20",
+    "moves_defined": false
+  },
+  {
+    "id": "218",
+    "trainer_name": "Grunt",
+    "type": "TRAINERCLASS_TEAM_ROCKET",
+    "original_gym": "",
+    "ace_level": "18",
+    "moves_defined": false
+  },
+  {
+    "id": "219",
+    "trainer_name": "Grunt",
+    "type": "TRAINERCLASS_TEAM_ROCKET",
+    "original_gym": "",
+    "ace_level": "17",
+    "moves_defined": false
+  },
+  {
+    "id": "220",
+    "trainer_name": "Grunt",
+    "type": "TRAINERCLASS_TEAM_ROCKET",
+    "original_gym": "",
+    "ace_level": "18",
+    "moves_defined": false
+  },
+  {
+    "id": "221",
+    "trainer_name": "Mickey",
+    "type": "TRAINERCLASS_TEAM_ROCKET",
+    "original_gym": "",
+    "ace_level": "22",
+    "moves_defined": false
+  },
+  {
+    "id": "222",
+    "trainer_name": "Grunt",
+    "type": "TRAINERCLASS_TEAM_ROCKET",
+    "original_gym": "",
+    "ace_level": "19",
+    "moves_defined": false
+  },
+  {
+    "id": "223",
+    "trainer_name": "Grunt",
+    "type": "TRAINERCLASS_TEAM_ROCKET",
+    "original_gym": "",
+    "ace_level": "19",
+    "moves_defined": false
+  },
+  {
+    "id": "224",
+    "trainer_name": "Grunt",
+    "type": "TRAINERCLASS_TEAM_ROCKET",
+    "original_gym": "",
+    "ace_level": "18",
+    "moves_defined": false
+  },
+  {
+    "id": "225",
+    "trainer_name": "Mickey",
+    "type": "TRAINERCLASS_TEAM_ROCKET",
+    "original_gym": "",
+    "ace_level": "36",
+    "moves_defined": false
+  },
+  {
+    "id": "226",
+    "trainer_name": "Mickey",
+    "type": "TRAINERCLASS_TEAM_ROCKET",
+    "original_gym": "",
+    "ace_level": "30",
+    "moves_defined": false
+  },
+  {
+    "id": "227",
+    "trainer_name": "Grunt",
+    "type": "TRAINERCLASS_TEAM_ROCKET",
+    "original_gym": "",
+    "ace_level": "25",
+    "moves_defined": false
+  },
+  {
+    "id": "228",
+    "trainer_name": "Grunt",
+    "type": "TRAINERCLASS_TEAM_ROCKET",
+    "original_gym": "",
+    "ace_level": "24",
+    "moves_defined": false
+  },
+  {
+    "id": "229",
+    "trainer_name": "Mickey",
+    "type": "TRAINERCLASS_TEAM_ROCKET",
+    "original_gym": "",
+    "ace_level": "15",
+    "moves_defined": false
+  },
+  {
+    "id": "230",
+    "trainer_name": "Franklin",
+    "type": "TRAINERCLASS_UNIMPORTANT",
+    "original_gym": "14",
+    "ace_level": "47",
+    "moves_defined": true
+  },
+  {
+    "id": "231",
+    "trainer_name": "Edward",
+    "type": "TRAINERCLASS_UNIMPORTANT",
+    "original_gym": "",
+    "ace_level": "41",
+    "moves_defined": false
+  },
+  {
+    "id": "232",
+    "trainer_name": "Vincent",
+    "type": "TRAINERCLASS_UNIMPORTANT",
+    "original_gym": "13",
+    "ace_level": "45",
+    "moves_defined": true
+  },
+  {
+    "id": "233",
+    "trainer_name": "Eric",
+    "type": "TRAINERCLASS_UNIMPORTANT",
+    "original_gym": "",
+    "ace_level": "11",
+    "moves_defined": false
+  },
+  {
+    "id": "234",
+    "trainer_name": "Eoin",
+    "type": "TRAINERCLASS_UNIMPORTANT",
+    "original_gym": "",
+    "ace_level": "42",
+    "moves_defined": false
+  },
+  {
+    "id": "235",
+    "trainer_name": "Noland",
+    "type": "TRAINERCLASS_UNIMPORTANT",
+    "original_gym": "",
+    "ace_level": "42",
+    "moves_defined": false
+  },
+  {
+    "id": "236",
+    "trainer_name": "Shaye",
+    "type": "TRAINERCLASS_UNIMPORTANT",
+    "original_gym": "",
+    "ace_level": "43",
+    "moves_defined": true
+  },
+  {
+    "id": "237",
+    "trainer_name": "Carol",
+    "type": "TRAINERCLASS_UNIMPORTANT",
+    "original_gym": "",
+    "ace_level": "43",
+    "moves_defined": true
+  },
+  {
+    "id": "238",
+    "trainer_name": "Stanly",
+    "type": "TRAINERCLASS_UNIMPORTANT",
+    "original_gym": "",
+    "ace_level": "41",
+    "moves_defined": false
+  },
+  {
+    "id": "239",
+    "trainer_name": "Jeff",
+    "type": "TRAINERCLASS_UNIMPORTANT",
+    "original_gym": "",
+    "ace_level": "40",
+    "moves_defined": false
+  },
+  {
+    "id": "240",
+    "trainer_name": "Garrett",
+    "type": "TRAINERCLASS_UNIMPORTANT",
+    "original_gym": "",
+    "ace_level": "42",
+    "moves_defined": false
+  },
+  {
+    "id": "241",
+    "trainer_name": "Kenneth",
+    "type": "TRAINERCLASS_UNIMPORTANT",
+    "original_gym": "",
+    "ace_level": "36",
+    "moves_defined": false
+  },
+  {
+    "id": "242",
+    "trainer_name": "Fritz",
+    "type": "TRAINERCLASS_UNIMPORTANT",
+    "original_gym": "",
+    "ace_level": "37",
+    "moves_defined": true
+  },
+  {
+    "id": "243",
+    "trainer_name": "Katie",
+    "type": "TRAINERCLASS_UNIMPORTANT",
+    "original_gym": "",
+    "ace_level": "41",
+    "moves_defined": false
+  },
+  {
+    "id": "244",
+    "trainer_name": "Lance",
+    "type": "TRAINERCLASS_CHAMPION",
+    "original_gym": "",
+    "ace_level": "50",
+    "moves_defined": true
+  },
+  {
+    "id": "245",
+    "trainer_name": "Will",
+    "type": "TRAINERCLASS_ELITE_FOUR",
+    "original_gym": "9",
+    "ace_level": "42",
+    "moves_defined": true
+  },
+  {
+    "id": "246",
+    "trainer_name": "Karen",
+    "type": "TRAINERCLASS_ELITE_FOUR",
+    "original_gym": "12",
+    "ace_level": "47",
+    "moves_defined": true
+  },
+  {
+    "id": "247",
+    "trainer_name": "Koga",
+    "type": "TRAINERCLASS_ELITE_FOUR",
+    "original_gym": "10",
+    "ace_level": "44",
+    "moves_defined": true
+  },
+  {
+    "id": "248",
+    "trainer_name": "Ed",
+    "type": "TRAINERCLASS_UNIMPORTANT",
+    "original_gym": "",
+    "ace_level": "43",
+    "moves_defined": false
+  },
+  {
+    "id": "249",
+    "trainer_name": "Don",
+    "type": "TRAINERCLASS_UNIMPORTANT",
+    "original_gym": "",
+    "ace_level": "3",
+    "moves_defined": false
+  },
+  {
+    "id": "250",
+    "trainer_name": "Kenji",
+    "type": "TRAINERCLASS_UNIMPORTANT",
+    "original_gym": "",
+    "ace_level": "32",
+    "moves_defined": false
+  },
+  {
+    "id": "251",
+    "trainer_name": "Nob",
+    "type": "TRAINERCLASS_UNIMPORTANT",
+    "original_gym": "5",
+    "ace_level": "25",
+    "moves_defined": true
+  },
+  {
+    "id": "252",
+    "trainer_name": "Harold",
+    "type": "TRAINERCLASS_UNIMPORTANT",
+    "original_gym": "",
+    "ace_level": "42",
+    "moves_defined": false
+  },
+  {
+    "id": "253",
+    "trainer_name": "Brock",
+    "type": "TRAINERCLASS_LEADER",
+    "original_gym": "18",
+    "ace_level": "54",
+    "moves_defined": true
+  },
+  {
+    "id": "254",
+    "trainer_name": "Misty",
+    "type": "TRAINERCLASS_LEADER",
+    "original_gym": "16",
+    "ace_level": "54",
+    "moves_defined": true
+  },
+  {
+    "id": "255",
+    "trainer_name": "Lt. Surge",
+    "type": "TRAINERCLASS_LEADER",
+    "original_gym": "13",
+    "ace_level": "53",
+    "moves_defined": true
+  },
+  {
+    "id": "256",
+    "trainer_name": "Erika",
+    "type": "TRAINERCLASS_LEADER",
+    "original_gym": "15",
+    "ace_level": "56",
+    "moves_defined": true
+  },
+  {
+    "id": "257",
+    "trainer_name": "Janine",
+    "type": "TRAINERCLASS_LEADER",
+    "original_gym": "17",
+    "ace_level": "50",
+    "moves_defined": true
+  },
+  {
+    "id": "258",
+    "trainer_name": "Sabrina",
+    "type": "TRAINERCLASS_LEADER",
+    "original_gym": "14",
+    "ace_level": "55",
+    "moves_defined": true
+  },
+  {
+    "id": "259",
+    "trainer_name": "Blaine",
+    "type": "TRAINERCLASS_LEADER",
+    "original_gym": "19",
+    "ace_level": "59",
+    "moves_defined": true
+  },
+  {
+    "id": "260",
+    "trainer_name": "Red",
+    "type": "TRAINERCLASS_CHAMPION",
+    "original_gym": "",
+    "ace_level": "88",
+    "moves_defined": true
+  },
+  {
+    "id": "261",
+    "trainer_name": "Blue",
+    "type": "TRAINERCLASS_LEADER",
+    "original_gym": "",
+    "ace_level": "60",
+    "moves_defined": true
+  },
+  {
+    "id": "262",
+    "trainer_name": "Mickey",
+    "type": "TRAINERCLASS_TEAM_ROCKET",
+    "original_gym": "",
+    "ace_level": "30",
+    "moves_defined": false
+  },
+  {
+    "id": "263",
+    "trainer_name": "Silver",
+    "type": "TRAINERCLASS_RIVAL",
+    "original_gym": "",
+    "ace_level": "22",
+    "moves_defined": true
+  },
+  {
+    "id": "264",
+    "trainer_name": "Silver",
+    "type": "TRAINERCLASS_RIVAL",
+    "original_gym": "",
+    "ace_level": "40",
+    "moves_defined": true
+  },
+  {
+    "id": "265",
+    "trainer_name": "Silver",
+    "type": "TRAINERCLASS_RIVAL",
+    "original_gym": "",
+    "ace_level": "5",
+    "moves_defined": false
+  },
+  {
+    "id": "266",
+    "trainer_name": "Silver",
+    "type": "TRAINERCLASS_RIVAL",
+    "original_gym": "",
+    "ace_level": "18",
+    "moves_defined": false
+  },
+  {
+    "id": "267",
+    "trainer_name": "Silver",
+    "type": "TRAINERCLASS_RIVAL",
+    "original_gym": "",
+    "ace_level": "22",
+    "moves_defined": true
+  },
+  {
+    "id": "268",
+    "trainer_name": "Silver",
+    "type": "TRAINERCLASS_RIVAL",
+    "original_gym": "",
+    "ace_level": "40",
+    "moves_defined": true
+  },
+  {
+    "id": "269",
+    "trainer_name": "Silver",
+    "type": "TRAINERCLASS_RIVAL",
+    "original_gym": "",
+    "ace_level": "18",
+    "moves_defined": false
+  },
+  {
+    "id": "270",
+    "trainer_name": "Silver",
+    "type": "TRAINERCLASS_RIVAL",
+    "original_gym": "",
+    "ace_level": "22",
+    "moves_defined": true
+  },
+  {
+    "id": "271",
+    "trainer_name": "Silver",
+    "type": "TRAINERCLASS_RIVAL",
+    "original_gym": "",
+    "ace_level": "32",
+    "moves_defined": true
+  },
+  {
+    "id": "272",
+    "trainer_name": "Silver",
+    "type": "TRAINERCLASS_RIVAL",
+    "original_gym": "",
+    "ace_level": "40",
+    "moves_defined": true
+  },
+  {
+    "id": "273",
+    "trainer_name": "Mickey",
+    "type": "TRAINERCLASS_UNIMPORTANT",
+    "original_gym": "",
+    "ace_level": "18",
+    "moves_defined": false
+  },
+  {
+    "id": "274",
+    "trainer_name": "Todd",
+    "type": "TRAINERCLASS_UNIMPORTANT",
+    "original_gym": "",
+    "ace_level": "31",
+    "moves_defined": false
+  },
+  {
+    "id": "275",
+    "trainer_name": "Todd",
+    "type": "TRAINERCLASS_UNIMPORTANT",
+    "original_gym": "",
+    "ace_level": "36",
+    "moves_defined": false
+  },
+  {
+    "id": "276",
+    "trainer_name": "Liz",
+    "type": "TRAINERCLASS_UNIMPORTANT",
+    "original_gym": "",
+    "ace_level": "38",
+    "moves_defined": false
+  },
+  {
+    "id": "277",
+    "trainer_name": "Liz",
+    "type": "TRAINERCLASS_UNIMPORTANT",
+    "original_gym": "",
+    "ace_level": "40",
+    "moves_defined": false
+  },
+  {
+    "id": "278",
+    "trainer_name": "Kenji",
+    "type": "TRAINERCLASS_UNIMPORTANT",
+    "original_gym": "",
+    "ace_level": "41",
+    "moves_defined": false
+  },
+  {
+    "id": "279",
+    "trainer_name": "Joey",
+    "type": "TRAINERCLASS_UNIMPORTANT",
+    "original_gym": "",
+    "ace_level": "34",
+    "moves_defined": false
+  },
+  {
+    "id": "280",
+    "trainer_name": "Joey",
+    "type": "TRAINERCLASS_UNIMPORTANT",
+    "original_gym": "",
+    "ace_level": "40",
+    "moves_defined": true
+  },
+  {
+    "id": "281",
+    "trainer_name": "Richard",
+    "type": "TRAINERCLASS_UNIMPORTANT",
+    "original_gym": "",
+    "ace_level": "18",
+    "moves_defined": false
+  },
+  {
+    "id": "282",
+    "trainer_name": "Ned",
+    "type": "TRAINERCLASS_UNIMPORTANT",
+    "original_gym": "",
+    "ace_level": "17",
+    "moves_defined": false
+  },
+  {
+    "id": "283",
+    "trainer_name": "Orson",
+    "type": "TRAINERCLASS_UNIMPORTANT",
+    "original_gym": "",
+    "ace_level": "26",
+    "moves_defined": true
+  },
+  {
+    "id": "284",
+    "trainer_name": "Corey",
+    "type": "TRAINERCLASS_UNIMPORTANT",
+    "original_gym": "",
+    "ace_level": "38",
+    "moves_defined": false
+  },
+  {
+    "id": "285",
+    "trainer_name": "Silver",
+    "type": "TRAINERCLASS_RIVAL",
+    "original_gym": "",
+    "ace_level": "50",
+    "moves_defined": true
+  },
+  {
+    "id": "286",
+    "trainer_name": "Silver",
+    "type": "TRAINERCLASS_RIVAL",
+    "original_gym": "",
+    "ace_level": "50",
+    "moves_defined": true
+  },
+  {
+    "id": "287",
+    "trainer_name": "Silver",
+    "type": "TRAINERCLASS_RIVAL",
+    "original_gym": "",
+    "ace_level": "50",
+    "moves_defined": true
+  },
+  {
+    "id": "288",
+    "trainer_name": "Silver",
+    "type": "TRAINERCLASS_RIVAL",
+    "original_gym": "",
+    "ace_level": "34",
+    "moves_defined": true
+  },
+  {
+    "id": "289",
+    "trainer_name": "Silver",
+    "type": "TRAINERCLASS_RIVAL",
+    "original_gym": "",
+    "ace_level": "34",
+    "moves_defined": true
+  },
+  {
+    "id": "290",
+    "trainer_name": "Li",
+    "type": "TRAINERCLASS_UNIMPORTANT",
+    "original_gym": "",
+    "ace_level": "10",
+    "moves_defined": false
+  },
+  {
+    "id": "291",
+    "trainer_name": "Debbie",
+    "type": "TRAINERCLASS_UNIMPORTANT",
+    "original_gym": "",
+    "ace_level": "46",
+    "moves_defined": false
+  },
+  {
+    "id": "292",
+    "trainer_name": "Mickey",
+    "type": "TRAINERCLASS_UNIMPORTANT",
+    "original_gym": "",
+    "ace_level": "20",
+    "moves_defined": false
+  },
+  {
+    "id": "293",
+    "trainer_name": "Nicole",
+    "type": "TRAINERCLASS_UNIMPORTANT",
+    "original_gym": "",
+    "ace_level": "42",
+    "moves_defined": false
+  },
+  {
+    "id": "294",
+    "trainer_name": "Lori",
+    "type": "TRAINERCLASS_UNIMPORTANT",
+    "original_gym": "",
+    "ace_level": "42",
+    "moves_defined": true
+  },
+  {
+    "id": "295",
+    "trainer_name": "Mickey",
+    "type": "TRAINERCLASS_UNIMPORTANT",
+    "original_gym": "",
+    "ace_level": "20",
+    "moves_defined": false
+  },
+  {
+    "id": "296",
+    "trainer_name": "Nikki",
+    "type": "TRAINERCLASS_UNIMPORTANT",
+    "original_gym": "",
+    "ace_level": "42",
+    "moves_defined": false
+  },
+  {
+    "id": "297",
+    "trainer_name": "Diana",
+    "type": "TRAINERCLASS_UNIMPORTANT",
+    "original_gym": "16",
+    "ace_level": "48",
+    "moves_defined": true
+  },
+  {
+    "id": "298",
+    "trainer_name": "Briana",
+    "type": "TRAINERCLASS_UNIMPORTANT",
+    "original_gym": "16",
+    "ace_level": "46",
+    "moves_defined": true
+  },
+  {
+    "id": "299",
+    "trainer_name": "Hank",
+    "type": "TRAINERCLASS_UNIMPORTANT",
+    "original_gym": "",
+    "ace_level": "44",
+    "moves_defined": false
+  },
+  {
+    "id": "300",
+    "trainer_name": "Roy",
+    "type": "TRAINERCLASS_UNIMPORTANT",
+    "original_gym": "",
+    "ace_level": "44",
+    "moves_defined": false
+  },
+  {
+    "id": "301",
+    "trainer_name": "Boris",
+    "type": "TRAINERCLASS_UNIMPORTANT",
+    "original_gym": "",
+    "ace_level": "41",
+    "moves_defined": false
+  },
+  {
+    "id": "302",
+    "trainer_name": "Bob",
+    "type": "TRAINERCLASS_UNIMPORTANT",
+    "original_gym": "",
+    "ace_level": "48",
+    "moves_defined": false
+  },
+  {
+    "id": "303",
+    "trainer_name": "Jose",
+    "type": "TRAINERCLASS_UNIMPORTANT",
+    "original_gym": "",
+    "ace_level": "44",
+    "moves_defined": false
+  },
+  {
+    "id": "304",
+    "trainer_name": "Mickey",
+    "type": "TRAINERCLASS_UNIMPORTANT",
+    "original_gym": "",
+    "ace_level": "42",
+    "moves_defined": false
+  },
+  {
+    "id": "305",
+    "trainer_name": "Mickey",
+    "type": "TRAINERCLASS_UNIMPORTANT",
+    "original_gym": "",
+    "ace_level": "42",
+    "moves_defined": false
+  },
+  {
+    "id": "306",
+    "trainer_name": "Mickey",
+    "type": "TRAINERCLASS_UNIMPORTANT",
+    "original_gym": "",
+    "ace_level": "42",
+    "moves_defined": false
+  },
+  {
+    "id": "307",
+    "trainer_name": "Mickey",
+    "type": "TRAINERCLASS_UNIMPORTANT",
+    "original_gym": "",
+    "ace_level": "42",
+    "moves_defined": false
+  },
+  {
+    "id": "308",
+    "trainer_name": "Jerry",
+    "type": "TRAINERCLASS_UNIMPORTANT",
+    "original_gym": "18",
+    "ace_level": "50",
+    "moves_defined": true
+  },
+  {
+    "id": "309",
+    "trainer_name": "Dwayne",
+    "type": "TRAINERCLASS_UNIMPORTANT",
+    "original_gym": "",
+    "ace_level": "41",
+    "moves_defined": false
+  },
+  {
+    "id": "310",
+    "trainer_name": "Harris",
+    "type": "TRAINERCLASS_UNIMPORTANT",
+    "original_gym": "",
+    "ace_level": "45",
+    "moves_defined": false
+  },
+  {
+    "id": "311",
+    "trainer_name": "Zeke",
+    "type": "TRAINERCLASS_UNIMPORTANT",
+    "original_gym": "",
+    "ace_level": "43",
+    "moves_defined": false
+  },
+  {
+    "id": "312",
+    "trainer_name": "Charles",
+    "type": "TRAINERCLASS_UNIMPORTANT",
+    "original_gym": "",
+    "ace_level": "42",
+    "moves_defined": false
+  },
+  {
+    "id": "313",
+    "trainer_name": "Reese",
+    "type": "TRAINERCLASS_UNIMPORTANT",
+    "original_gym": "",
+    "ace_level": "45",
+    "moves_defined": false
+  },
+  {
+    "id": "314",
+    "trainer_name": "Joel",
+    "type": "TRAINERCLASS_UNIMPORTANT",
+    "original_gym": "",
+    "ace_level": "43",
+    "moves_defined": false
+  },
+  {
+    "id": "315",
+    "trainer_name": "Glenn",
+    "type": "TRAINERCLASS_UNIMPORTANT",
+    "original_gym": "",
+    "ace_level": "43",
+    "moves_defined": false
+  },
+  {
+    "id": "316",
+    "trainer_name": "Herman",
+    "type": "TRAINERCLASS_UNIMPORTANT",
+    "original_gym": "",
+    "ace_level": "39",
+    "moves_defined": true
+  },
+  {
+    "id": "317",
+    "trainer_name": "Fidel",
+    "type": "TRAINERCLASS_UNIMPORTANT",
+    "original_gym": "",
+    "ace_level": "43",
+    "moves_defined": true
+  },
+  {
+    "id": "318",
+    "trainer_name": "Burt",
+    "type": "TRAINERCLASS_UNIMPORTANT",
+    "original_gym": "",
+    "ace_level": "45",
+    "moves_defined": true
+  },
+  {
+    "id": "319",
+    "trainer_name": "Bill",
+    "type": "TRAINERCLASS_UNIMPORTANT",
+    "original_gym": "",
+    "ace_level": "6",
+    "moves_defined": false
+  },
+  {
+    "id": "320",
+    "trainer_name": "Martin",
+    "type": "TRAINERCLASS_UNIMPORTANT",
+    "original_gym": "",
+    "ace_level": "42",
+    "moves_defined": false
+  },
+  {
+    "id": "321",
+    "trainer_name": "Stephen",
+    "type": "TRAINERCLASS_UNIMPORTANT",
+    "original_gym": "",
+    "ace_level": "43",
+    "moves_defined": false
+  },
+  {
+    "id": "322",
+    "trainer_name": "Barney",
+    "type": "TRAINERCLASS_UNIMPORTANT",
+    "original_gym": "",
+    "ace_level": "40",
+    "moves_defined": false
+  },
+  {
+    "id": "323",
+    "trainer_name": "Tully",
+    "type": "TRAINERCLASS_UNIMPORTANT",
+    "original_gym": "",
+    "ace_level": "33",
+    "moves_defined": false
+  },
+  {
+    "id": "324",
+    "trainer_name": "Tully",
+    "type": "TRAINERCLASS_UNIMPORTANT",
+    "original_gym": "",
+    "ace_level": "38",
+    "moves_defined": false
+  },
+  {
+    "id": "325",
+    "trainer_name": "Wilton",
+    "type": "TRAINERCLASS_UNIMPORTANT",
+    "original_gym": "",
+    "ace_level": "36",
+    "moves_defined": false
+  },
+  {
+    "id": "326",
+    "trainer_name": "Jo & Zoe",
+    "type": "TRAINERCLASS_UNIMPORTANT",
+    "original_gym": "15",
+    "ace_level": "47",
+    "moves_defined": true
+  },
+  {
+    "id": "327",
+    "trainer_name": "Danny",
+    "type": "TRAINERCLASS_UNIMPORTANT",
+    "original_gym": "",
+    "ace_level": "43",
+    "moves_defined": false
+  },
+  {
+    "id": "328",
+    "trainer_name": "Tommy",
+    "type": "TRAINERCLASS_UNIMPORTANT",
+    "original_gym": "",
+    "ace_level": "43",
+    "moves_defined": true
+  },
+  {
+    "id": "329",
+    "trainer_name": "Dudley",
+    "type": "TRAINERCLASS_UNIMPORTANT",
+    "original_gym": "",
+    "ace_level": "45",
+    "moves_defined": false
+  },
+  {
+    "id": "330",
+    "trainer_name": "Joe",
+    "type": "TRAINERCLASS_UNIMPORTANT",
+    "original_gym": "",
+    "ace_level": "44",
+    "moves_defined": false
+  },
+  {
+    "id": "331",
+    "trainer_name": "Billy",
+    "type": "TRAINERCLASS_UNIMPORTANT",
+    "original_gym": "",
+    "ace_level": "39",
+    "moves_defined": false
+  },
+  {
+    "id": "332",
+    "trainer_name": "Heidi",
+    "type": "TRAINERCLASS_UNIMPORTANT",
+    "original_gym": "",
+    "ace_level": "43",
+    "moves_defined": false
+  },
+  {
+    "id": "333",
+    "trainer_name": "Edna",
+    "type": "TRAINERCLASS_UNIMPORTANT",
+    "original_gym": "",
+    "ace_level": "45",
+    "moves_defined": false
+  },
+  {
+    "id": "334",
+    "trainer_name": "Gina",
+    "type": "TRAINERCLASS_UNIMPORTANT",
+    "original_gym": "",
+    "ace_level": "44",
+    "moves_defined": false
+  },
+  {
+    "id": "335",
+    "trainer_name": "Erin",
+    "type": "TRAINERCLASS_UNIMPORTANT",
+    "original_gym": "",
+    "ace_level": "41",
+    "moves_defined": false
+  },
+  {
+    "id": "336",
+    "trainer_name": "Tanya",
+    "type": "TRAINERCLASS_UNIMPORTANT",
+    "original_gym": "15",
+    "ace_level": "49",
+    "moves_defined": true
+  },
+  {
+    "id": "337",
+    "trainer_name": "Gregory",
+    "type": "TRAINERCLASS_UNIMPORTANT",
+    "original_gym": "13",
+    "ace_level": "46",
+    "moves_defined": true
+  },
+  {
+    "id": "338",
+    "trainer_name": "Mickey",
+    "type": "TRAINERCLASS_UNIMPORTANT",
+    "original_gym": "",
+    "ace_level": "20",
+    "moves_defined": false
+  },
+  {
+    "id": "339",
+    "trainer_name": "Wai",
+    "type": "TRAINERCLASS_UNIMPORTANT",
+    "original_gym": "",
+    "ace_level": "42",
+    "moves_defined": false
+  },
+  {
+    "id": "340",
+    "trainer_name": "Mickey",
+    "type": "TRAINERCLASS_UNIMPORTANT",
+    "original_gym": "",
+    "ace_level": "15",
+    "moves_defined": false
+  },
+  {
+    "id": "341",
+    "trainer_name": "Mickey",
+    "type": "TRAINERCLASS_UNIMPORTANT",
+    "original_gym": "",
+    "ace_level": "15",
+    "moves_defined": false
+  },
+  {
+    "id": "342",
+    "trainer_name": "Mickey",
+    "type": "TRAINERCLASS_UNIMPORTANT",
+    "original_gym": "",
+    "ace_level": "15",
+    "moves_defined": false
+  },
+  {
+    "id": "343",
+    "trainer_name": "Mickey",
+    "type": "TRAINERCLASS_UNIMPORTANT",
+    "original_gym": "",
+    "ace_level": "15",
+    "moves_defined": false
+  },
+  {
+    "id": "344",
+    "trainer_name": "Mickey",
+    "type": "TRAINERCLASS_UNIMPORTANT",
+    "original_gym": "",
+    "ace_level": "15",
+    "moves_defined": false
+  },
+  {
+    "id": "345",
+    "trainer_name": "Mickey",
+    "type": "TRAINERCLASS_UNIMPORTANT",
+    "original_gym": "",
+    "ace_level": "15",
+    "moves_defined": false
+  },
+  {
+    "id": "346",
+    "trainer_name": "Julia",
+    "type": "TRAINERCLASS_UNIMPORTANT",
+    "original_gym": "15",
+    "ace_level": "47",
+    "moves_defined": true
+  },
+  {
+    "id": "347",
+    "trainer_name": "Mickey",
+    "type": "TRAINERCLASS_UNIMPORTANT",
+    "original_gym": "",
+    "ace_level": "15",
+    "moves_defined": false
+  },
+  {
+    "id": "348",
+    "trainer_name": "Robert",
+    "type": "TRAINERCLASS_UNIMPORTANT",
+    "original_gym": "",
+    "ace_level": "43",
+    "moves_defined": false
+  },
+  {
+    "id": "349",
+    "trainer_name": "Joshua",
+    "type": "TRAINERCLASS_UNIMPORTANT",
+    "original_gym": "",
+    "ace_level": "32",
+    "moves_defined": false
+  },
+  {
+    "id": "350",
+    "trainer_name": "Carter",
+    "type": "TRAINERCLASS_UNIMPORTANT",
+    "original_gym": "",
+    "ace_level": "38",
+    "moves_defined": false
+  },
+  {
+    "id": "351",
+    "trainer_name": "Trevor",
+    "type": "TRAINERCLASS_UNIMPORTANT",
+    "original_gym": "",
+    "ace_level": "42",
+    "moves_defined": false
+  },
+  {
+    "id": "352",
+    "trainer_name": "Georgia",
+    "type": "TRAINERCLASS_UNIMPORTANT",
+    "original_gym": "",
+    "ace_level": "36",
+    "moves_defined": false
+  },
+  {
+    "id": "353",
+    "trainer_name": "Grunt",
+    "type": "TRAINERCLASS_TEAM_ROCKET",
+    "original_gym": "",
+    "ace_level": "39",
+    "moves_defined": false
+  },
+  {
+    "id": "354",
+    "trainer_name": "Laura",
+    "type": "TRAINERCLASS_UNIMPORTANT",
+    "original_gym": "",
+    "ace_level": "41",
+    "moves_defined": false
+  },
+  {
+    "id": "355",
+    "trainer_name": "Shannon",
+    "type": "TRAINERCLASS_UNIMPORTANT",
+    "original_gym": "",
+    "ace_level": "42",
+    "moves_defined": false
+  },
+  {
+    "id": "356",
+    "trainer_name": "Michelle",
+    "type": "TRAINERCLASS_UNIMPORTANT",
+    "original_gym": "15",
+    "ace_level": "46",
+    "moves_defined": true
+  },
+  {
+    "id": "357",
+    "trainer_name": "Clarke",
+    "type": "TRAINERCLASS_UNIMPORTANT",
+    "original_gym": "",
+    "ace_level": "45",
+    "moves_defined": false
+  },
+  {
+    "id": "358",
+    "trainer_name": "Kenny",
+    "type": "TRAINERCLASS_UNIMPORTANT",
+    "original_gym": "",
+    "ace_level": "33",
+    "moves_defined": false
+  },
+  {
+    "id": "359",
+    "trainer_name": "Jim",
+    "type": "TRAINERCLASS_UNIMPORTANT",
+    "original_gym": "",
+    "ace_level": "45",
+    "moves_defined": false
+  },
+  {
+    "id": "360",
+    "trainer_name": "Arnie",
+    "type": "TRAINERCLASS_UNIMPORTANT",
+    "original_gym": "",
+    "ace_level": "36",
+    "moves_defined": false
+  },
+  {
+    "id": "361",
+    "trainer_name": "Kevin",
+    "type": "TRAINERCLASS_UNIMPORTANT",
+    "original_gym": "",
+    "ace_level": "48",
+    "moves_defined": true
+  },
+  {
+    "id": "362",
+    "trainer_name": "Quinn",
+    "type": "TRAINERCLASS_UNIMPORTANT",
+    "original_gym": "",
+    "ace_level": "47",
+    "moves_defined": true
+  },
+  {
+    "id": "363",
+    "trainer_name": "Emma",
+    "type": "TRAINERCLASS_UNIMPORTANT",
+    "original_gym": "",
+    "ace_level": "28",
+    "moves_defined": false
+  },
+  {
+    "id": "364",
+    "trainer_name": "Sam",
+    "type": "TRAINERCLASS_UNIMPORTANT",
+    "original_gym": "",
+    "ace_level": "44",
+    "moves_defined": false
+  },
+  {
+    "id": "365",
+    "trainer_name": "Tyrone",
+    "type": "TRAINERCLASS_UNIMPORTANT",
+    "original_gym": "",
+    "ace_level": "40",
+    "moves_defined": false
+  },
+  {
+    "id": "366",
+    "trainer_name": "Pat",
+    "type": "TRAINERCLASS_UNIMPORTANT",
+    "original_gym": "",
+    "ace_level": "47",
+    "moves_defined": true
+  },
+  {
+    "id": "367",
+    "trainer_name": "Shawn",
+    "type": "TRAINERCLASS_UNIMPORTANT",
+    "original_gym": "",
+    "ace_level": "41",
+    "moves_defined": false
+  },
+  {
+    "id": "368",
+    "trainer_name": "Rebecca",
+    "type": "TRAINERCLASS_UNIMPORTANT",
+    "original_gym": "14",
+    "ace_level": "45",
+    "moves_defined": true
+  },
+  {
+    "id": "369",
+    "trainer_name": "Darcy",
+    "type": "TRAINERCLASS_UNIMPORTANT",
+    "original_gym": "14",
+    "ace_level": "46",
+    "moves_defined": true
+  },
+  {
+    "id": "370",
+    "trainer_name": "Jerome",
+    "type": "TRAINERCLASS_UNIMPORTANT",
+    "original_gym": "",
+    "ace_level": "40",
+    "moves_defined": false
+  },
+  {
+    "id": "371",
+    "trainer_name": "Tucker",
+    "type": "TRAINERCLASS_UNIMPORTANT",
+    "original_gym": "",
+    "ace_level": "44",
+    "moves_defined": false
+  },
+  {
+    "id": "372",
+    "trainer_name": "Mickey",
+    "type": "TRAINERCLASS_UNIMPORTANT",
+    "original_gym": "",
+    "ace_level": "18",
+    "moves_defined": false
+  },
+  {
+    "id": "373",
+    "trainer_name": "Frankie",
+    "type": "TRAINERCLASS_UNIMPORTANT",
+    "original_gym": "",
+    "ace_level": "44",
+    "moves_defined": false
+  },
+  {
+    "id": "374",
+    "trainer_name": "Tyson",
+    "type": "TRAINERCLASS_UNIMPORTANT",
+    "original_gym": "",
+    "ace_level": "42",
+    "moves_defined": true
+  },
+  {
+    "id": "375",
+    "trainer_name": "Mickey",
+    "type": "TRAINERCLASS_UNIMPORTANT",
+    "original_gym": "",
+    "ace_level": "18",
+    "moves_defined": false
+  },
+  {
+    "id": "376",
+    "trainer_name": "Mickey",
+    "type": "TRAINERCLASS_UNIMPORTANT",
+    "original_gym": "",
+    "ace_level": "18",
+    "moves_defined": false
+  },
+  {
+    "id": "377",
+    "trainer_name": "Parker",
+    "type": "TRAINERCLASS_UNIMPORTANT",
+    "original_gym": "16",
+    "ace_level": "43",
+    "moves_defined": true
+  },
+  {
+    "id": "378",
+    "trainer_name": "Warren",
+    "type": "TRAINERCLASS_UNIMPORTANT",
+    "original_gym": "",
+    "ace_level": "42",
+    "moves_defined": false
+  },
+  {
+    "id": "379",
+    "trainer_name": "Jimmy",
+    "type": "TRAINERCLASS_UNIMPORTANT",
+    "original_gym": "",
+    "ace_level": "42",
+    "moves_defined": false
+  },
+  {
+    "id": "380",
+    "trainer_name": "Owen",
+    "type": "TRAINERCLASS_UNIMPORTANT",
+    "original_gym": "",
+    "ace_level": "44",
+    "moves_defined": false
+  },
+  {
+    "id": "381",
+    "trainer_name": "Jason",
+    "type": "TRAINERCLASS_UNIMPORTANT",
+    "original_gym": "",
+    "ace_level": "42",
+    "moves_defined": false
+  },
+  {
+    "id": "382",
+    "trainer_name": "Hillary",
+    "type": "TRAINERCLASS_UNIMPORTANT",
+    "original_gym": "",
+    "ace_level": "41",
+    "moves_defined": false
+  },
+  {
+    "id": "383",
+    "trainer_name": "Peter",
+    "type": "TRAINERCLASS_UNIMPORTANT",
+    "original_gym": "",
+    "ace_level": "8",
+    "moves_defined": false
+  },
+  {
+    "id": "384",
+    "trainer_name": "Daniel",
+    "type": "TRAINERCLASS_UNIMPORTANT",
+    "original_gym": "",
+    "ace_level": "11",
+    "moves_defined": false
+  },
+  {
+    "id": "385",
+    "trainer_name": "Dara & Dia",
+    "type": "TRAINERCLASS_UNIMPORTANT",
+    "original_gym": "",
+    "ace_level": "16",
+    "moves_defined": false
+  },
+  {
+    "id": "386",
+    "trainer_name": "Greg",
+    "type": "TRAINERCLASS_UNIMPORTANT",
+    "original_gym": "",
+    "ace_level": "17",
+    "moves_defined": true
+  },
+  {
+    "id": "387",
+    "trainer_name": "Amy & Mimi",
+    "type": "TRAINERCLASS_UNIMPORTANT",
+    "original_gym": "2",
+    "ace_level": "10",
+    "moves_defined": false
+  },
+  {
+    "id": "388",
+    "trainer_name": "Walt",
+    "type": "TRAINERCLASS_UNIMPORTANT",
+    "original_gym": "",
+    "ace_level": "16",
+    "moves_defined": false
+  },
+  {
+    "id": "389",
+    "trainer_name": "Nelson",
+    "type": "TRAINERCLASS_UNIMPORTANT",
+    "original_gym": "",
+    "ace_level": "20",
+    "moves_defined": true
+  },
+  {
+    "id": "390",
+    "trainer_name": "Ray",
+    "type": "TRAINERCLASS_UNIMPORTANT",
+    "original_gym": "",
+    "ace_level": "9",
+    "moves_defined": false
+  },
+  {
+    "id": "391",
+    "trainer_name": "Issac",
+    "type": "TRAINERCLASS_UNIMPORTANT",
+    "original_gym": "",
+    "ace_level": "12",
+    "moves_defined": true
+  },
+  {
+    "id": "392",
+    "trainer_name": "Donald",
+    "type": "TRAINERCLASS_UNIMPORTANT",
+    "original_gym": "",
+    "ace_level": "11",
+    "moves_defined": false
+  },
+  {
+    "id": "393",
+    "trainer_name": "Teru",
+    "type": "TRAINERCLASS_UNIMPORTANT",
+    "original_gym": "",
+    "ace_level": "11",
+    "moves_defined": false
+  },
+  {
+    "id": "394",
+    "trainer_name": "Mickey",
+    "type": "TRAINERCLASS_UNIMPORTANT",
+    "original_gym": "",
+    "ace_level": "14",
+    "moves_defined": false
+  },
+  {
+    "id": "395",
+    "trainer_name": "Mark",
+    "type": "TRAINERCLASS_UNIMPORTANT",
+    "original_gym": "",
+    "ace_level": "16",
+    "moves_defined": true
+  },
+  {
+    "id": "396",
+    "trainer_name": "Horton",
+    "type": "TRAINERCLASS_UNIMPORTANT",
+    "original_gym": "13",
+    "ace_level": "43",
+    "moves_defined": true
+  },
+  {
+    "id": "397",
+    "trainer_name": "Chad",
+    "type": "TRAINERCLASS_UNIMPORTANT",
+    "original_gym": "",
+    "ace_level": "20",
+    "moves_defined": false
+  },
+  {
+    "id": "398",
+    "trainer_name": "Valerie",
+    "type": "TRAINERCLASS_UNIMPORTANT",
+    "original_gym": "",
+    "ace_level": "18",
+    "moves_defined": true
+  },
+  {
+    "id": "399",
+    "trainer_name": "Lyle",
+    "type": "TRAINERCLASS_UNIMPORTANT",
+    "original_gym": "",
+    "ace_level": "39",
+    "moves_defined": false
+  },
+  {
+    "id": "400",
+    "trainer_name": "Dana",
+    "type": "TRAINERCLASS_UNIMPORTANT",
+    "original_gym": "",
+    "ace_level": "19",
+    "moves_defined": true
+  },
+  {
+    "id": "401",
+    "trainer_name": "Alfred",
+    "type": "TRAINERCLASS_UNIMPORTANT",
+    "original_gym": "",
+    "ace_level": "22",
+    "moves_defined": false
+  },
+  {
+    "id": "402",
+    "trainer_name": "Tiffany",
+    "type": "TRAINERCLASS_UNIMPORTANT",
+    "original_gym": "",
+    "ace_level": "21",
+    "moves_defined": true
+  },
+  {
+    "id": "403",
+    "trainer_name": "Spencer",
+    "type": "TRAINERCLASS_UNIMPORTANT",
+    "original_gym": "",
+    "ace_level": "20",
+    "moves_defined": false
+  },
+  {
+    "id": "404",
+    "trainer_name": "Grunt",
+    "type": "TRAINERCLASS_TEAM_ROCKET",
+    "original_gym": "",
+    "ace_level": "18",
+    "moves_defined": true
+  },
+  {
+    "id": "405",
+    "trainer_name": "Phil",
+    "type": "TRAINERCLASS_UNIMPORTANT",
+    "original_gym": "",
+    "ace_level": "29",
+    "moves_defined": true
+  },
+  {
+    "id": "406",
+    "trainer_name": "Zach",
+    "type": "TRAINERCLASS_UNIMPORTANT",
+    "original_gym": "",
+    "ace_level": "30",
+    "moves_defined": false
+  },
+  {
+    "id": "407",
+    "trainer_name": "Allen",
+    "type": "TRAINERCLASS_UNIMPORTANT",
+    "original_gym": "",
+    "ace_level": "29",
+    "moves_defined": true
+  },
+  {
+    "id": "408",
+    "trainer_name": "Cybil",
+    "type": "TRAINERCLASS_UNIMPORTANT",
+    "original_gym": "",
+    "ace_level": "29",
+    "moves_defined": true
+  },
+  {
+    "id": "409",
+    "trainer_name": "Brandon",
+    "type": "TRAINERCLASS_UNIMPORTANT",
+    "original_gym": "",
+    "ace_level": "13",
+    "moves_defined": false
+  },
+  {
+    "id": "410",
+    "trainer_name": "Harry",
+    "type": "TRAINERCLASS_UNIMPORTANT",
+    "original_gym": "",
+    "ace_level": "20",
+    "moves_defined": true
+  },
+  {
+    "id": "411",
+    "trainer_name": "Vernon",
+    "type": "TRAINERCLASS_UNIMPORTANT",
+    "original_gym": "",
+    "ace_level": "36",
+    "moves_defined": false
+  },
+  {
+    "id": "412",
+    "trainer_name": "Eli",
+    "type": "TRAINERCLASS_UNIMPORTANT",
+    "original_gym": "",
+    "ace_level": "34",
+    "moves_defined": false
+  },
+  {
+    "id": "413",
+    "trainer_name": "Scott",
+    "type": "TRAINERCLASS_UNIMPORTANT",
+    "original_gym": "",
+    "ace_level": "34",
+    "moves_defined": true
+  },
+  {
+    "id": "414",
+    "trainer_name": "Jose",
+    "type": "TRAINERCLASS_UNIMPORTANT",
+    "original_gym": "",
+    "ace_level": "40",
+    "moves_defined": false
+  },
+  {
+    "id": "415",
+    "trainer_name": "Jared",
+    "type": "TRAINERCLASS_UNIMPORTANT",
+    "original_gym": "14",
+    "ace_level": "45",
+    "moves_defined": true
+  },
+  {
+    "id": "416",
+    "trainer_name": "Jo & Zoe",
+    "type": "TRAINERCLASS_UNIMPORTANT",
+    "original_gym": "",
+    "ace_level": "37",
+    "moves_defined": true
+  },
+  {
+    "id": "417",
+    "trainer_name": "Jenn",
+    "type": "TRAINERCLASS_UNIMPORTANT",
+    "original_gym": "",
+    "ace_level": "26",
+    "moves_defined": false
+  },
+  {
+    "id": "418",
+    "trainer_name": "Bruno",
+    "type": "TRAINERCLASS_ELITE_FOUR",
+    "original_gym": "11",
+    "ace_level": "46",
+    "moves_defined": true
+  },
+  {
+    "id": "419",
+    "trainer_name": "Ellen",
+    "type": "TRAINERCLASS_UNIMPORTANT",
+    "original_gym": "",
+    "ace_level": "44",
+    "moves_defined": false
+  },
+  {
+    "id": "420",
+    "trainer_name": "Perry",
+    "type": "TRAINERCLASS_UNIMPORTANT",
+    "original_gym": "",
+    "ace_level": "42",
+    "moves_defined": false
+  },
+  {
+    "id": "421",
+    "trainer_name": "Bret",
+    "type": "TRAINERCLASS_UNIMPORTANT",
+    "original_gym": "",
+    "ace_level": "41",
+    "moves_defined": false
+  },
+  {
+    "id": "422",
+    "trainer_name": "Rodney",
+    "type": "TRAINERCLASS_UNIMPORTANT",
+    "original_gym": "",
+    "ace_level": "41",
+    "moves_defined": false
+  },
+  {
+    "id": "423",
+    "trainer_name": "Jeremy",
+    "type": "TRAINERCLASS_UNIMPORTANT",
+    "original_gym": "",
+    "ace_level": "36",
+    "moves_defined": false
+  },
+  {
+    "id": "424",
+    "trainer_name": "Colin",
+    "type": "TRAINERCLASS_UNIMPORTANT",
+    "original_gym": "",
+    "ace_level": "40",
+    "moves_defined": true
+  },
+  {
+    "id": "425",
+    "trainer_name": "Meg & Peg",
+    "type": "TRAINERCLASS_UNIMPORTANT",
+    "original_gym": "",
+    "ace_level": "39",
+    "moves_defined": false
+  },
+  {
+    "id": "426",
+    "trainer_name": "Meg & Peg",
+    "type": "TRAINERCLASS_UNIMPORTANT",
+    "original_gym": "",
+    "ace_level": "39",
+    "moves_defined": false
+  },
+  {
+    "id": "427",
+    "trainer_name": "Shirley",
+    "type": "TRAINERCLASS_UNIMPORTANT",
+    "original_gym": "",
+    "ace_level": "43",
+    "moves_defined": false
+  },
+  {
+    "id": "428",
+    "trainer_name": "Nate",
+    "type": "TRAINERCLASS_UNIMPORTANT",
+    "original_gym": "",
+    "ace_level": "40",
+    "moves_defined": false
+  },
+  {
+    "id": "429",
+    "trainer_name": "Ricky",
+    "type": "TRAINERCLASS_UNIMPORTANT",
+    "original_gym": "",
+    "ace_level": "40",
+    "moves_defined": false
+  },
+  {
+    "id": "430",
+    "trainer_name": "Jack",
+    "type": "TRAINERCLASS_UNIMPORTANT",
+    "original_gym": "",
+    "ace_level": "29",
+    "moves_defined": false
+  },
+  {
+    "id": "431",
+    "trainer_name": "Jack",
+    "type": "TRAINERCLASS_UNIMPORTANT",
+    "original_gym": "",
+    "ace_level": "38",
+    "moves_defined": false
+  },
+  {
+    "id": "432",
+    "trainer_name": "Alan",
+    "type": "TRAINERCLASS_UNIMPORTANT",
+    "original_gym": "",
+    "ace_level": "32",
+    "moves_defined": false
+  },
+  {
+    "id": "433",
+    "trainer_name": "Alan",
+    "type": "TRAINERCLASS_UNIMPORTANT",
+    "original_gym": "",
+    "ace_level": "36",
+    "moves_defined": false
+  },
+  {
+    "id": "434",
+    "trainer_name": "Chad",
+    "type": "TRAINERCLASS_UNIMPORTANT",
+    "original_gym": "",
+    "ace_level": "30",
+    "moves_defined": false
+  },
+  {
+    "id": "435",
+    "trainer_name": "Chad",
+    "type": "TRAINERCLASS_UNIMPORTANT",
+    "original_gym": "",
+    "ace_level": "39",
+    "moves_defined": false
+  },
+  {
+    "id": "436",
+    "trainer_name": "Beverly",
+    "type": "TRAINERCLASS_UNIMPORTANT",
+    "original_gym": "",
+    "ace_level": "31",
+    "moves_defined": false
+  },
+  {
+    "id": "437",
+    "trainer_name": "Beverly",
+    "type": "TRAINERCLASS_UNIMPORTANT",
+    "original_gym": "",
+    "ace_level": "43",
+    "moves_defined": false
+  },
+  {
+    "id": "438",
+    "trainer_name": "Derek",
+    "type": "TRAINERCLASS_UNIMPORTANT",
+    "original_gym": "",
+    "ace_level": "30",
+    "moves_defined": false
+  },
+  {
+    "id": "439",
+    "trainer_name": "Derek",
+    "type": "TRAINERCLASS_UNIMPORTANT",
+    "original_gym": "",
+    "ace_level": "37",
+    "moves_defined": false
+  },
+  {
+    "id": "440",
+    "trainer_name": "Huey",
+    "type": "TRAINERCLASS_UNIMPORTANT",
+    "original_gym": "",
+    "ace_level": "36",
+    "moves_defined": false
+  },
+  {
+    "id": "441",
+    "trainer_name": "Huey",
+    "type": "TRAINERCLASS_UNIMPORTANT",
+    "original_gym": "",
+    "ace_level": "41",
+    "moves_defined": false
+  },
+  {
+    "id": "442",
+    "trainer_name": "Mickey",
+    "type": "TRAINERCLASS_UNIMPORTANT",
+    "original_gym": "",
+    "ace_level": "21",
+    "moves_defined": false
+  },
+  {
+    "id": "443",
+    "trainer_name": "Mickey",
+    "type": "TRAINERCLASS_UNIMPORTANT",
+    "original_gym": "",
+    "ace_level": "21",
+    "moves_defined": false
+  },
+  {
+    "id": "444",
+    "trainer_name": "Reena",
+    "type": "TRAINERCLASS_UNIMPORTANT",
+    "original_gym": "",
+    "ace_level": "38",
+    "moves_defined": false
+  },
+  {
+    "id": "445",
+    "trainer_name": "Reena",
+    "type": "TRAINERCLASS_UNIMPORTANT",
+    "original_gym": "",
+    "ace_level": "47",
+    "moves_defined": false
+  },
+  {
+    "id": "446",
+    "trainer_name": "Jose",
+    "type": "TRAINERCLASS_UNIMPORTANT",
+    "original_gym": "",
+    "ace_level": "45",
+    "moves_defined": false
+  },
+  {
+    "id": "447",
+    "trainer_name": "Vance",
+    "type": "TRAINERCLASS_UNIMPORTANT",
+    "original_gym": "",
+    "ace_level": "33",
+    "moves_defined": false
+  },
+  {
+    "id": "448",
+    "trainer_name": "Vance",
+    "type": "TRAINERCLASS_UNIMPORTANT",
+    "original_gym": "",
+    "ace_level": "42",
+    "moves_defined": false
+  },
+  {
+    "id": "449",
+    "trainer_name": "Arnie",
+    "type": "TRAINERCLASS_UNIMPORTANT",
+    "original_gym": "",
+    "ace_level": "43",
+    "moves_defined": true
+  },
+  {
+    "id": "450",
+    "trainer_name": "Wilton",
+    "type": "TRAINERCLASS_UNIMPORTANT",
+    "original_gym": "",
+    "ace_level": "40",
+    "moves_defined": false
+  },
+  {
+    "id": "451",
+    "trainer_name": "Parry",
+    "type": "TRAINERCLASS_UNIMPORTANT",
+    "original_gym": "",
+    "ace_level": "38",
+    "moves_defined": false
+  },
+  {
+    "id": "452",
+    "trainer_name": "Parry",
+    "type": "TRAINERCLASS_UNIMPORTANT",
+    "original_gym": "",
+    "ace_level": "41",
+    "moves_defined": false
+  },
+  {
+    "id": "453",
+    "trainer_name": "Erin",
+    "type": "TRAINERCLASS_UNIMPORTANT",
+    "original_gym": "",
+    "ace_level": "48",
+    "moves_defined": false
+  },
+  {
+    "id": "454",
+    "trainer_name": "Irwin",
+    "type": "TRAINERCLASS_UNIMPORTANT",
+    "original_gym": "",
+    "ace_level": "34",
+    "moves_defined": false
+  },
+  {
+    "id": "455",
+    "trainer_name": "Irwin",
+    "type": "TRAINERCLASS_UNIMPORTANT",
+    "original_gym": "",
+    "ace_level": "42",
+    "moves_defined": false
+  },
+  {
+    "id": "456",
+    "trainer_name": "Gaven",
+    "type": "TRAINERCLASS_UNIMPORTANT",
+    "original_gym": "",
+    "ace_level": "34",
+    "moves_defined": true
+  },
+  {
+    "id": "457",
+    "trainer_name": "Gaven",
+    "type": "TRAINERCLASS_UNIMPORTANT",
+    "original_gym": "",
+    "ace_level": "39",
+    "moves_defined": true
+  },
+  {
+    "id": "458",
+    "trainer_name": "Jamie",
+    "type": "TRAINERCLASS_UNIMPORTANT",
+    "original_gym": "",
+    "ace_level": "38",
+    "moves_defined": true
+  },
+  {
+    "id": "459",
+    "trainer_name": "Jamie",
+    "type": "TRAINERCLASS_UNIMPORTANT",
+    "original_gym": "",
+    "ace_level": "42",
+    "moves_defined": true
+  },
+  {
+    "id": "460",
+    "trainer_name": "Wade",
+    "type": "TRAINERCLASS_UNIMPORTANT",
+    "original_gym": "",
+    "ace_level": "40",
+    "moves_defined": true
+  },
+  {
+    "id": "461",
+    "trainer_name": "Wade",
+    "type": "TRAINERCLASS_UNIMPORTANT",
+    "original_gym": "",
+    "ace_level": "29",
+    "moves_defined": true
+  },
+  {
+    "id": "462",
+    "trainer_name": "Ralph",
+    "type": "TRAINERCLASS_UNIMPORTANT",
+    "original_gym": "",
+    "ace_level": "40",
+    "moves_defined": false
+  },
+  {
+    "id": "463",
+    "trainer_name": "Ralph",
+    "type": "TRAINERCLASS_UNIMPORTANT",
+    "original_gym": "",
+    "ace_level": "45",
+    "moves_defined": false
+  },
+  {
+    "id": "464",
+    "trainer_name": "Dana",
+    "type": "TRAINERCLASS_UNIMPORTANT",
+    "original_gym": "",
+    "ace_level": "32",
+    "moves_defined": true
+  },
+  {
+    "id": "465",
+    "trainer_name": "Dana",
+    "type": "TRAINERCLASS_UNIMPORTANT",
+    "original_gym": "",
+    "ace_level": "38",
+    "moves_defined": true
+  },
+  {
+    "id": "466",
+    "trainer_name": "Tiffany",
+    "type": "TRAINERCLASS_UNIMPORTANT",
+    "original_gym": "",
+    "ace_level": "34",
+    "moves_defined": true
+  },
+  {
+    "id": "467",
+    "trainer_name": "Tiffany",
+    "type": "TRAINERCLASS_UNIMPORTANT",
+    "original_gym": "",
+    "ace_level": "41",
+    "moves_defined": true
+  },
+  {
+    "id": "468",
+    "trainer_name": "Ross",
+    "type": "TRAINERCLASS_UNIMPORTANT",
+    "original_gym": "",
+    "ace_level": "22",
+    "moves_defined": false
+  },
+  {
+    "id": "469",
+    "trainer_name": "Mitch",
+    "type": "TRAINERCLASS_UNIMPORTANT",
+    "original_gym": "",
+    "ace_level": "24",
+    "moves_defined": false
+  },
+  {
+    "id": "470",
+    "trainer_name": "Gregg",
+    "type": "TRAINERCLASS_UNIMPORTANT",
+    "original_gym": "",
+    "ace_level": "20",
+    "moves_defined": false
+  },
+  {
+    "id": "471",
+    "trainer_name": "Garett",
+    "type": "TRAINERCLASS_UNIMPORTANT",
+    "original_gym": "",
+    "ace_level": "27",
+    "moves_defined": false
+  },
+  {
+    "id": "472",
+    "trainer_name": "Trenton",
+    "type": "TRAINERCLASS_UNIMPORTANT",
+    "original_gym": "",
+    "ace_level": "30",
+    "moves_defined": true
+  },
+  {
+    "id": "473",
+    "trainer_name": "Mickey",
+    "type": "TRAINERCLASS_UNIMPORTANT",
+    "original_gym": "",
+    "ace_level": "22",
+    "moves_defined": false
+  },
+  {
+    "id": "474",
+    "trainer_name": "Mickey",
+    "type": "TRAINERCLASS_UNIMPORTANT",
+    "original_gym": "",
+    "ace_level": "24",
+    "moves_defined": false
+  },
+  {
+    "id": "475",
+    "trainer_name": "Mickey",
+    "type": "TRAINERCLASS_UNIMPORTANT",
+    "original_gym": "",
+    "ace_level": "20",
+    "moves_defined": false
+  },
+  {
+    "id": "476",
+    "trainer_name": "Mickey",
+    "type": "TRAINERCLASS_UNIMPORTANT",
+    "original_gym": "",
+    "ace_level": "27",
+    "moves_defined": false
+  },
+  {
+    "id": "477",
+    "trainer_name": "Mickey",
+    "type": "TRAINERCLASS_UNIMPORTANT",
+    "original_gym": "",
+    "ace_level": "30",
+    "moves_defined": true
+  },
+  {
+    "id": "478",
+    "trainer_name": "Ariana",
+    "type": "TRAINERCLASS_EXECUTIVE",
+    "original_gym": "",
+    "ace_level": "32",
+    "moves_defined": true
+  },
+  {
+    "id": "479",
+    "trainer_name": "Ariana",
+    "type": "TRAINERCLASS_EXECUTIVE",
+    "original_gym": "",
+    "ace_level": "27",
+    "moves_defined": true
+  },
+  {
+    "id": "480",
+    "trainer_name": "Diana",
+    "type": "TRAINERCLASS_UNIMPORTANT",
+    "original_gym": "7",
+    "ace_level": "29",
+    "moves_defined": false
+  },
+  {
+    "id": "481",
+    "trainer_name": "Jill",
+    "type": "TRAINERCLASS_UNIMPORTANT",
+    "original_gym": "7",
+    "ace_level": "29",
+    "moves_defined": false
+  },
+  {
+    "id": "482",
+    "trainer_name": "Deandre",
+    "type": "TRAINERCLASS_UNIMPORTANT",
+    "original_gym": "7",
+    "ace_level": "26",
+    "moves_defined": false
+  },
+  {
+    "id": "483",
+    "trainer_name": "Patton",
+    "type": "TRAINERCLASS_UNIMPORTANT",
+    "original_gym": "7",
+    "ace_level": "27",
+    "moves_defined": false
+  },
+  {
+    "id": "484",
+    "trainer_name": "Gerardo",
+    "type": "TRAINERCLASS_UNIMPORTANT",
+    "original_gym": "7",
+    "ace_level": "26",
+    "moves_defined": true
+  },
+  {
+    "id": "485",
+    "trainer_name": "Archer",
+    "type": "TRAINERCLASS_EXECUTIVE",
+    "original_gym": "",
+    "ace_level": "38",
+    "moves_defined": true
+  },
+  {
+    "id": "486",
+    "trainer_name": "Proton",
+    "type": "TRAINERCLASS_EXECUTIVE",
+    "original_gym": "",
+    "ace_level": "12",
+    "moves_defined": false
+  },
+  {
+    "id": "487",
+    "trainer_name": "Petrel",
+    "type": "TRAINERCLASS_EXECUTIVE",
+    "original_gym": "",
+    "ace_level": "32",
+    "moves_defined": true
+  },
+  {
+    "id": "488",
+    "trainer_name": "Petrel",
+    "type": "TRAINERCLASS_EXECUTIVE",
+    "original_gym": "",
+    "ace_level": "24",
+    "moves_defined": false
+  },
+  {
+    "id": "489",
+    "trainer_name": "Silver",
+    "type": "TRAINERCLASS_RIVAL",
+    "original_gym": "",
+    "ace_level": "60",
+    "moves_defined": true
+  },
+  {
+    "id": "490",
+    "trainer_name": "Silver",
+    "type": "TRAINERCLASS_RIVAL",
+    "original_gym": "",
+    "ace_level": "60",
+    "moves_defined": true
+  },
+  {
+    "id": "491",
+    "trainer_name": "Silver",
+    "type": "TRAINERCLASS_RIVAL",
+    "original_gym": "",
+    "ace_level": "60",
+    "moves_defined": true
+  },
+  {
+    "id": "492",
+    "trainer_name": "Alex",
+    "type": "TRAINERCLASS_UNIMPORTANT",
+    "original_gym": "",
+    "ace_level": "65",
+    "moves_defined": false
+  },
+  {
+    "id": "493",
+    "trainer_name": "Edith",
+    "type": "TRAINERCLASS_UNIMPORTANT",
+    "original_gym": "4",
+    "ace_level": "22",
+    "moves_defined": false
+  },
+  {
+    "id": "494",
+    "trainer_name": "Georgina",
+    "type": "TRAINERCLASS_UNIMPORTANT",
+    "original_gym": "4",
+    "ace_level": "16",
+    "moves_defined": false
+  },
+  {
+    "id": "495",
+    "trainer_name": "Boy",
+    "type": "TRAINERCLASS_UNIMPORTANT",
+    "original_gym": "",
+    "ace_level": "5",
+    "moves_defined": false
+  },
+  {
+    "id": "496",
+    "trainer_name": "Boy",
+    "type": "TRAINERCLASS_UNIMPORTANT",
+    "original_gym": "",
+    "ace_level": "5",
+    "moves_defined": false
+  },
+  {
+    "id": "497",
+    "trainer_name": "Boy",
+    "type": "TRAINERCLASS_UNIMPORTANT",
+    "original_gym": "",
+    "ace_level": "5",
+    "moves_defined": false
+  },
+  {
+    "id": "498",
+    "trainer_name": "Eusine",
+    "type": "TRAINERCLASS_UNIMPORTANT",
+    "original_gym": "",
+    "ace_level": "27",
+    "moves_defined": true
+  },
+  {
+    "id": "499",
+    "trainer_name": "Grunt",
+    "type": "TRAINERCLASS_TEAM_ROCKET",
+    "original_gym": "",
+    "ace_level": "20",
+    "moves_defined": true
+  },
+  {
+    "id": "500",
+    "trainer_name": "Kobe",
+    "type": "TRAINERCLASS_UNIMPORTANT",
+    "original_gym": "",
+    "ace_level": "37",
+    "moves_defined": true
+  },
+  {
+    "id": "501",
+    "trainer_name": "Piper",
+    "type": "TRAINERCLASS_UNIMPORTANT",
+    "original_gym": "",
+    "ace_level": "35",
+    "moves_defined": true
+  },
+  {
+    "id": "502",
+    "trainer_name": "Clea & Gil",
+    "type": "TRAINERCLASS_UNIMPORTANT",
+    "original_gym": "",
+    "ace_level": "35",
+    "moves_defined": true
+  },
+  {
+    "id": "503",
+    "trainer_name": "Jack",
+    "type": "TRAINERCLASS_UNIMPORTANT",
+    "original_gym": "",
+    "ace_level": "52",
+    "moves_defined": true
+  },
+  {
+    "id": "504",
+    "trainer_name": "Mickey",
+    "type": "TRAINERCLASS_UNIMPORTANT",
+    "original_gym": "",
+    "ace_level": "37",
+    "moves_defined": true
+  },
+  {
+    "id": "505",
+    "trainer_name": "Alan",
+    "type": "TRAINERCLASS_UNIMPORTANT",
+    "original_gym": "",
+    "ace_level": "54",
+    "moves_defined": false
+  },
+  {
+    "id": "506",
+    "trainer_name": "Mickey",
+    "type": "TRAINERCLASS_UNIMPORTANT",
+    "original_gym": "",
+    "ace_level": "35",
+    "moves_defined": true
+  },
+  {
+    "id": "507",
+    "trainer_name": "Chad",
+    "type": "TRAINERCLASS_UNIMPORTANT",
+    "original_gym": "",
+    "ace_level": "56",
+    "moves_defined": true
+  },
+  {
+    "id": "508",
+    "trainer_name": "Mickey",
+    "type": "TRAINERCLASS_UNIMPORTANT",
+    "original_gym": "",
+    "ace_level": "38",
+    "moves_defined": true
+  },
+  {
+    "id": "509",
+    "trainer_name": "Huey",
+    "type": "TRAINERCLASS_UNIMPORTANT",
+    "original_gym": "",
+    "ace_level": "52",
+    "moves_defined": true
+  },
+  {
+    "id": "510",
+    "trainer_name": "Joey",
+    "type": "TRAINERCLASS_UNIMPORTANT",
+    "original_gym": "",
+    "ace_level": "54",
+    "moves_defined": true
+  },
+  {
+    "id": "511",
+    "trainer_name": "Mickey",
+    "type": "TRAINERCLASS_UNIMPORTANT",
+    "original_gym": "",
+    "ace_level": "37",
+    "moves_defined": true
+  },
+  {
+    "id": "512",
+    "trainer_name": "Wade",
+    "type": "TRAINERCLASS_UNIMPORTANT",
+    "original_gym": "",
+    "ace_level": "52",
+    "moves_defined": true
+  },
+  {
+    "id": "513",
+    "trainer_name": "Arnie",
+    "type": "TRAINERCLASS_UNIMPORTANT",
+    "original_gym": "",
+    "ace_level": "56",
+    "moves_defined": true
+  },
+  {
+    "id": "514",
+    "trainer_name": "Mickey",
+    "type": "TRAINERCLASS_UNIMPORTANT",
+    "original_gym": "",
+    "ace_level": "40",
+    "moves_defined": true
+  },
+  {
+    "id": "515",
+    "trainer_name": "Ralph",
+    "type": "TRAINERCLASS_UNIMPORTANT",
+    "original_gym": "",
+    "ace_level": "56",
+    "moves_defined": false
+  },
+  {
+    "id": "516",
+    "trainer_name": "Mickey",
+    "type": "TRAINERCLASS_UNIMPORTANT",
+    "original_gym": "",
+    "ace_level": "39",
+    "moves_defined": true
+  },
+  {
+    "id": "517",
+    "trainer_name": "Tully",
+    "type": "TRAINERCLASS_UNIMPORTANT",
+    "original_gym": "",
+    "ace_level": "53",
+    "moves_defined": true
+  },
+  {
+    "id": "518",
+    "trainer_name": "Liz",
+    "type": "TRAINERCLASS_UNIMPORTANT",
+    "original_gym": "",
+    "ace_level": "60",
+    "moves_defined": false
+  },
+  {
+    "id": "519",
+    "trainer_name": "Mickey",
+    "type": "TRAINERCLASS_UNIMPORTANT",
+    "original_gym": "",
+    "ace_level": "32",
+    "moves_defined": true
+  },
+  {
+    "id": "520",
+    "trainer_name": "Gina",
+    "type": "TRAINERCLASS_UNIMPORTANT",
+    "original_gym": "",
+    "ace_level": "55",
+    "moves_defined": false
+  },
+  {
+    "id": "521",
+    "trainer_name": "Mickey",
+    "type": "TRAINERCLASS_UNIMPORTANT",
+    "original_gym": "",
+    "ace_level": "38",
+    "moves_defined": true
+  },
+  {
+    "id": "522",
+    "trainer_name": "Tiffany",
+    "type": "TRAINERCLASS_UNIMPORTANT",
+    "original_gym": "",
+    "ace_level": "61",
+    "moves_defined": true
+  },
+  {
+    "id": "523",
+    "trainer_name": "Anthony",
+    "type": "TRAINERCLASS_UNIMPORTANT",
+    "original_gym": "",
+    "ace_level": "55",
+    "moves_defined": false
+  },
+  {
+    "id": "524",
+    "trainer_name": "Mickey",
+    "type": "TRAINERCLASS_UNIMPORTANT",
+    "original_gym": "",
+    "ace_level": "36",
+    "moves_defined": true
+  },
+  {
+    "id": "525",
+    "trainer_name": "Todd",
+    "type": "TRAINERCLASS_UNIMPORTANT",
+    "original_gym": "",
+    "ace_level": "56",
+    "moves_defined": false
+  },
+  {
+    "id": "526",
+    "trainer_name": "Mickey",
+    "type": "TRAINERCLASS_UNIMPORTANT",
+    "original_gym": "",
+    "ace_level": "36",
+    "moves_defined": true
+  },
+  {
+    "id": "527",
+    "trainer_name": "Irwin",
+    "type": "TRAINERCLASS_UNIMPORTANT",
+    "original_gym": "",
+    "ace_level": "51",
+    "moves_defined": true
+  },
+  {
+    "id": "528",
+    "trainer_name": "Dana",
+    "type": "TRAINERCLASS_UNIMPORTANT",
+    "original_gym": "",
+    "ace_level": "54",
+    "moves_defined": true
+  },
+  {
+    "id": "529",
+    "trainer_name": "Mickey",
+    "type": "TRAINERCLASS_UNIMPORTANT",
+    "original_gym": "",
+    "ace_level": "36",
+    "moves_defined": true
+  },
+  {
+    "id": "530",
+    "trainer_name": "Brent",
+    "type": "TRAINERCLASS_UNIMPORTANT",
+    "original_gym": "",
+    "ace_level": "58",
+    "moves_defined": false
+  },
+  {
+    "id": "531",
+    "trainer_name": "Mickey",
+    "type": "TRAINERCLASS_UNIMPORTANT",
+    "original_gym": "",
+    "ace_level": "38",
+    "moves_defined": true
+  },
+  {
+    "id": "532",
+    "trainer_name": "Mickey",
+    "type": "TRAINERCLASS_UNIMPORTANT",
+    "original_gym": "",
+    "ace_level": "34",
+    "moves_defined": true
+  },
+  {
+    "id": "533",
+    "trainer_name": "Wayne",
+    "type": "TRAINERCLASS_UNIMPORTANT",
+    "original_gym": "",
+    "ace_level": "10",
+    "moves_defined": false
+  },
+  {
+    "id": "534",
+    "trainer_name": "Kimberly",
+    "type": "TRAINERCLASS_UNIMPORTANT",
+    "original_gym": "",
+    "ace_level": "19",
+    "moves_defined": false
+  },
+  {
+    "id": "535",
+    "trainer_name": "Marigold",
+    "type": "TRAINERCLASS_UNIMPORTANT",
+    "original_gym": "",
+    "ace_level": "16",
+    "moves_defined": false
+  },
+  {
+    "id": "536",
+    "trainer_name": "Bertrand",
+    "type": "TRAINERCLASS_UNIMPORTANT",
+    "original_gym": "",
+    "ace_level": "30",
+    "moves_defined": false
+  },
+  {
+    "id": "537",
+    "trainer_name": "Harrison",
+    "type": "TRAINERCLASS_UNIMPORTANT",
+    "original_gym": "",
+    "ace_level": "17",
+    "moves_defined": false
+  },
+  {
+    "id": "538",
+    "trainer_name": "Hugh",
+    "type": "TRAINERCLASS_UNIMPORTANT",
+    "original_gym": "",
+    "ace_level": "39",
+    "moves_defined": true
+  },
+  {
+    "id": "539",
+    "trainer_name": "Markus",
+    "type": "TRAINERCLASS_UNIMPORTANT",
+    "original_gym": "",
+    "ace_level": "19",
+    "moves_defined": true
+  },
+  {
+    "id": "540",
+    "trainer_name": "Rex",
+    "type": "TRAINERCLASS_UNIMPORTANT",
+    "original_gym": "",
+    "ace_level": "45",
+    "moves_defined": false
+  },
+  {
+    "id": "541",
+    "trainer_name": "Andy",
+    "type": "TRAINERCLASS_UNIMPORTANT",
+    "original_gym": "",
+    "ace_level": "44",
+    "moves_defined": false
+  },
+  {
+    "id": "542",
+    "trainer_name": "Mickey",
+    "type": "TRAINERCLASS_UNIMPORTANT",
+    "original_gym": "",
+    "ace_level": "32",
+    "moves_defined": true
+  },
+  {
+    "id": "543",
+    "trainer_name": "Mickey",
+    "type": "TRAINERCLASS_UNIMPORTANT",
+    "original_gym": "",
+    "ace_level": "32",
+    "moves_defined": true
+  },
+  {
+    "id": "544",
+    "trainer_name": "Mickey",
+    "type": "TRAINERCLASS_UNIMPORTANT",
+    "original_gym": "",
+    "ace_level": "32",
+    "moves_defined": true
+  },
+  {
+    "id": "545",
+    "trainer_name": "French",
+    "type": "TRAINERCLASS_UNIMPORTANT",
+    "original_gym": "",
+    "ace_level": "47",
+    "moves_defined": true
+  },
+  {
+    "id": "546",
+    "trainer_name": "Sherman",
+    "type": "TRAINERCLASS_UNIMPORTANT",
+    "original_gym": "",
+    "ace_level": "43",
+    "moves_defined": true
+  },
+  {
+    "id": "547",
+    "trainer_name": "Bruce",
+    "type": "TRAINERCLASS_UNIMPORTANT",
+    "original_gym": "",
+    "ace_level": "45",
+    "moves_defined": false
+  },
+  {
+    "id": "548",
+    "trainer_name": "Manford",
+    "type": "TRAINERCLASS_UNIMPORTANT",
+    "original_gym": "",
+    "ace_level": "47",
+    "moves_defined": true
+  },
+  {
+    "id": "549",
+    "trainer_name": "Zac & Jen",
+    "type": "TRAINERCLASS_UNIMPORTANT",
+    "original_gym": "",
+    "ace_level": "47",
+    "moves_defined": true
+  },
+  {
+    "id": "550",
+    "trainer_name": "Ander",
+    "type": "TRAINERCLASS_UNIMPORTANT",
+    "original_gym": "",
+    "ace_level": "44",
+    "moves_defined": false
+  },
+  {
+    "id": "551",
+    "trainer_name": "Dwight",
+    "type": "TRAINERCLASS_UNIMPORTANT",
+    "original_gym": "",
+    "ace_level": "44",
+    "moves_defined": false
+  },
+  {
+    "id": "552",
+    "trainer_name": "Regis",
+    "type": "TRAINERCLASS_UNIMPORTANT",
+    "original_gym": "",
+    "ace_level": "40",
+    "moves_defined": false
+  },
+  {
+    "id": "553",
+    "trainer_name": "Moe & Lulu",
+    "type": "TRAINERCLASS_UNIMPORTANT",
+    "original_gym": "",
+    "ace_level": "43",
+    "moves_defined": false
+  },
+  {
+    "id": "554",
+    "trainer_name": "Milton",
+    "type": "TRAINERCLASS_UNIMPORTANT",
+    "original_gym": "",
+    "ace_level": "45",
+    "moves_defined": false
+  },
+  {
+    "id": "555",
+    "trainer_name": "Justin",
+    "type": "TRAINERCLASS_UNIMPORTANT",
+    "original_gym": "",
+    "ace_level": "44",
+    "moves_defined": false
+  },
+  {
+    "id": "556",
+    "trainer_name": "Gail",
+    "type": "TRAINERCLASS_UNIMPORTANT",
+    "original_gym": "",
+    "ace_level": "42",
+    "moves_defined": false
+  },
+  {
+    "id": "557",
+    "trainer_name": "Vic & Tara",
+    "type": "TRAINERCLASS_UNIMPORTANT",
+    "original_gym": "",
+    "ace_level": "44",
+    "moves_defined": true
+  },
+  {
+    "id": "558",
+    "trainer_name": "Kyler",
+    "type": "TRAINERCLASS_UNIMPORTANT",
+    "original_gym": "",
+    "ace_level": "18",
+    "moves_defined": false
+  },
+  {
+    "id": "559",
+    "trainer_name": "Tim & Sue",
+    "type": "TRAINERCLASS_UNIMPORTANT",
+    "original_gym": "",
+    "ace_level": "46",
+    "moves_defined": false
+  },
+  {
+    "id": "560",
+    "trainer_name": "Clark",
+    "type": "TRAINERCLASS_UNIMPORTANT",
+    "original_gym": "",
+    "ace_level": "40",
+    "moves_defined": false
+  },
+  {
+    "id": "561",
+    "trainer_name": "Tanner",
+    "type": "TRAINERCLASS_UNIMPORTANT",
+    "original_gym": "",
+    "ace_level": "38",
+    "moves_defined": false
+  },
+  {
+    "id": "562",
+    "trainer_name": "Piper",
+    "type": "TRAINERCLASS_UNIMPORTANT",
+    "original_gym": "",
+    "ace_level": "40",
+    "moves_defined": false
+  },
+  {
+    "id": "563",
+    "trainer_name": "Ginger",
+    "type": "TRAINERCLASS_UNIMPORTANT",
+    "original_gym": "",
+    "ace_level": "41",
+    "moves_defined": false
+  },
+  {
+    "id": "564",
+    "trainer_name": "Clarice",
+    "type": "TRAINERCLASS_UNIMPORTANT",
+    "original_gym": "",
+    "ace_level": "43",
+    "moves_defined": true
+  },
+  {
+    "id": "565",
+    "trainer_name": "Josh",
+    "type": "TRAINERCLASS_UNIMPORTANT",
+    "original_gym": "",
+    "ace_level": "37",
+    "moves_defined": false
+  },
+  {
+    "id": "566",
+    "trainer_name": "Connor",
+    "type": "TRAINERCLASS_UNIMPORTANT",
+    "original_gym": "",
+    "ace_level": "42",
+    "moves_defined": true
+  },
+  {
+    "id": "567",
+    "trainer_name": "Torin",
+    "type": "TRAINERCLASS_UNIMPORTANT",
+    "original_gym": "",
+    "ace_level": "41",
+    "moves_defined": false
+  },
+  {
+    "id": "568",
+    "trainer_name": "Travis",
+    "type": "TRAINERCLASS_UNIMPORTANT",
+    "original_gym": "",
+    "ace_level": "42",
+    "moves_defined": true
+  },
+  {
+    "id": "569",
+    "trainer_name": "Kay & Tia",
+    "type": "TRAINERCLASS_UNIMPORTANT",
+    "original_gym": "",
+    "ace_level": "41",
+    "moves_defined": true
+  },
+  {
+    "id": "570",
+    "trainer_name": "Boone",
+    "type": "TRAINERCLASS_UNIMPORTANT",
+    "original_gym": "",
+    "ace_level": "43",
+    "moves_defined": false
+  },
+  {
+    "id": "571",
+    "trainer_name": "Eleanor",
+    "type": "TRAINERCLASS_UNIMPORTANT",
+    "original_gym": "",
+    "ace_level": "43",
+    "moves_defined": false
+  },
+  {
+    "id": "572",
+    "trainer_name": "Dale",
+    "type": "TRAINERCLASS_UNIMPORTANT",
+    "original_gym": "",
+    "ace_level": "47",
+    "moves_defined": false
+  },
+  {
+    "id": "573",
+    "trainer_name": "Jacob",
+    "type": "TRAINERCLASS_UNIMPORTANT",
+    "original_gym": "",
+    "ace_level": "43",
+    "moves_defined": false
+  },
+  {
+    "id": "574",
+    "trainer_name": "Aiden",
+    "type": "TRAINERCLASS_UNIMPORTANT",
+    "original_gym": "",
+    "ace_level": "45",
+    "moves_defined": false
+  },
+  {
+    "id": "575",
+    "trainer_name": "Dan",
+    "type": "TRAINERCLASS_UNIMPORTANT",
+    "original_gym": "",
+    "ace_level": "39",
+    "moves_defined": false
+  },
+  {
+    "id": "576",
+    "trainer_name": "Theron",
+    "type": "TRAINERCLASS_UNIMPORTANT",
+    "original_gym": "",
+    "ace_level": "45",
+    "moves_defined": false
+  },
+  {
+    "id": "577",
+    "trainer_name": "Markey",
+    "type": "TRAINERCLASS_UNIMPORTANT",
+    "original_gym": "",
+    "ace_level": "47",
+    "moves_defined": false
+  },
+  {
+    "id": "578",
+    "trainer_name": "Teddy",
+    "type": "TRAINERCLASS_UNIMPORTANT",
+    "original_gym": "",
+    "ace_level": "46",
+    "moves_defined": false
+  },
+  {
+    "id": "579",
+    "trainer_name": "Ernest",
+    "type": "TRAINERCLASS_UNIMPORTANT",
+    "original_gym": "",
+    "ace_level": "45",
+    "moves_defined": false
+  },
+  {
+    "id": "580",
+    "trainer_name": "Pedro",
+    "type": "TRAINERCLASS_UNIMPORTANT",
+    "original_gym": "",
+    "ace_level": "45",
+    "moves_defined": true
+  },
+  {
+    "id": "581",
+    "trainer_name": "Adrian",
+    "type": "TRAINERCLASS_UNIMPORTANT",
+    "original_gym": "",
+    "ace_level": "45",
+    "moves_defined": false
+  },
+  {
+    "id": "582",
+    "trainer_name": "Cheyenne",
+    "type": "TRAINERCLASS_UNIMPORTANT",
+    "original_gym": "",
+    "ace_level": "45",
+    "moves_defined": false
+  },
+  {
+    "id": "583",
+    "trainer_name": "Bert",
+    "type": "TRAINERCLASS_UNIMPORTANT",
+    "original_gym": "",
+    "ace_level": "46",
+    "moves_defined": false
+  },
+  {
+    "id": "584",
+    "trainer_name": "Ernie",
+    "type": "TRAINERCLASS_UNIMPORTANT",
+    "original_gym": "",
+    "ace_level": "48",
+    "moves_defined": false
+  },
+  {
+    "id": "585",
+    "trainer_name": "Elmo",
+    "type": "TRAINERCLASS_UNIMPORTANT",
+    "original_gym": "",
+    "ace_level": "46",
+    "moves_defined": false
+  },
+  {
+    "id": "586",
+    "trainer_name": "Luis",
+    "type": "TRAINERCLASS_UNIMPORTANT",
+    "original_gym": "",
+    "ace_level": "46",
+    "moves_defined": false
+  },
+  {
+    "id": "587",
+    "trainer_name": "Leona",
+    "type": "TRAINERCLASS_UNIMPORTANT",
+    "original_gym": "",
+    "ace_level": "44",
+    "moves_defined": false
+  },
+  {
+    "id": "588",
+    "trainer_name": "Mina",
+    "type": "TRAINERCLASS_UNIMPORTANT",
+    "original_gym": "",
+    "ace_level": "41",
+    "moves_defined": false
+  },
+  {
+    "id": "589",
+    "trainer_name": "Murphy",
+    "type": "TRAINERCLASS_UNIMPORTANT",
+    "original_gym": "",
+    "ace_level": "38",
+    "moves_defined": false
+  },
+  {
+    "id": "590",
+    "trainer_name": "Liam",
+    "type": "TRAINERCLASS_UNIMPORTANT",
+    "original_gym": "",
+    "ace_level": "42",
+    "moves_defined": false
+  },
+  {
+    "id": "591",
+    "trainer_name": "Gideon",
+    "type": "TRAINERCLASS_UNIMPORTANT",
+    "original_gym": "",
+    "ace_level": "44",
+    "moves_defined": true
+  },
+  {
+    "id": "592",
+    "trainer_name": "Chelan",
+    "type": "TRAINERCLASS_UNIMPORTANT",
+    "original_gym": "",
+    "ace_level": "40",
+    "moves_defined": true
+  },
+  {
+    "id": "593",
+    "trainer_name": "Kendra",
+    "type": "TRAINERCLASS_UNIMPORTANT",
+    "original_gym": "",
+    "ace_level": "43",
+    "moves_defined": false
+  },
+  {
+    "id": "594",
+    "trainer_name": "Esteban",
+    "type": "TRAINERCLASS_UNIMPORTANT",
+    "original_gym": "",
+    "ace_level": "38",
+    "moves_defined": false
+  },
+  {
+    "id": "595",
+    "trainer_name": "Duane",
+    "type": "TRAINERCLASS_UNIMPORTANT",
+    "original_gym": "",
+    "ace_level": "40",
+    "moves_defined": false
+  },
+  {
+    "id": "596",
+    "trainer_name": "Kinsley",
+    "type": "TRAINERCLASS_UNIMPORTANT",
+    "original_gym": "",
+    "ace_level": "37",
+    "moves_defined": false
+  },
+  {
+    "id": "597",
+    "trainer_name": "Easton",
+    "type": "TRAINERCLASS_UNIMPORTANT",
+    "original_gym": "",
+    "ace_level": "36",
+    "moves_defined": false
+  },
+  {
+    "id": "598",
+    "trainer_name": "Day & Dani",
+    "type": "TRAINERCLASS_UNIMPORTANT",
+    "original_gym": "",
+    "ace_level": "41",
+    "moves_defined": false
+  },
+  {
+    "id": "599",
+    "trainer_name": "Virgil",
+    "type": "TRAINERCLASS_UNIMPORTANT",
+    "original_gym": "",
+    "ace_level": "43",
+    "moves_defined": false
+  },
+  {
+    "id": "600",
+    "trainer_name": "Selina",
+    "type": "TRAINERCLASS_UNIMPORTANT",
+    "original_gym": "",
+    "ace_level": "42",
+    "moves_defined": false
+  },
+  {
+    "id": "601",
+    "trainer_name": "Grunt",
+    "type": "TRAINERCLASS_TEAM_ROCKET",
+    "original_gym": "",
+    "ace_level": "12",
+    "moves_defined": false
+  },
+  {
+    "id": "602",
+    "trainer_name": "Jose",
+    "type": "TRAINERCLASS_UNIMPORTANT",
+    "original_gym": "",
+    "ace_level": "53",
+    "moves_defined": false
+  },
+  {
+    "id": "603",
+    "trainer_name": "Erin",
+    "type": "TRAINERCLASS_UNIMPORTANT",
+    "original_gym": "",
+    "ace_level": "53",
+    "moves_defined": false
+  },
+  {
+    "id": "604",
+    "trainer_name": "Gaven",
+    "type": "TRAINERCLASS_UNIMPORTANT",
+    "original_gym": "",
+    "ace_level": "52",
+    "moves_defined": true
+  },
+  {
+    "id": "605",
+    "trainer_name": "Kenji",
+    "type": "TRAINERCLASS_UNIMPORTANT",
+    "original_gym": "",
+    "ace_level": "53",
+    "moves_defined": false
+  },
+  {
+    "id": "606",
+    "trainer_name": "Parry",
+    "type": "TRAINERCLASS_UNIMPORTANT",
+    "original_gym": "",
+    "ace_level": "56",
+    "moves_defined": false
+  },
+  {
+    "id": "607",
+    "trainer_name": "Reena",
+    "type": "TRAINERCLASS_UNIMPORTANT",
+    "original_gym": "",
+    "ace_level": "56",
+    "moves_defined": true
+  },
+  {
+    "id": "608",
+    "trainer_name": "Wilton",
+    "type": "TRAINERCLASS_UNIMPORTANT",
+    "original_gym": "",
+    "ace_level": "63",
+    "moves_defined": false
+  },
+  {
+    "id": "609",
+    "trainer_name": "Jamie",
+    "type": "TRAINERCLASS_UNIMPORTANT",
+    "original_gym": "",
+    "ace_level": "59",
+    "moves_defined": true
+  },
+  {
+    "id": "610",
+    "trainer_name": "Derek",
+    "type": "TRAINERCLASS_UNIMPORTANT",
+    "original_gym": "",
+    "ace_level": "47",
+    "moves_defined": false
+  },
+  {
+    "id": "611",
+    "trainer_name": "Beverly",
+    "type": "TRAINERCLASS_UNIMPORTANT",
+    "original_gym": "",
+    "ace_level": "53",
+    "moves_defined": false
+  },
+  {
+    "id": "612",
+    "trainer_name": "Vance",
+    "type": "TRAINERCLASS_UNIMPORTANT",
+    "original_gym": "",
+    "ace_level": "56",
+    "moves_defined": false
+  },
+  {
+    "id": "613",
+    "trainer_name": "Krise",
+    "type": "TRAINERCLASS_UNIMPORTANT",
+    "original_gym": "",
+    "ace_level": "31",
+    "moves_defined": false
+  },
+  {
+    "id": "614",
+    "trainer_name": "Krise",
+    "type": "TRAINERCLASS_UNIMPORTANT",
+    "original_gym": "",
+    "ace_level": "38",
+    "moves_defined": false
+  },
+  {
+    "id": "615",
+    "trainer_name": "Krise",
+    "type": "TRAINERCLASS_UNIMPORTANT",
+    "original_gym": "",
+    "ace_level": "54",
+    "moves_defined": false
+  },
+  {
+    "id": "616",
+    "trainer_name": "Ian",
+    "type": "TRAINERCLASS_UNIMPORTANT",
+    "original_gym": "",
+    "ace_level": "33",
+    "moves_defined": false
+  },
+  {
+    "id": "617",
+    "trainer_name": "Ian",
+    "type": "TRAINERCLASS_UNIMPORTANT",
+    "original_gym": "",
+    "ace_level": "40",
+    "moves_defined": false
+  },
+  {
+    "id": "618",
+    "trainer_name": "Ian",
+    "type": "TRAINERCLASS_UNIMPORTANT",
+    "original_gym": "",
+    "ace_level": "58",
+    "moves_defined": false
+  },
+  {
+    "id": "619",
+    "trainer_name": "Walt",
+    "type": "TRAINERCLASS_UNIMPORTANT",
+    "original_gym": "",
+    "ace_level": "32",
+    "moves_defined": false
+  },
+  {
+    "id": "620",
+    "trainer_name": "Walt",
+    "type": "TRAINERCLASS_UNIMPORTANT",
+    "original_gym": "",
+    "ace_level": "37",
+    "moves_defined": false
+  },
+  {
+    "id": "621",
+    "trainer_name": "Walt",
+    "type": "TRAINERCLASS_UNIMPORTANT",
+    "original_gym": "",
+    "ace_level": "58",
+    "moves_defined": false
+  },
+  {
+    "id": "622",
+    "trainer_name": "Doug",
+    "type": "TRAINERCLASS_UNIMPORTANT",
+    "original_gym": "",
+    "ace_level": "40",
+    "moves_defined": false
+  },
+  {
+    "id": "623",
+    "trainer_name": "Doug",
+    "type": "TRAINERCLASS_UNIMPORTANT",
+    "original_gym": "",
+    "ace_level": "47",
+    "moves_defined": false
+  },
+  {
+    "id": "624",
+    "trainer_name": "Doug",
+    "type": "TRAINERCLASS_UNIMPORTANT",
+    "original_gym": "",
+    "ace_level": "52",
+    "moves_defined": false
+  },
+  {
+    "id": "625",
+    "trainer_name": "Rob",
+    "type": "TRAINERCLASS_UNIMPORTANT",
+    "original_gym": "",
+    "ace_level": "45",
+    "moves_defined": false
+  },
+  {
+    "id": "626",
+    "trainer_name": "Rob",
+    "type": "TRAINERCLASS_UNIMPORTANT",
+    "original_gym": "",
+    "ace_level": "52",
+    "moves_defined": false
+  },
+  {
+    "id": "627",
+    "trainer_name": "Rob",
+    "type": "TRAINERCLASS_UNIMPORTANT",
+    "original_gym": "",
+    "ace_level": "56",
+    "moves_defined": false
+  },
+  {
+    "id": "628",
+    "trainer_name": "Reese",
+    "type": "TRAINERCLASS_UNIMPORTANT",
+    "original_gym": "",
+    "ace_level": "48",
+    "moves_defined": true
+  },
+  {
+    "id": "629",
+    "trainer_name": "Reese",
+    "type": "TRAINERCLASS_UNIMPORTANT",
+    "original_gym": "",
+    "ace_level": "50",
+    "moves_defined": true
+  },
+  {
+    "id": "630",
+    "trainer_name": "Reese",
+    "type": "TRAINERCLASS_UNIMPORTANT",
+    "original_gym": "",
+    "ace_level": "56",
+    "moves_defined": true
+  },
+  {
+    "id": "631",
+    "trainer_name": "Aiden",
+    "type": "TRAINERCLASS_UNIMPORTANT",
+    "original_gym": "",
+    "ace_level": "50",
+    "moves_defined": false
+  },
+  {
+    "id": "632",
+    "trainer_name": "Aiden",
+    "type": "TRAINERCLASS_UNIMPORTANT",
+    "original_gym": "",
+    "ace_level": "55",
+    "moves_defined": false
+  },
+  {
+    "id": "633",
+    "trainer_name": "Aiden",
+    "type": "TRAINERCLASS_UNIMPORTANT",
+    "original_gym": "",
+    "ace_level": "58",
+    "moves_defined": false
+  },
+  {
+    "id": "634",
+    "trainer_name": "Ernest",
+    "type": "TRAINERCLASS_UNIMPORTANT",
+    "original_gym": "",
+    "ace_level": "47",
+    "moves_defined": false
+  },
+  {
+    "id": "635",
+    "trainer_name": "Ernest",
+    "type": "TRAINERCLASS_UNIMPORTANT",
+    "original_gym": "",
+    "ace_level": "49",
+    "moves_defined": false
+  },
+  {
+    "id": "636",
+    "trainer_name": "Ernest",
+    "type": "TRAINERCLASS_UNIMPORTANT",
+    "original_gym": "",
+    "ace_level": "58",
+    "moves_defined": false
+  },
+  {
+    "id": "637",
+    "trainer_name": "Hillary",
+    "type": "TRAINERCLASS_UNIMPORTANT",
+    "original_gym": "",
+    "ace_level": "43",
+    "moves_defined": false
+  },
+  {
+    "id": "638",
+    "trainer_name": "Hillary",
+    "type": "TRAINERCLASS_UNIMPORTANT",
+    "original_gym": "",
+    "ace_level": "49",
+    "moves_defined": false
+  },
+  {
+    "id": "639",
+    "trainer_name": "Hillary",
+    "type": "TRAINERCLASS_UNIMPORTANT",
+    "original_gym": "",
+    "ace_level": "55",
+    "moves_defined": false
+  },
+  {
+    "id": "640",
+    "trainer_name": "Billy",
+    "type": "TRAINERCLASS_UNIMPORTANT",
+    "original_gym": "",
+    "ace_level": "43",
+    "moves_defined": false
+  },
+  {
+    "id": "641",
+    "trainer_name": "Billy",
+    "type": "TRAINERCLASS_UNIMPORTANT",
+    "original_gym": "",
+    "ace_level": "47",
+    "moves_defined": false
+  },
+  {
+    "id": "642",
+    "trainer_name": "Billy",
+    "type": "TRAINERCLASS_UNIMPORTANT",
+    "original_gym": "",
+    "ace_level": "55",
+    "moves_defined": true
+  },
+  {
+    "id": "643",
+    "trainer_name": "Kay & Tia",
+    "type": "TRAINERCLASS_UNIMPORTANT",
+    "original_gym": "",
+    "ace_level": "48",
+    "moves_defined": true
+  },
+  {
+    "id": "644",
+    "trainer_name": "Kay & Tia",
+    "type": "TRAINERCLASS_UNIMPORTANT",
+    "original_gym": "",
+    "ace_level": "53",
+    "moves_defined": true
+  },
+  {
+    "id": "645",
+    "trainer_name": "Kay & Tia",
+    "type": "TRAINERCLASS_UNIMPORTANT",
+    "original_gym": "",
+    "ace_level": "55",
+    "moves_defined": true
+  },
+  {
+    "id": "646",
+    "trainer_name": "Josh",
+    "type": "TRAINERCLASS_UNIMPORTANT",
+    "original_gym": "",
+    "ace_level": "47",
+    "moves_defined": false
+  },
+  {
+    "id": "647",
+    "trainer_name": "Josh",
+    "type": "TRAINERCLASS_UNIMPORTANT",
+    "original_gym": "",
+    "ace_level": "51",
+    "moves_defined": false
+  },
+  {
+    "id": "648",
+    "trainer_name": "Josh",
+    "type": "TRAINERCLASS_UNIMPORTANT",
+    "original_gym": "",
+    "ace_level": "55",
+    "moves_defined": false
+  },
+  {
+    "id": "649",
+    "trainer_name": "Torin",
+    "type": "TRAINERCLASS_UNIMPORTANT",
+    "original_gym": "",
+    "ace_level": "46",
+    "moves_defined": false
+  },
+  {
+    "id": "650",
+    "trainer_name": "Torin",
+    "type": "TRAINERCLASS_UNIMPORTANT",
+    "original_gym": "",
+    "ace_level": "51",
+    "moves_defined": false
+  },
+  {
+    "id": "651",
+    "trainer_name": "Torin",
+    "type": "TRAINERCLASS_UNIMPORTANT",
+    "original_gym": "",
+    "ace_level": "53",
+    "moves_defined": false
+  },
+  {
+    "id": "652",
+    "trainer_name": "Tim & Sue",
+    "type": "TRAINERCLASS_UNIMPORTANT",
+    "original_gym": "",
+    "ace_level": "50",
+    "moves_defined": false
+  },
+  {
+    "id": "653",
+    "trainer_name": "Tim & Sue",
+    "type": "TRAINERCLASS_UNIMPORTANT",
+    "original_gym": "",
+    "ace_level": "52",
+    "moves_defined": true
+  },
+  {
+    "id": "654",
+    "trainer_name": "Tim & Sue",
+    "type": "TRAINERCLASS_UNIMPORTANT",
+    "original_gym": "",
+    "ace_level": "56",
+    "moves_defined": true
+  },
+  {
+    "id": "655",
+    "trainer_name": "Kenny",
+    "type": "TRAINERCLASS_UNIMPORTANT",
+    "original_gym": "",
+    "ace_level": "37",
+    "moves_defined": false
+  },
+  {
+    "id": "656",
+    "trainer_name": "Kenny",
+    "type": "TRAINERCLASS_UNIMPORTANT",
+    "original_gym": "",
+    "ace_level": "46",
+    "moves_defined": false
+  },
+  {
+    "id": "657",
+    "trainer_name": "Kenny",
+    "type": "TRAINERCLASS_UNIMPORTANT",
+    "original_gym": "",
+    "ace_level": "54",
+    "moves_defined": false
+  },
+  {
+    "id": "658",
+    "trainer_name": "Tanner",
+    "type": "TRAINERCLASS_UNIMPORTANT",
+    "original_gym": "",
+    "ace_level": "41",
+    "moves_defined": false
+  },
+  {
+    "id": "659",
+    "trainer_name": "Tanner",
+    "type": "TRAINERCLASS_UNIMPORTANT",
+    "original_gym": "",
+    "ace_level": "48",
+    "moves_defined": false
+  },
+  {
+    "id": "660",
+    "trainer_name": "Tanner",
+    "type": "TRAINERCLASS_UNIMPORTANT",
+    "original_gym": "",
+    "ace_level": "52",
+    "moves_defined": false
+  },
+  {
+    "id": "661",
+    "trainer_name": "Kyle",
+    "type": "TRAINERCLASS_UNIMPORTANT",
+    "original_gym": "",
+    "ace_level": "43",
+    "moves_defined": false
+  },
+  {
+    "id": "662",
+    "trainer_name": "Kyle",
+    "type": "TRAINERCLASS_UNIMPORTANT",
+    "original_gym": "",
+    "ace_level": "47",
+    "moves_defined": false
+  },
+  {
+    "id": "663",
+    "trainer_name": "Kyle",
+    "type": "TRAINERCLASS_UNIMPORTANT",
+    "original_gym": "",
+    "ace_level": "52",
+    "moves_defined": false
+  },
+  {
+    "id": "664",
+    "trainer_name": "Kyler",
+    "type": "TRAINERCLASS_UNIMPORTANT",
+    "original_gym": "",
+    "ace_level": "18",
+    "moves_defined": false
+  },
+  {
+    "id": "665",
+    "trainer_name": "Kyler",
+    "type": "TRAINERCLASS_UNIMPORTANT",
+    "original_gym": "",
+    "ace_level": "18",
+    "moves_defined": false
+  },
+  {
+    "id": "666",
+    "trainer_name": "Kyler",
+    "type": "TRAINERCLASS_UNIMPORTANT",
+    "original_gym": "",
+    "ace_level": "18",
+    "moves_defined": false
+  },
+  {
+    "id": "667",
+    "trainer_name": "Cheryl",
+    "type": "TRAINERCLASS_ELITE_FOUR",
+    "original_gym": "",
+    "ace_level": "65",
+    "moves_defined": true
+  },
+  {
+    "id": "668",
+    "trainer_name": "Marley",
+    "type": "TRAINERCLASS_ELITE_FOUR",
+    "original_gym": "",
+    "ace_level": "65",
+    "moves_defined": true
+  },
+  {
+    "id": "669",
+    "trainer_name": "Mira",
+    "type": "TRAINERCLASS_ELITE_FOUR",
+    "original_gym": "",
+    "ace_level": "65",
+    "moves_defined": true
+  },
+  {
+    "id": "670",
+    "trainer_name": "Riley",
+    "type": "TRAINERCLASS_ELITE_FOUR",
+    "original_gym": "",
+    "ace_level": "65",
+    "moves_defined": true
+  },
+  {
+    "id": "671",
+    "trainer_name": "Buck",
+    "type": "TRAINERCLASS_ELITE_FOUR",
+    "original_gym": "",
+    "ace_level": "65",
+    "moves_defined": true
+  },
+  {
+    "id": "672",
+    "trainer_name": "Alfred",
+    "type": "TRAINERCLASS_UNIMPORTANT",
+    "original_gym": "",
+    "ace_level": "36",
+    "moves_defined": false
+  },
+  {
+    "id": "673",
+    "trainer_name": "Alfred",
+    "type": "TRAINERCLASS_UNIMPORTANT",
+    "original_gym": "",
+    "ace_level": "42",
+    "moves_defined": false
+  },
+  {
+    "id": "674",
+    "trainer_name": "Alfred",
+    "type": "TRAINERCLASS_UNIMPORTANT",
+    "original_gym": "",
+    "ace_level": "58",
+    "moves_defined": true
+  },
+  {
+    "id": "675",
+    "trainer_name": "Lance",
+    "type": "TRAINERCLASS_ELITE_FOUR",
+    "original_gym": "",
+    "ace_level": "40",
+    "moves_defined": true
+  },
+  {
+    "id": "676",
+    "trainer_name": "Parker",
+    "type": "TRAINERCLASS_UNIMPORTANT",
+    "original_gym": "",
+    "ace_level": "43",
+    "moves_defined": true
+  },
+  {
+    "id": "677",
+    "trainer_name": "Eddie",
+    "type": "TRAINERCLASS_UNIMPORTANT",
+    "original_gym": "16",
+    "ace_level": "48",
+    "moves_defined": true
+  },
+  {
+    "id": "678",
+    "trainer_name": "Joy",
+    "type": "TRAINERCLASS_UNIMPORTANT",
+    "original_gym": "16",
+    "ace_level": "48",
+    "moves_defined": true
+  },
+  {
+    "id": "679",
+    "trainer_name": "Callie",
+    "type": "TRAINERCLASS_UNIMPORTANT",
+    "original_gym": "",
+    "ace_level": "16",
+    "moves_defined": true
+  },
+  {
+    "id": "680",
+    "trainer_name": "Kassandra",
+    "type": "TRAINERCLASS_UNIMPORTANT",
+    "original_gym": "",
+    "ace_level": "16",
+    "moves_defined": true
+  },
+  {
+    "id": "681",
+    "trainer_name": "Arabella",
+    "type": "TRAINERCLASS_UNIMPORTANT",
+    "original_gym": "",
+    "ace_level": "53",
+    "moves_defined": true
+  },
+  {
+    "id": "682",
+    "trainer_name": "Bonita",
+    "type": "TRAINERCLASS_UNIMPORTANT",
+    "original_gym": "",
+    "ace_level": "52",
+    "moves_defined": true
+  },
+  {
+    "id": "683",
+    "trainer_name": "Salma",
+    "type": "TRAINERCLASS_UNIMPORTANT",
+    "original_gym": "",
+    "ace_level": "53",
+    "moves_defined": true
+  },
+  {
+    "id": "684",
+    "trainer_name": "Elan & Ida",
+    "type": "TRAINERCLASS_UNIMPORTANT",
+    "original_gym": "",
+    "ace_level": "52",
+    "moves_defined": true
+  },
+  {
+    "id": "685",
+    "trainer_name": "Edwin",
+    "type": "TRAINERCLASS_UNIMPORTANT",
+    "original_gym": "18",
+    "ace_level": "50",
+    "moves_defined": true
+  },
+  {
+    "id": "686",
+    "trainer_name": "Bryce",
+    "type": "TRAINERCLASS_UNIMPORTANT",
+    "original_gym": "",
+    "ace_level": "55",
+    "moves_defined": false
+  },
+  {
+    "id": "687",
+    "trainer_name": "Shaun",
+    "type": "TRAINERCLASS_UNIMPORTANT",
+    "original_gym": "",
+    "ace_level": "55",
+    "moves_defined": false
+  },
+  {
+    "id": "688",
+    "trainer_name": "Cady",
+    "type": "TRAINERCLASS_UNIMPORTANT",
+    "original_gym": "",
+    "ace_level": "53",
+    "moves_defined": false
+  },
+  {
+    "id": "689",
+    "trainer_name": "Cary",
+    "type": "TRAINERCLASS_UNIMPORTANT",
+    "original_gym": "19",
+    "ace_level": "53",
+    "moves_defined": true
+  },
+  {
+    "id": "690",
+    "trainer_name": "Waldo",
+    "type": "TRAINERCLASS_UNIMPORTANT",
+    "original_gym": "19",
+    "ace_level": "53",
+    "moves_defined": true
+  },
+  {
+    "id": "691",
+    "trainer_name": "Merle",
+    "type": "TRAINERCLASS_UNIMPORTANT",
+    "original_gym": "19",
+    "ace_level": "53",
+    "moves_defined": true
+  },
+  {
+    "id": "692",
+    "trainer_name": "Lowell",
+    "type": "TRAINERCLASS_UNIMPORTANT",
+    "original_gym": "19",
+    "ace_level": "50",
+    "moves_defined": true
+  },
+  {
+    "id": "693",
+    "trainer_name": "Linden",
+    "type": "TRAINERCLASS_UNIMPORTANT",
+    "original_gym": "19",
+    "ace_level": "50",
+    "moves_defined": true
+  },
+  {
+    "id": "694",
+    "trainer_name": "Daniel",
+    "type": "TRAINERCLASS_UNIMPORTANT",
+    "original_gym": "19",
+    "ace_level": "50",
+    "moves_defined": true
+  },
+  {
+    "id": "695",
+    "trainer_name": "Dane",
+    "type": "TRAINERCLASS_UNIMPORTANT",
+    "original_gym": "",
+    "ace_level": "48",
+    "moves_defined": false
+  },
+  {
+    "id": "696",
+    "trainer_name": "Dion",
+    "type": "TRAINERCLASS_UNIMPORTANT",
+    "original_gym": "",
+    "ace_level": "50",
+    "moves_defined": false
+  },
+  {
+    "id": "697",
+    "trainer_name": "Stacey",
+    "type": "TRAINERCLASS_UNIMPORTANT",
+    "original_gym": "",
+    "ace_level": "60",
+    "moves_defined": false
+  },
+  {
+    "id": "698",
+    "trainer_name": "Ellis",
+    "type": "TRAINERCLASS_UNIMPORTANT",
+    "original_gym": "",
+    "ace_level": "46",
+    "moves_defined": false
+  },
+  {
+    "id": "699",
+    "trainer_name": "Abner",
+    "type": "TRAINERCLASS_UNIMPORTANT",
+    "original_gym": "",
+    "ace_level": "44",
+    "moves_defined": false
+  },
+  {
+    "id": "700",
+    "trainer_name": "Giovanni",
+    "type": "TRAINERCLASS_ROCKET_BOSS",
+    "original_gym": "",
+    "ace_level": "46",
+    "moves_defined": true
+  },
+  {
+    "id": "701",
+    "trainer_name": "Lance",
+    "type": "TRAINERCLASS_CHAMPION",
+    "original_gym": "",
+    "ace_level": "75",
+    "moves_defined": true
+  },
+  {
+    "id": "702",
+    "trainer_name": "Will",
+    "type": "TRAINERCLASS_ELITE_FOUR",
+    "original_gym": "9",
+    "ace_level": "62",
+    "moves_defined": true
+  },
+  {
+    "id": "703",
+    "trainer_name": "Koga",
+    "type": "TRAINERCLASS_ELITE_FOUR",
+    "original_gym": "10",
+    "ace_level": "64",
+    "moves_defined": true
+  },
+  {
+    "id": "704",
+    "trainer_name": "Bruno",
+    "type": "TRAINERCLASS_ELITE_FOUR",
+    "original_gym": "11",
+    "ace_level": "64",
+    "moves_defined": true
+  },
+  {
+    "id": "705",
+    "trainer_name": "Karen",
+    "type": "TRAINERCLASS_ELITE_FOUR",
+    "original_gym": "12",
+    "ace_level": "64",
+    "moves_defined": true
+  },
+  {
+    "id": "706",
+    "trainer_name": "Proton",
+    "type": "TRAINERCLASS_EXECUTIVE",
+    "original_gym": "",
+    "ace_level": "33",
+    "moves_defined": true
+  },
+  {
+    "id": "707",
+    "trainer_name": "Palmer",
+    "type": "TRAINERCLASS_UNIMPORTANT",
+    "original_gym": "",
+    "ace_level": "5",
+    "moves_defined": false
+  },
+  {
+    "id": "708",
+    "trainer_name": "Argenta",
+    "type": "TRAINERCLASS_UNIMPORTANT",
+    "original_gym": "",
+    "ace_level": "5",
+    "moves_defined": false
+  },
+  {
+    "id": "709",
+    "trainer_name": "Thorton",
+    "type": "TRAINERCLASS_UNIMPORTANT",
+    "original_gym": "",
+    "ace_level": "5",
+    "moves_defined": false
+  },
+  {
+    "id": "710",
+    "trainer_name": "Dahlia",
+    "type": "TRAINERCLASS_UNIMPORTANT",
+    "original_gym": "",
+    "ace_level": "5",
+    "moves_defined": false
+  },
+  {
+    "id": "711",
+    "trainer_name": "Darach",
+    "type": "TRAINERCLASS_UNIMPORTANT",
+    "original_gym": "",
+    "ace_level": "5",
+    "moves_defined": false
+  },
+  {
+    "id": "712",
+    "trainer_name": "Falkner",
+    "type": "TRAINERCLASS_LEADER",
+    "original_gym": "1",
+    "ace_level": "56",
+    "moves_defined": true
+  },
+  {
+    "id": "713",
+    "trainer_name": "Bugsy",
+    "type": "TRAINERCLASS_LEADER",
+    "original_gym": "2",
+    "ace_level": "56",
+    "moves_defined": true
+  },
+  {
+    "id": "714",
+    "trainer_name": "Whitney",
+    "type": "TRAINERCLASS_LEADER",
+    "original_gym": "3",
+    "ace_level": "58",
+    "moves_defined": true
+  },
+  {
+    "id": "715",
+    "trainer_name": "Morty",
+    "type": "TRAINERCLASS_LEADER",
+    "original_gym": "4",
+    "ace_level": "57",
+    "moves_defined": true
+  },
+  {
+    "id": "716",
+    "trainer_name": "Pryce",
+    "type": "TRAINERCLASS_LEADER",
+    "original_gym": "7",
+    "ace_level": "60",
+    "moves_defined": true
+  },
+  {
+    "id": "717",
+    "trainer_name": "Jasmine",
+    "type": "TRAINERCLASS_LEADER",
+    "original_gym": "6",
+    "ace_level": "62",
+    "moves_defined": true
+  },
+  {
+    "id": "718",
+    "trainer_name": "Chuck",
+    "type": "TRAINERCLASS_LEADER",
+    "original_gym": "5",
+    "ace_level": "60",
+    "moves_defined": true
+  },
+  {
+    "id": "719",
+    "trainer_name": "Clair",
+    "type": "TRAINERCLASS_LEADER",
+    "original_gym": "8",
+    "ace_level": "60",
+    "moves_defined": true
+  },
+  {
+    "id": "720",
+    "trainer_name": "Brock",
+    "type": "TRAINERCLASS_LEADER",
+    "original_gym": "18",
+    "ace_level": "61",
+    "moves_defined": true
+  },
+  {
+    "id": "721",
+    "trainer_name": "Misty",
+    "type": "TRAINERCLASS_LEADER",
+    "original_gym": "16",
+    "ace_level": "60",
+    "moves_defined": true
+  },
+  {
+    "id": "722",
+    "trainer_name": "Lt. Surge",
+    "type": "TRAINERCLASS_LEADER",
+    "original_gym": "13",
+    "ace_level": "60",
+    "moves_defined": true
+  },
+  {
+    "id": "723",
+    "trainer_name": "Erika",
+    "type": "TRAINERCLASS_LEADER",
+    "original_gym": "15",
+    "ace_level": "60",
+    "moves_defined": true
+  },
+  {
+    "id": "724",
+    "trainer_name": "Janine",
+    "type": "TRAINERCLASS_LEADER",
+    "original_gym": "17",
+    "ace_level": "59",
+    "moves_defined": true
+  },
+  {
+    "id": "725",
+    "trainer_name": "Sabrina",
+    "type": "TRAINERCLASS_LEADER",
+    "original_gym": "14",
+    "ace_level": "60",
+    "moves_defined": true
+  },
+  {
+    "id": "726",
+    "trainer_name": "Blaine",
+    "type": "TRAINERCLASS_LEADER",
+    "original_gym": "19",
+    "ace_level": "62",
+    "moves_defined": true
+  },
+  {
+    "id": "727",
+    "trainer_name": "Blue",
+    "type": "TRAINERCLASS_LEADER",
+    "original_gym": "",
+    "ace_level": "72",
+    "moves_defined": true
+  },
+  {
+    "id": "728",
+    "trainer_name": "Charlotte",
+    "type": "TRAINERCLASS_UNIMPORTANT",
+    "original_gym": "",
+    "ace_level": "16",
+    "moves_defined": false
+  },
+  {
+    "id": "729",
+    "trainer_name": "Duff & Eda",
+    "type": "TRAINERCLASS_UNIMPORTANT",
+    "original_gym": "",
+    "ace_level": "22",
+    "moves_defined": false
+  },
+  {
+    "id": "730",
+    "trainer_name": "Thom & Kae",
+    "type": "TRAINERCLASS_UNIMPORTANT",
+    "original_gym": "",
+    "ace_level": "25",
+    "moves_defined": true
+  },
+  {
+    "id": "731",
+    "trainer_name": "Devin",
+    "type": "TRAINERCLASS_UNIMPORTANT",
+    "original_gym": "",
+    "ace_level": "19",
+    "moves_defined": false
+  },
+  {
+    "id": "732",
+    "trainer_name": "Grant",
+    "type": "TRAINERCLASS_UNIMPORTANT",
+    "original_gym": "",
+    "ace_level": "21",
+    "moves_defined": false
+  },
+  {
+    "id": "733",
+    "trainer_name": "Lance",
+    "type": "TRAINERCLASS_CHAMPION",
+    "original_gym": "",
+    "ace_level": "75",
+    "moves_defined": true
+  },
+  {
+    "id": "734",
+    "trainer_name": "Clair",
+    "type": "TRAINERCLASS_LEADER",
+    "original_gym": "8",
+    "ace_level": "60",
+    "moves_defined": true
+  },
+  {
+    "id": "735",
+    "trainer_name": "Silver",
+    "type": "TRAINERCLASS_RIVAL",
+    "original_gym": "",
+    "ace_level": "60",
+    "moves_defined": true
+  },
+  {
+    "id": "736",
+    "trainer_name": "Silver",
+    "type": "TRAINERCLASS_RIVAL",
+    "original_gym": "",
+    "ace_level": "60",
+    "moves_defined": true
+  },
+  {
+    "id": "737",
+    "trainer_name": "Silver",
+    "type": "TRAINERCLASS_RIVAL",
+    "original_gym": "",
+    "ace_level": "60",
+    "moves_defined": true
+  }
+]

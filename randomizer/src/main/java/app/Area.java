@@ -57,7 +57,7 @@ public class Area {
             }
         }
         if (currentArea != null) {
-            System.out.println("Found area: " + currentArea.area_name);
+            //System.out.println("Found area: " + currentArea.area_name);
         } else {
             System.out.println("No area contains id " + areaId);
             System.exit(2);
@@ -116,11 +116,12 @@ public class Area {
                         System.exit(1);
                     }
 
-                    if(chosen.species_name.equals("SPECIES_RATICATE_ALOLAN") || chosen.species_name.equals("SPECIES_RATICATE")) {
-                        System.out.println("lsas");
-                    }
-
                     chosenByOriginal.put(original, chosen); // add the random pokemon to the chosen list
+                }
+
+                if (currentDexFlag == null) {
+                    System.out.println("DexFlag is null for pokedex entry at area " + areaId);
+                    System.exit(4);
                 }
 
                 if(!currentDexFlag.equals("-1")) {

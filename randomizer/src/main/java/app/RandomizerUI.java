@@ -15,7 +15,10 @@ import java.nio.file.Paths;
 import java.nio.file.StandardCopyOption;
 import java.nio.file.StandardOpenOption;
 import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.HashMap;
 import java.util.List;
+import java.util.Map;
 import java.util.regex.Pattern;
 
 import javax.swing.Box;
@@ -52,6 +55,9 @@ public class RandomizerUI {
     public static final List<Move> STATIC_MOVES = initMoves();
     public static final List<Area> STATIC_AREAS = initAreas();
     public static final List<Pokemon> STATIC_MONS = initPokemon();
+    public static final List<Trainer> STATIC_TRAINERS = initTrainers();
+
+    public static Map<Integer, Type> static_gymTypeMap;
 
     public static List<Move> initMoves() {
         // Load list of moves from movedata.json using the JsonLoader
@@ -75,6 +81,63 @@ public class RandomizerUI {
         System.out.println("Loaded " + tempPokemon.size() + " Pokémon");
         //if (!tempPokemon.isEmpty()) { for (Pokemon mon : tempPokemon) { System.out.println(mon.toString()); }} // print all mons loaded
         return tempPokemon;
+    }
+
+    public static List<Trainer> initTrainers() {
+        // Load list of pokemon from pokemondata.json using the JsonLoader and the list of moves
+        List<Trainer> tempTrainers = JsonLoader.loadTrainers("/trainerdata.json");
+        System.out.println("Loaded " + tempTrainers.size() + " Pokémon");
+       // if (!tempTrainers.isEmpty()) { for (Trainer trainer : tempTrainers) { System.out.println(trainer.toString()); }} // print all trainers loaded
+        return tempTrainers;
+    }
+
+    public static Map<Integer, Type> initGymTypeMap(boolean random) {
+        Map<Integer, Type> tempMap = new HashMap<>();
+        if(random) {
+            List<Type> availableTypes = new ArrayList<>(Arrays.asList(Type.values()));
+            tempMap.put(1, Area.takeRandom(availableTypes));
+            tempMap.put(2, Area.takeRandom(availableTypes));
+            tempMap.put(3, Area.takeRandom(availableTypes));
+            tempMap.put(4, Area.takeRandom(availableTypes));
+            tempMap.put(5, Area.takeRandom(availableTypes));
+            tempMap.put(6, Area.takeRandom(availableTypes));
+            tempMap.put(7, Area.takeRandom(availableTypes));
+            tempMap.put(8, Area.takeRandom(availableTypes));
+            tempMap.put(9, Area.takeRandom(availableTypes));
+            tempMap.put(10, Area.takeRandom(availableTypes));
+            tempMap.put(11, Area.takeRandom(availableTypes));
+            tempMap.put(12, Area.takeRandom(availableTypes));
+            availableTypes = new ArrayList<>(Arrays.asList(Type.values()));
+            tempMap.put(13, Area.takeRandom(availableTypes));
+            tempMap.put(14, Area.takeRandom(availableTypes));
+            tempMap.put(15, Area.takeRandom(availableTypes));
+            tempMap.put(16, Area.takeRandom(availableTypes));
+            tempMap.put(17, Area.takeRandom(availableTypes));
+            tempMap.put(18, Area.takeRandom(availableTypes));
+            tempMap.put(19, Area.takeRandom(availableTypes));
+        } else {
+            tempMap.put(1, Type.FLYING);
+            tempMap.put(2, Type.BUG);
+            tempMap.put(3, Type.NORMAL);
+            tempMap.put(4, Type.GHOST);
+            tempMap.put(5, Type.FIGHTING);
+            tempMap.put(6, Type.STEEL);
+            tempMap.put(7, Type.ICE);
+            tempMap.put(8, Type.DRAGON);
+            tempMap.put(9, Type.PSYCHIC);
+            tempMap.put(10, Type.POISON);
+            tempMap.put(11, Type.FIGHTING);
+            tempMap.put(12, Type.DARK);
+            tempMap.put(13, Type.ROCK);
+            tempMap.put(14, Type.WATER);
+            tempMap.put(15, Type.ELECTRIC);
+            tempMap.put(16, Type.GRASS);
+            tempMap.put(17, Type.POISON);
+            tempMap.put(18, Type.PSYCHIC);
+            tempMap.put(19, Type.FIRE);
+        }
+        
+        return tempMap;
     }
 
     public static void main(String[] args) {
@@ -105,6 +168,7 @@ public class RandomizerUI {
         JCheckBox randomStarters = new JCheckBox("Random Starters");
         JCheckBox randomEncounters = new JCheckBox("Random Encounters");
         JCheckBox randomTrainers = new JCheckBox("Random Trainers");
+        JCheckBox keepGymTypes = new JCheckBox("Keep Original Gym/E4 Types");
         JCheckBox clampEvolution = new JCheckBox("Clamp Evolution Levels (25, 40)");
 
         // JPanel of checkboxes
@@ -116,6 +180,8 @@ public class RandomizerUI {
         checkBoxPanel.add(Box.createVerticalStrut(-2)); // small gap
         checkBoxPanel.add(randomTrainers);
         checkBoxPanel.add(Box.createVerticalStrut(-2)); // small gap
+        checkBoxPanel.add(keepGymTypes);
+        checkBoxPanel.add(Box.createVerticalStrut(-2)); // small gap
         checkBoxPanel.add(clampEvolution);
 
         frame.add(checkBoxPanel, BorderLayout.CENTER);
@@ -123,6 +189,7 @@ public class RandomizerUI {
         JButton goButton = new JButton("Go");
         goButton.addActionListener(e -> {
 
+            // --- RANDOM STARTERS ---
             if (randomStarters.isSelected()) {
                 System.out.println("Randomizing Starters...");
 
@@ -140,7 +207,7 @@ public class RandomizerUI {
                 }
             }
 
-        
+            // --- RANDOM ENCOUNTERS ---
             if (randomEncounters.isSelected()) {
                 System.out.println("Randomizing Encounters...");
 
@@ -159,9 +226,22 @@ public class RandomizerUI {
                 }
             }
 
-
+            // --- RANDOM TRAINERS ---
             if (randomTrainers.isSelected()) {
                 System.out.println("Randomizing Trainers...");
+
+                if(keepGymTypes.isSelected()) {
+                    static_gymTypeMap = initGymTypeMap(false);
+                } else {
+                    static_gymTypeMap = initGymTypeMap(true);
+                }
+
+
+                try {
+                    randomizeTrainers();
+                } catch (IOException ex) {
+                    System.out.println("it fked up");
+                }
 
             } else {
                 try {
@@ -171,7 +251,7 @@ public class RandomizerUI {
                 }
             }
 
-
+            // --- CLAMP EVOLUTION ---
             if (clampEvolution.isSelected()) {
                 System.out.println("Clamping Evolution Levels...");
 
@@ -364,6 +444,75 @@ public class RandomizerUI {
             }
 
             bw.flush();
+
+        }
+
+    }
+
+
+    public static void randomizeTrainers() throws IOException{
+
+        final Pattern TRAINER_BLOCK_START = Pattern.compile(".*\\btrainerdata\\b.*"); // top of block delimiter
+
+        // Resolve the input from resources on the runtime classpath
+        InputStream trainersRaw = Thread.currentThread()
+                .getContextClassLoader()
+                .getResourceAsStream(TRAINERS_INPUT_PATH);
+
+        if (trainersRaw == null) {
+            throw new FileNotFoundException(
+                "Resource not found on classpath: " + TRAINERS_INPUT_PATH +
+                " (put the file under src/main/resources, and use the classpath name only)"
+            );
+        }
+
+        Path trainersOutPath = Paths.get(TRAINERS_OUTPUT_PATH).toAbsolutePath().normalize();
+        Files.createDirectories(trainersOutPath.getParent());
+        System.out.println("[trainers] writing to: " + trainersOutPath);
+
+        try (BufferedReader br = new BufferedReader(new InputStreamReader(trainersRaw, StandardCharsets.UTF_8));
+             BufferedWriter bw = Files.newBufferedWriter(trainersOutPath, StandardCharsets.UTF_8,
+                     StandardOpenOption.CREATE, StandardOpenOption.TRUNCATE_EXISTING)) {
+
+
+            boolean inBlock = false;
+            int blockIndex = -1;
+            StringBuilder blockBuf = new StringBuilder();
+
+            String line;
+            while ((line = br.readLine()) != null) {
+                boolean startsBlock = TRAINER_BLOCK_START.matcher(line).matches();
+
+                if (startsBlock) {
+                    // Finish and flush the previous block (if any)
+                    if (inBlock) {
+                        String processed = Trainer.processTrainerBlock(blockBuf.toString(), blockIndex);
+                        bw.write(processed);
+                        // Optional: ensure a newline separation between blocks if your processor strips trailing newline
+                        // bw.write(System.lineSeparator());
+                        blockBuf.setLength(0);
+                    }
+                    // Start a new block and include the delimiter line in it
+                    inBlock = true;
+                    blockIndex++;
+                    blockBuf.append(line).append(System.lineSeparator());
+                } else {
+                    if (inBlock) {
+                        // Accumulate content for the current block
+                        blockBuf.append(line).append(System.lineSeparator());
+                    } else {
+                        // Preamble before the first block: pass through unchanged
+                        bw.write(line);
+                        bw.write(System.lineSeparator());
+                    }
+                }
+            }
+
+            // Flush the final block if we were in one
+            if (inBlock && blockBuf.length() > 0) {
+                String processed = Trainer.processTrainerBlock(blockBuf.toString(), blockIndex);
+                bw.write(processed);
+            }
 
         }
 

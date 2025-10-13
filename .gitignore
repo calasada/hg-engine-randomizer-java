@@ -103,4 +103,5 @@ changelog
 /randomizer/~*
 /randomizer/pokemondata.json
 /randomizer/movedata.json
-randomizer/areadata.json
+/randomizer/areadata.json
+/randomizer/trainerdata.json
