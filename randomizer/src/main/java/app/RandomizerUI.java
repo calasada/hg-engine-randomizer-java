@@ -52,10 +52,15 @@ public class RandomizerUI {
     public static final String EVODATA_CLAMPED_INPUT_PATH = "evodata_CLAMPED.s";
     public static final String EVODATA_OUTPUT_PATH = "armips/data/evodata.s";
 
+    public static final String TMDATA_INPUT_PATH = "mart_ORIGINAL.c";
+    public static final String TMDATA_OUTPUT_PATH = "src/field/mart.c";
+
     public static final List<Move> STATIC_MOVES = initMoves();
     public static final List<Area> STATIC_AREAS = initAreas();
     public static final List<Pokemon> STATIC_MONS = initPokemon();
     public static final List<Trainer> STATIC_TRAINERS = initTrainers();
+
+    public static final int TM_AMOUNT = 51;
 
     public static Map<Integer, Type> static_gymTypeMap;
 
@@ -170,6 +175,7 @@ public class RandomizerUI {
         JCheckBox randomTrainers = new JCheckBox("Random Trainers");
         JCheckBox keepGymTypes = new JCheckBox("Keep Original Gym/E4 Types");
         JCheckBox clampEvolution = new JCheckBox("Clamp Evolution Levels (25, 40)");
+        JCheckBox randomizeTms = new JCheckBox("Randomize Dept. Store TMs");
 
         // JPanel of checkboxes
         JPanel checkBoxPanel = new JPanel();
@@ -183,6 +189,8 @@ public class RandomizerUI {
         checkBoxPanel.add(keepGymTypes);
         checkBoxPanel.add(Box.createVerticalStrut(-2)); // small gap
         checkBoxPanel.add(clampEvolution);
+        checkBoxPanel.add(Box.createVerticalStrut(-2)); // small gap
+        checkBoxPanel.add(randomizeTms);
 
         frame.add(checkBoxPanel, BorderLayout.CENTER);
 
@@ -264,6 +272,24 @@ public class RandomizerUI {
             } else {
                 try {
                     Files.copy(Thread.currentThread().getContextClassLoader().getResourceAsStream(EVODATA_ORIGINAL_INPUT_PATH), Paths.get(EVODATA_OUTPUT_PATH), StandardCopyOption.REPLACE_EXISTING);
+                } catch (IOException ex) {
+                    System.out.println("it fked up");
+                }
+            }
+
+            // --- RANDOM TMS ---
+            if (randomizeTms.isSelected()) {
+                System.out.println("Randomizing TMs...");
+
+                try {
+                    randomizeTms();
+                } catch (IOException ex) {
+                    System.out.println("it fked up");
+                }
+
+            } else {
+                try {
+                    Files.copy(Thread.currentThread().getContextClassLoader().getResourceAsStream(TMDATA_INPUT_PATH), Paths.get(TMDATA_OUTPUT_PATH), StandardCopyOption.REPLACE_EXISTING);
                 } catch (IOException ex) {
                     System.out.println("it fked up");
                 }
@@ -514,6 +540,55 @@ public class RandomizerUI {
                 bw.write(processed);
             }
 
+        }
+
+    }
+
+    public static void randomizeTms() throws IOException{
+
+        final Pattern DEPTSTORE_BLOCK_START = Pattern.compile("^u16\\s+sGoldenrodDepartment5F\\[\\]\\s*=\\s*\\{$"); // top of block delimiter
+        final Pattern DEPTSTORE_BLOCK_END = Pattern.compile("^\\};$"); // top of block delimiter
+
+        // Resolve the input from resources on the runtime classpath
+        InputStream raw = Thread.currentThread()
+                .getContextClassLoader()
+                .getResourceAsStream(TMDATA_INPUT_PATH);
+
+        if (raw == null) {
+            throw new FileNotFoundException(
+                "Resource not found on classpath: " + TMDATA_INPUT_PATH +
+                " (put the file under src/main/resources, and use the classpath name only)"
+            );
+        }
+
+        Path outPath = Paths.get(TMDATA_OUTPUT_PATH).toAbsolutePath().normalize();
+        Files.createDirectories(outPath.getParent());
+
+        try (BufferedReader br = new BufferedReader(new InputStreamReader(raw, StandardCharsets.UTF_8));
+             BufferedWriter bw = Files.newBufferedWriter(outPath, StandardCharsets.UTF_8,
+                     StandardOpenOption.CREATE, StandardOpenOption.TRUNCATE_EXISTING)) {
+
+            boolean inBlock = false;
+
+            String line;
+            while ((line = br.readLine()) != null) {
+
+                boolean startsBlock = DEPTSTORE_BLOCK_START.matcher(line).matches();
+                boolean endsBlock = DEPTSTORE_BLOCK_END.matcher(line).matches();
+                if (startsBlock) {
+                    bw.append(line).append(System.lineSeparator());
+                    bw.append(Move.buildRandomTMList(TM_AMOUNT));
+                    inBlock = true;
+                }
+                if (endsBlock && inBlock) {
+                    inBlock = false;
+                }
+                
+                if(!inBlock) {
+                    bw.append(line).append(System.lineSeparator());
+                }
+                
+            }
         }
 
     }
