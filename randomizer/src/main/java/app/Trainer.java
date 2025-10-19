@@ -132,8 +132,7 @@ public class Trainer {
 
                     ace = (levels.get(mon) == ace_level);
                     
-                    //Pokemon newPokemon = generatePokemon(levels.get(mon), ace && !aceReached, pseudolegendary_picked, mon, numMons);
-                    Pokemon newPokemon = Pokemon.getPokemonByName("SPECIES_508");
+                    Pokemon newPokemon = generatePokemon(levels.get(mon), ace && !aceReached, pseudolegendary_picked, mon, numMons);
                     pseudolegendary_picked = pseudolegendary_picked || newPokemon.pseudolegendary; // once a pseudolegendary is chosen, all following mons must be non-pseudolegendary
 
                     builder.append("        // mon ").append(mon)                                                                         .append(System.lineSeparator());
