@@ -130,8 +130,8 @@ public class Trainer {
         }
 
         // evolve all valid mons
-        validMons.replaceAll(p -> p.evolveToLevel(level));
-        validMons.removeIf(p -> !p.evolution_tree.isEmpty() && p.evolution_tree.stream().allMatch(evo -> evo.level > level));
+        validMons.removeIf(p -> !p.stage_1);
+        Pokemon.evolveByLevelInPlace(validMons, level);
         // Remove duplicates
         Set<Pokemon> seen = new HashSet<>();
         validMons.removeIf(p -> !seen.add(p));

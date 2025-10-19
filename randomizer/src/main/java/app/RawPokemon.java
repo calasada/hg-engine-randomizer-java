@@ -13,6 +13,7 @@ public class RawPokemon {
     public boolean trainer_valid;
     public boolean has_all_sprites;
     public boolean has_front_sprite;
+    public boolean stage_1;
     public boolean starter;
     public boolean legendary;
     public boolean pseudolegendary;

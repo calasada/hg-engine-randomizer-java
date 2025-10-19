@@ -1,8 +1,10 @@
 package app;
 
 import java.util.ArrayList;
+import java.util.HashSet;
+import java.util.LinkedHashSet;
 import java.util.List;
-import java.util.Random;
+import java.util.Set;
 import java.util.concurrent.ThreadLocalRandom;
 
 public class Pokemon {
@@ -16,6 +18,7 @@ public class Pokemon {
     public boolean trainer_valid;
     public boolean has_all_sprites;
     public boolean has_front_sprite;
+    public boolean stage_1;
     public boolean starter;
     public boolean legendary;
     public boolean pseudolegendary;
@@ -30,40 +33,6 @@ public class Pokemon {
     public List<DexMap<String, Area>> dex_areas = new ArrayList<>();
 
     public record DexMap<K, V>(K dexFlag, V area) {}
-
-    public Pokemon evolveToLevel(int level) {
-        if(!evolution_tree.isEmpty()) {
-            List<Evolution> validEvos = new ArrayList<>();
-            for(Evolution e : evolution_tree) {
-                if(e.level > 0) {
-                    if(level >= e.level) {
-                        validEvos.add(e);
-                    }
-                } else {
-                    if(level >= 30) {
-                        validEvos.add(e);
-                    }
-                }
-            }
-
-            if(validEvos.isEmpty()) {
-                return this;
-            } else {
-                int random = new Random().nextInt(validEvos.size());
-                //System.out.println("Evolving pokemon " + this.toString() + ".... " + validEvos.size() + ", " + random + ", " + validEvos.get(random).pokemon.toString());
-
-                if(validEvos.get(random).pokemon == null) {
-                    System.out.println("evolution broken...");
-                    System.exit(4);
-                }
-                return validEvos.get(random).pokemon.evolveToLevel(level);
-            }
-            
-        } else {
-            return this;
-        }
-        
-    }
 
     public String buildMoveset(Trainer trainer) {
 
@@ -252,6 +221,64 @@ public class Pokemon {
         @Override public String toString() {
             return id + ", " + species_name + ", " + species_withform + " (" + typeA + (typeB != null ? "/" + typeB : "") + ") "
                 + (alt_spawns == null ? "" : alt_spawns.toString());
+    }
+    
+
+    public static void evolveByLevelInPlace(List<Pokemon> mons, int level) {
+        if (mons == null) return;
+
+        // Use a set so the final list has unique species (avoid duplicates from multiple paths)
+        LinkedHashSet<String> emittedIds = new LinkedHashSet<>();
+        List<Pokemon> result = new ArrayList<>(mons.size());
+
+        for (Pokemon p : mons) {
+            expand(p, level, result, emittedIds, new HashSet<>());
         }
+
+        mons.clear();
+        mons.addAll(result);
+    }
+
+    private static void expand(Pokemon p, int level, List<Pokemon> out, Set<String> emittedIds, Set<String> path) {
+        if (p == null) return;
+        String id = p.species_name;
+        if (id == null) return;
+
+        // Prevent cycles in evolution data (defensive)
+        if (!path.add(id)) return;
+
+        // Gather valid evolutions for this level (including -1 with 50/50)
+        List<Pokemon> nexts = null;
+        for (Evolution evo : p.evolution_tree) {
+            if (evo == null || evo.pokemon == null) continue;
+
+            int evoLevel = evo.level;
+            boolean include = false;
+
+            if (evoLevel <= level && evoLevel >= 0) {
+                // Normal case: evolve if level requirement met
+                include = true;
+            } else if (evoLevel == -1) {
+                include = (p.stage_1 && level >= 25) || (!p.stage_1 && level >= 40);
+            }
+
+            if (include) {
+                if (nexts == null) nexts = new ArrayList<>();
+                nexts.add(evo.pokemon);
+            }
+        }
+
+        if (nexts == null || nexts.isEmpty()) {
+            // No valid evolutions: keep p
+            if (emittedIds.add(id)) out.add(p);
+        } else {
+            // Replace p with all valid targets and recurse into each
+            for (Pokemon nxt : nexts) {
+                expand(nxt, level, out, emittedIds, path);
+            }
+        }
+
+        path.remove(id);
+    }
 
 }

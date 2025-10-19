@@ -84,6 +84,7 @@ public final class JsonLoader {
             p.trainer_valid = r.trainer_valid;
             p.has_all_sprites = r.has_all_sprites;
             p.has_front_sprite = r.has_front_sprite;
+            p.stage_1 = r.stage_1;
             p.starter = r.starter;
             p.legendary = r.legendary;
             p.pseudolegendary = r.pseudolegendary;

@@ -26,6 +26,7 @@ POKEMON_BOOL_COLS = [
     "trainer_valid",
     "has_all_sprites",
     "has_front_sprite",
+    "stage_1",
     "starter",
     "legendary",
     "pseudolegendary",
