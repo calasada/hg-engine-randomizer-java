@@ -281,4 +281,18 @@ public class Pokemon {
         path.remove(id);
     }
 
+    public Pokemon getPreEvolution() {
+
+        List<Pokemon> allMons = new ArrayList<>(RandomizerUI.STATIC_MONS);
+
+        for (Pokemon candidate : allMons) {
+            for (Evolution evo : candidate.evolution_tree) {
+                if (evo.pokemon == this) {
+                    return candidate; // found the only possible parent
+                }
+            }
+        }
+        return null; // no pre-evo
+    }
+
 }

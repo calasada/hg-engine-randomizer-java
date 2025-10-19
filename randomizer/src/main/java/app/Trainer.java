@@ -9,6 +9,8 @@ import java.util.concurrent.ThreadLocalRandom;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
+import static app.Trainer.TrainerType.TRAINERCLASS_RIVAL;
+
 public class Trainer {
 
     public int id;
@@ -18,13 +20,21 @@ public class Trainer {
     public int ace_level;
     public boolean moves_defined;
 
+    public static Pokemon[] rivalTeam_stage1 = new Pokemon[6];
+    public static Pokemon[] rivalTeam_stage2 = new Pokemon[6];
+    public static Pokemon[] rivalTeam_stage3 = new Pokemon[6];
+
+    public static Pokemon[] rivalTeam_stage1_noforms = new Pokemon[6];
+    public static Pokemon[] rivalTeam_stage2_noforms = new Pokemon[6];
+    public static Pokemon[] rivalTeam_stage3_noforms = new Pokemon[6];
+
     public enum TrainerType {
 
         TRAINERCLASS_UNIMPORTANT (60, 35, 5, false, false, false, false),
-        TRAINERCLASS_RIVAL       (30, 40, 30, true, false, false, false),
+        TRAINERCLASS_RIVAL       (10, 40, 50, true, false, true, false),
         TRAINERCLASS_LEADER      (30, 50, 20, true, false, false, false),
         TRAINERCLASS_ELITE_FOUR  (15, 50, 35, true, false, false, false),
-        TRAINERCLASS_CHAMPION    (15, 35, 50, true, false, true, false),
+        TRAINERCLASS_CHAMPION    (0,  30, 70, true, false, false, false),
         TRAINERCLASS_TEAM_ROCKET (60, 35, 5, false, true, false, false),
         TRAINERCLASS_EXECUTIVE   (15, 50, 35, true, true, false, false),
         TRAINERCLASS_ROCKET_BOSS (15, 35, 50, true, true, false, true);
@@ -83,33 +93,64 @@ public class Trainer {
             builder.append("        ballseal 0")              .append(System.lineSeparator());
         } else {
 
-            if (levels.size() != numMons) {
-                System.out.println("Tried to build a party with an amount of levels not equal to the number of mons (" + numMons + "," + levels.size() + ")");
-                System.exit(3);
-            }
+            // if you're dealing with the rival
+            if(type == TrainerType.TRAINERCLASS_RIVAL) {
 
-            boolean ace;
-            boolean aceReached = false;
-            
-            for (int mon = 0; mon < numMons; mon++) {
-
-                ace = (levels.get(mon) == ace_level);
+                if (levels.size() != numMons) {
+                    System.out.println("Tried to build a party with an amount of levels not equal to the number of mons (" + numMons + "," + levels.size() + ")");
+                    System.exit(3);
+                }
                 
-                Pokemon newPokemon = generatePokemon(levels.get(mon), ace && !aceReached);
+                for (int mon = 0; mon < numMons; mon++) {
 
-                builder.append("        // mon ").append(mon)                                                                         .append(System.lineSeparator());
-                builder.append("        ivs ").append(ivs)                                                                            .append(System.lineSeparator());
-                builder.append("        abilityslot 0")                                                                               .append(System.lineSeparator());
-                builder.append("        level ").append(levels.get(mon))                                                              .append(System.lineSeparator());
-                builder.append("        ").append(newPokemon.form ? "monwithform " : "pokemon ").append(newPokemon.species_withform)  .append(System.lineSeparator());
-                if(!items.isEmpty()) {builder.append("        item ").append(items.get(mon))                                          .append(System.lineSeparator());}
-                if(moves_defined) {builder.append(newPokemon.buildMoveset(this))                                                      .append(System.lineSeparator());}
-                builder.append("        ballseal 0")                                                                                  .append(System.lineSeparator());
-                if(mon != numMons - 1) {builder                                                                                       .append(System.lineSeparator());}
+                    Pokemon newPokemon = getRivalPokemonFromLevel(mon, levels.get(mon));
 
-                aceReached = ace;
+                    builder.append("        // mon ").append(mon)                                                                         .append(System.lineSeparator());
+                    builder.append("        ivs ").append(ivs)                                                                            .append(System.lineSeparator());
+                    builder.append("        abilityslot 0")                                                                               .append(System.lineSeparator());
+                    builder.append("        level ").append(levels.get(mon))                                                              .append(System.lineSeparator());
+                    builder.append("        ").append(newPokemon.form ? "monwithform " : "pokemon ").append(newPokemon.species_withform)  .append(System.lineSeparator());
+                    if(!items.isEmpty()) {builder.append("        item ").append(items.get(mon))                                          .append(System.lineSeparator());}
+                    if(moves_defined) {builder.append(newPokemon.buildMoveset(this))                                                      .append(System.lineSeparator());}
+                    builder.append("        ballseal 0")                                                                                  .append(System.lineSeparator());
+                    if(mon != numMons - 1) {builder                                                                                       .append(System.lineSeparator());}
 
+                }
+
+            } else { // non-rival trainers
+
+                if (levels.size() != numMons) {
+                    System.out.println("Tried to build a party with an amount of levels not equal to the number of mons (" + numMons + "," + levels.size() + ")");
+                    System.exit(3);
+                }
+
+                boolean ace;
+                boolean aceReached = false;
+                boolean pseudolegendary_picked = false;
+                
+                for (int mon = 0; mon < numMons; mon++) {
+
+                    ace = (levels.get(mon) == ace_level);
+                    
+                    Pokemon newPokemon = generatePokemon(levels.get(mon), ace && !aceReached, pseudolegendary_picked);
+                    pseudolegendary_picked = pseudolegendary_picked || newPokemon.pseudolegendary; // once a pseudolegendary is chosen, all following mons must be non-pseudolegendary
+
+                    builder.append("        // mon ").append(mon)                                                                         .append(System.lineSeparator());
+                    builder.append("        ivs ").append(ivs)                                                                            .append(System.lineSeparator());
+                    builder.append("        abilityslot 0")                                                                               .append(System.lineSeparator());
+                    builder.append("        level ").append(levels.get(mon))                                                              .append(System.lineSeparator());
+                    builder.append("        ").append(newPokemon.form ? "monwithform " : "pokemon ").append(newPokemon.species_withform)  .append(System.lineSeparator());
+                    if(!items.isEmpty()) {builder.append("        item ").append(items.get(mon))                                          .append(System.lineSeparator());}
+                    if(moves_defined) {builder.append(newPokemon.buildMoveset(this))                                                      .append(System.lineSeparator());}
+                    builder.append("        ballseal 0")                                                                                  .append(System.lineSeparator());
+                    if(mon != numMons - 1) {builder                                                                                       .append(System.lineSeparator());}
+
+                    aceReached = ace;
+
+                }
             }
+
+            
             
         }
 
@@ -118,7 +159,7 @@ public class Trainer {
         return builder.toString();
     }
 
-    public Pokemon generatePokemon(int level, boolean ace) {
+    public Pokemon generatePokemon(int level, boolean ace, boolean pseudolegendary_picked) {
 
         List<Pokemon> validMons = new ArrayList<>(RandomizerUI.STATIC_MONS);
 
@@ -149,8 +190,13 @@ public class Trainer {
                 validMons.removeIf(p -> (p.typeA != RandomizerUI.static_gymTypeMap.get(original_gym)) && (p.typeB != RandomizerUI.static_gymTypeMap.get(original_gym)));
             }
 
+            if(pseudolegendary_picked) { // filter out non-pseudolegendary pokemon if needed
+                validMons.removeIf(p -> !p.pseudolegendary);
+            }
+
             validMons.removeIf(p -> !p.trainer_valid || !p.has_front_sprite);
 
+            // try picking a mon from the desired tier, if none exist keep all mons
             List<Pokemon> tryTier = new ArrayList<>(validMons);
             tryTier.removeIf(p -> p.tier != tier);
             if(!tryTier.isEmpty()) {
@@ -266,6 +312,152 @@ public class Trainer {
 
     @Override public String toString() {
         return trainer_name + "= id:" + id + ", type:" + type + ", gym:" + original_gym;
+    }
+
+    public static void generateRivalTeam() {
+
+        Pokemon[] tempTeam = new Pokemon[6];
+
+        boolean pseudolegendary_picked = false;
+
+        for(int i = 0; i < 6; i++) {
+            List<Pokemon> validMons = new ArrayList<>(RandomizerUI.STATIC_MONS);
+            Tier tier = TRAINERCLASS_RIVAL.getTierWeighted();
+
+            // evolve all valid mons
+            validMons.removeIf(p -> !p.stage_1);
+            Pokemon.evolveByLevelInPlace(validMons, 100);
+
+            if(i == 5) { // last mon must be legendary
+                validMons.removeIf(p -> !p.legendary);
+            } else {
+
+                if(i == 0) { // first mon must be evolvable
+                    validMons.removeIf(p -> p.stage_1);
+                }
+
+                if(pseudolegendary_picked) { // filter out non-pseudolegendary pokemon if needed
+                    validMons.removeIf(p -> !p.pseudolegendary);
+                }
+
+                // try picking a mon from the desired tier, if none exist keep all mons
+                List<Pokemon> tryTier = new ArrayList<>(validMons);
+                tryTier.removeIf(p -> p.tier != tier);
+                if(!tryTier.isEmpty()) {
+                    validMons = new ArrayList<>(tryTier);
+                }
+            }
+
+            tempTeam[i] = validMons.get(new Random().nextInt(validMons.size()));
+
+            Pokemon stage3;
+            Pokemon stage2 = null;
+            Pokemon stage1 = null;
+            
+            stage3 = tempTeam[i];
+            if(stage3 != null) { stage2 = tempTeam[i].getPreEvolution(); }
+            if(stage2 != null) { stage1 = tempTeam[i].getPreEvolution().getPreEvolution(); }
+
+            if(stage1 != null) { rivalTeam_stage1_noforms[i] = stage1; }
+            if(stage2 != null) { rivalTeam_stage2_noforms[i] = stage2; }
+            if(stage3 != null) { rivalTeam_stage3_noforms[i] = stage3; }   
+
+            if (stage1 != null) { rivalTeam_stage1[i] = stage1.chooseAltForm(); }
+            if (stage2 != null) { rivalTeam_stage2[i] = stage2.chooseAltForm(); }
+            if (stage3 != null) { rivalTeam_stage3[i] = stage3.chooseAltForm(); }
+
+        }
+
+        System.out.println("Rival Teams Generated:");
+        System.out.println(" Stage 1: ");
+        for(Pokemon p : rivalTeam_stage1) {
+            System.out.println("  " + (p != null ? p.species_name : "  None"));
+        }
+
+        System.out.println(" Stage 2: ");
+        for(Pokemon p : rivalTeam_stage2) {
+            System.out.println("  " + (p != null ? p.species_name : "  None"));
+        }
+
+        System.out.println(" Stage 3: ");
+        for(Pokemon p : rivalTeam_stage3) {
+            System.out.println("  " + (p != null ? p.species_name : "  None"));
+        }
+
+    }
+
+    public static Pokemon getRivalPokemonFromLevel(int index, int level) {
+
+        Evolution next;
+
+        if (rivalTeam_stage1[index] != null && rivalTeam_stage2[index] != null) { // 3 stage evolution
+
+            next = rivalTeam_stage1_noforms[index].evolution_tree.stream() // find matching stage 2 evolution from stage 1's evolution tree
+                .filter(e -> e.pokemon == rivalTeam_stage2_noforms[index])
+                .findFirst()
+                .orElse(null);
+
+            if (next == null) {
+                System.out.println("Evolutions not matching on rival team: " +rivalTeam_stage1[index].species_name + " -> " + (rivalTeam_stage2[index] != null ? rivalTeam_stage2[index].species_name : "null") +
+                                                                            " -> " + (rivalTeam_stage3[index] != null ? rivalTeam_stage3[index].species_name : "null"));
+                System.exit(1);
+            }
+
+            if(level >= next.level) { // if the level is high enough to evolve to stage 2
+
+                if(next.level == -1 && level < 25) { // special case for item evolutions
+                    return rivalTeam_stage1[index];
+                }
+
+                next = rivalTeam_stage2_noforms[index].evolution_tree.stream() // find matching stage 2 evolution from stage 1's evolution tree
+                    .filter(e -> e.pokemon == rivalTeam_stage3_noforms[index])
+                    .findFirst()
+                    .orElse(null);
+
+                if (next == null) {
+                    System.out.println("Evolutions not matching on rival team: " +rivalTeam_stage1[index].species_name + " -> " + (rivalTeam_stage2[index] != null ? rivalTeam_stage2[index].species_name : "null") +
+                                                                                " -> " + (rivalTeam_stage3[index] != null ? rivalTeam_stage3[index].species_name : "null"));
+                    System.exit(1);
+                }
+
+                if (level >= next.level) { // if the level is high enough to evolve to stage 3
+                    if(next.level == -1 && level < 40) { // special case for item evolutions
+                        return rivalTeam_stage2[index];
+                    }
+                    return rivalTeam_stage3[index];
+                } else {
+                    return rivalTeam_stage2[index];
+                }
+
+            } else {
+                return rivalTeam_stage1[index];
+            }
+            
+        } else if (rivalTeam_stage2[index] != null && rivalTeam_stage1[index] == null) { // 2 stage evolution
+
+            next = rivalTeam_stage2_noforms[index].evolution_tree.stream() // find matching stage 2 evolution from stage 1's evolution tree
+                .filter(e -> e.pokemon == rivalTeam_stage3_noforms[index])
+                .findFirst()
+                .orElse(null);
+
+            if (next == null) {
+                System.out.println("Evolutions not matching on rival team: " +rivalTeam_stage1[index].species_name + " -> " + (rivalTeam_stage2[index] != null ? rivalTeam_stage2[index].species_name : "null"));
+                System.exit(1);
+            }
+            
+            if(level >= next.level) { // if the level is high enough to evolve to stage 2
+                if(next.level == -1 && level < 25) { // special case for item evolutions
+                    return rivalTeam_stage2[index];
+                }
+                return rivalTeam_stage3[index];
+            } else {
+                return rivalTeam_stage2[index];
+            }
+
+        } else { // no evolution
+            return rivalTeam_stage3[index];
+        }
+
     }
 
 }

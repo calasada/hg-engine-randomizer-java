@@ -483,6 +483,8 @@ public class RandomizerUI {
 
         final Pattern TRAINER_BLOCK_START = Pattern.compile(".*\\btrainerdata\\b.*"); // top of block delimiter
 
+        Trainer.generateRivalTeam();
+
         // Resolve the input from resources on the runtime classpath
         InputStream trainersRaw = Thread.currentThread()
                 .getContextClassLoader()
