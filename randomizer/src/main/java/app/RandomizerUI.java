@@ -33,6 +33,9 @@ import javax.swing.SwingUtilities;
 import javax.swing.UIManager;
 import javax.swing.UnsupportedLookAndFeelException;
 
+import com.fasterxml.jackson.core.type.TypeReference;
+import com.fasterxml.jackson.databind.ObjectMapper;
+
 
 public class RandomizerUI {
 
@@ -60,7 +63,7 @@ public class RandomizerUI {
     public static final List<Pokemon> STATIC_MONS = initPokemon();
     public static final List<Trainer> STATIC_TRAINERS = initTrainers();
 
-    public static final int TM_AMOUNT = 51;
+    public static final int TM_AMOUNT = 20;
 
     public static Map<Integer, Type> static_gymTypeMap;
 
@@ -175,7 +178,7 @@ public class RandomizerUI {
         JCheckBox randomTrainers = new JCheckBox("Random Trainers");
         JCheckBox keepGymTypes = new JCheckBox("Keep Original Gym/E4 Types");
         JCheckBox clampEvolution = new JCheckBox("Clamp Evolution Levels (25, 40)");
-        JCheckBox randomizeTms = new JCheckBox("Randomize Dept. Store TMs");
+        JCheckBox randomizeMarts = new JCheckBox("Randomize Dept. Store TMs");
 
         // JPanel of checkboxes
         JPanel checkBoxPanel = new JPanel();
@@ -190,7 +193,7 @@ public class RandomizerUI {
         checkBoxPanel.add(Box.createVerticalStrut(-2)); // small gap
         checkBoxPanel.add(clampEvolution);
         checkBoxPanel.add(Box.createVerticalStrut(-2)); // small gap
-        checkBoxPanel.add(randomizeTms);
+        checkBoxPanel.add(randomizeMarts);
 
         frame.add(checkBoxPanel, BorderLayout.CENTER);
 
@@ -277,12 +280,12 @@ public class RandomizerUI {
                 }
             }
 
-            // --- RANDOM TMS ---
-            if (randomizeTms.isSelected()) {
-                System.out.println("Randomizing TMs...");
+            // --- RANDOM MARTS ---
+            if (randomizeMarts.isSelected()) {
+                System.out.println("Randomizing Marts...");
 
                 try {
-                    randomizeTms();
+                    randomizeMarts();
                 } catch (IOException ex) {
                     System.out.println("it fked up");
                 }
@@ -544,10 +547,31 @@ public class RandomizerUI {
 
     }
 
-    public static void randomizeTms() throws IOException{
+    public static void randomizeMarts() throws IOException{
 
-        final Pattern DEPTSTORE_BLOCK_START = Pattern.compile("^u16\\s+sGoldenrodDepartment5F\\[\\]\\s*=\\s*\\{$"); // top of block delimiter
-        final Pattern DEPTSTORE_BLOCK_END = Pattern.compile("^\\};$"); // top of block delimiter
+        final Pattern DEPTSTORE_BLOCK_START = Pattern.compile("^u16\\s+sGoldenrodDepartment5F\\[\\]\\s*=\\s*\\{$"); 
+        final Pattern CHERRYGROVE_BLOCK_START = Pattern.compile("^u16\\s+sCherrygroveCityMart\\[\\]\\s*=\\s*\\{$"); 
+        final Pattern VIOLET_BLOCK_START = Pattern.compile("^u16\\s+sVioletCityMart\\[\\]\\s*=\\s*\\{$"); 
+        final Pattern AZALEA_BLOCK_START = Pattern.compile("^u16\\s+sAzaleaCityMart\\[\\]\\s*=\\s*\\{$"); 
+        final Pattern ECRUTEAK_BLOCK_START = Pattern.compile("^u16\\s+sEcruteakMart\\[\\]\\s*=\\s*\\{$"); 
+        final Pattern OLIVINE_BLOCK_START = Pattern.compile("^u16\\s+sOlivineMart\\[\\]\\s*=\\s*\\{$"); 
+        final Pattern SAFFRON_BLOCK_START = Pattern.compile("^u16\\s+sSaffronMart\\[\\]\\s*=\\s*\\{$"); 
+        final Pattern LAVENDER_BLOCK_START = Pattern.compile("^u16\\s+sLavenderMart\\[\\]\\s*=\\s*\\{$"); 
+        final Pattern CERULEAN_BLOCK_START = Pattern.compile("^u16\\s+sCeruleanMart\\[\\]\\s*=\\s*\\{$"); 
+
+        final Pattern MART_BLOCK_END = Pattern.compile("^\\};$");
+
+        // load tms from tmlist.json
+        List<String> tmList = new ObjectMapper().readValue(
+            Thread.currentThread().getContextClassLoader().getResourceAsStream("tmdata.json"),
+            new TypeReference<List<String>>() {}
+        );
+        
+        // load items from itemlist.json
+        List<String> itemList = new ObjectMapper().readValue(
+            Thread.currentThread().getContextClassLoader().getResourceAsStream("itemdata.json"),
+            new TypeReference<List<String>>() {}
+        );
 
         // Resolve the input from resources on the runtime classpath
         InputStream raw = Thread.currentThread()
@@ -573,11 +597,24 @@ public class RandomizerUI {
             String line;
             while ((line = br.readLine()) != null) {
 
-                boolean startsBlock = DEPTSTORE_BLOCK_START.matcher(line).matches();
-                boolean endsBlock = DEPTSTORE_BLOCK_END.matcher(line).matches();
-                if (startsBlock) {
+                boolean startsDepartmentBlock = DEPTSTORE_BLOCK_START.matcher(line).matches(); // department store matcher
+                boolean startsCityBlock = CHERRYGROVE_BLOCK_START.matcher(line).matches() || // any city matcher
+                                          VIOLET_BLOCK_START.matcher(line).matches() || 
+                                          AZALEA_BLOCK_START.matcher(line).matches() || 
+                                          ECRUTEAK_BLOCK_START.matcher(line).matches() || 
+                                          OLIVINE_BLOCK_START.matcher(line).matches() || 
+                                          SAFFRON_BLOCK_START.matcher(line).matches() || 
+                                          LAVENDER_BLOCK_START.matcher(line).matches() || 
+                                          CERULEAN_BLOCK_START.matcher(line).matches();
+                boolean endsBlock = MART_BLOCK_END.matcher(line).matches(); // end of block matcher
+                if (startsDepartmentBlock) {
                     bw.append(line).append(System.lineSeparator());
-                    bw.append(Move.buildRandomTMList(TM_AMOUNT));
+                    bw.append(Move.buildDepartmentTMList(tmList, TM_AMOUNT));
+                    inBlock = true;
+                }
+                if (startsCityBlock) {
+                    bw.append(line).append(System.lineSeparator());
+                    bw.append(Move.buildCityTMList(tmList, itemList));
                     inBlock = true;
                 }
                 if (endsBlock && inBlock) {

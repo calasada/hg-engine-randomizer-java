@@ -3,9 +3,6 @@ package app;
 import java.io.IOException;
 import java.util.List;
 
-import com.fasterxml.jackson.core.type.TypeReference;
-import com.fasterxml.jackson.databind.ObjectMapper;
-
 public class Move {
 
     public String move_name;
@@ -17,13 +14,7 @@ public class Move {
         return move_name + "= type:" + type + ", implemented:" + implemented + ", status:" + status;
     }
 
-    public static String buildRandomTMList(int amount) throws IOException {
-
-        // load tms from tmlist.json
-        List<String> tmList = new ObjectMapper().readValue(
-            Thread.currentThread().getContextClassLoader().getResourceAsStream("tmdata.json"),
-            new TypeReference<List<String>>() {}
-        );
+    public static String buildDepartmentTMList(List<String> tmList, int amount) throws IOException {
 
         if (tmList.isEmpty()) {
             System.out.println("tmList is empty");
@@ -37,6 +28,45 @@ public class Move {
 
         for (int i = 0; i < amount; i++) {
             builder.append(Area.takeRandom(tmList)).append(", ");
+            if((i+1) % 5 == 0) {
+                builder.append(System.lineSeparator()).append("    ");
+            }
+        }
+        
+        builder.append("0xFFFF").append(System.lineSeparator());
+
+        return builder.toString();
+        
+    }
+
+    public static String buildCityTMList(List<String> tmList, List<String> itemList) throws IOException {
+
+        if (tmList.isEmpty()) {
+            System.out.println("tmList is empty");
+            System.exit(6);
+        } else {
+            //System.out.println(tmList);
+        }
+
+        if (itemList.isEmpty()) {
+            System.out.println("itemList is empty");
+            System.exit(6);
+        } else {
+            //System.out.println(itemList);
+        }
+
+        StringBuilder builder = new StringBuilder();
+        builder.append("    ");
+
+        for (int i = 0; i < 12; i++) {
+            // add item or tm based on index, 7 items 5 tms
+            if(i < 7) {
+                builder.append(Area.takeRandom(itemList)).append(", ");
+            } else {
+                builder.append(Area.takeRandom(tmList)).append(", ");
+            }
+            
+            // new line every 5 entries
             if((i+1) % 5 == 0) {
                 builder.append(System.lineSeparator()).append("    ");
             }
