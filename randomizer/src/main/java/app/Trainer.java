@@ -132,7 +132,7 @@ public class Trainer {
 
                     ace = (levels.get(mon) == ace_level);
                     
-                    Pokemon newPokemon = generatePokemon(levels.get(mon), ace && !aceReached, pseudolegendary_picked);
+                    Pokemon newPokemon = generatePokemon(levels.get(mon), ace && !aceReached, pseudolegendary_picked, mon, numMons);
                     pseudolegendary_picked = pseudolegendary_picked || newPokemon.pseudolegendary; // once a pseudolegendary is chosen, all following mons must be non-pseudolegendary
 
                     builder.append("        // mon ").append(mon)                                                                         .append(System.lineSeparator());
@@ -159,7 +159,7 @@ public class Trainer {
         return builder.toString();
     }
 
-    public Pokemon generatePokemon(int level, boolean ace, boolean pseudolegendary_picked) {
+    public Pokemon generatePokemon(int level, boolean ace, boolean pseudolegendary_picked, int index, int nummons) {
 
         List<Pokemon> validMons = new ArrayList<>(RandomizerUI.STATIC_MONS);
 
@@ -186,7 +186,7 @@ public class Trainer {
             if(type.evil) { // filter out non-evil pokemon (70% chance) if the trainer is evil
                 validMons.removeIf(p -> !p.evil && ThreadLocalRandom.current().nextDouble() < 0.7);
             }
-            if(original_gym > 0) { // filter out non-type matches if trainer is part of a gym
+            if(original_gym > 0 && !(type == TrainerType.TRAINERCLASS_LEADER && nummons > 4 && index == 2)) { // filter out non-type matches if trainer is part of a gym, special case for leaders to splash into any type with one pokemon
                 validMons.removeIf(p -> (p.typeA != RandomizerUI.static_gymTypeMap.get(original_gym)) && (p.typeB != RandomizerUI.static_gymTypeMap.get(original_gym)));
             }
 
