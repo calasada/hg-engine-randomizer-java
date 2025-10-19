@@ -178,7 +178,7 @@ public class RandomizerUI {
         JCheckBox randomTrainers = new JCheckBox("Random Trainers");
         JCheckBox keepGymTypes = new JCheckBox("Keep Original Gym/E4 Types");
         JCheckBox clampEvolution = new JCheckBox("Clamp Evolution Levels (25, 40)");
-        JCheckBox randomizeMarts = new JCheckBox("Randomize Dept. Store TMs");
+        JCheckBox randomizeMarts = new JCheckBox("Randomize Mart Items/TMs");
 
         // JPanel of checkboxes
         JPanel checkBoxPanel = new JPanel();

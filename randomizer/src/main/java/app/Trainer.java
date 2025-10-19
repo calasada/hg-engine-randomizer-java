@@ -368,21 +368,21 @@ public class Trainer {
 
         }
 
-        System.out.println("Rival Teams Generated:");
-        System.out.println(" Stage 1: ");
-        for(Pokemon p : rivalTeam_stage1) {
-            System.out.println("  " + (p != null ? p.species_name : "  None"));
-        }
+        // System.out.println("Rival Teams Generated:");
+        // System.out.println(" Stage 1: ");
+        // for(Pokemon p : rivalTeam_stage1) {
+        //     System.out.println("  " + (p != null ? p.species_name : "  None"));
+        // }
 
-        System.out.println(" Stage 2: ");
-        for(Pokemon p : rivalTeam_stage2) {
-            System.out.println("  " + (p != null ? p.species_name : "  None"));
-        }
+        // System.out.println(" Stage 2: ");
+        // for(Pokemon p : rivalTeam_stage2) {
+        //     System.out.println("  " + (p != null ? p.species_name : "  None"));
+        // }
 
-        System.out.println(" Stage 3: ");
-        for(Pokemon p : rivalTeam_stage3) {
-            System.out.println("  " + (p != null ? p.species_name : "  None"));
-        }
+        // System.out.println(" Stage 3: ");
+        // for(Pokemon p : rivalTeam_stage3) {
+        //     System.out.println("  " + (p != null ? p.species_name : "  None"));
+        // }
 
     }
 
