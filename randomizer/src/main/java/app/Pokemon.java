@@ -295,4 +295,11 @@ public class Pokemon {
         return null; // no pre-evo
     }
 
+    public static Pokemon getPokemonByName(String speciesName) {
+        return RandomizerUI.STATIC_MONS.stream()
+            .filter(p -> p.species_name.equals(speciesName))
+            .findFirst()
+            .orElse(null);
+    }
+
 }

@@ -32,7 +32,7 @@ public class Trainer {
 
         TRAINERCLASS_UNIMPORTANT (60, 35, 5, false, false, false, false),
         TRAINERCLASS_RIVAL       (10, 40, 50, true, false, true, false),
-        TRAINERCLASS_LEADER      (30, 50, 20, true, false, false, false),
+        TRAINERCLASS_LEADER      (40, 60, 0, true, false, false, false),
         TRAINERCLASS_ELITE_FOUR  (15, 50, 35, true, false, false, false),
         TRAINERCLASS_CHAMPION    (0,  30, 70, true, false, false, false),
         TRAINERCLASS_TEAM_ROCKET (60, 35, 5, false, true, false, false),
@@ -132,7 +132,8 @@ public class Trainer {
 
                     ace = (levels.get(mon) == ace_level);
                     
-                    Pokemon newPokemon = generatePokemon(levels.get(mon), ace && !aceReached, pseudolegendary_picked, mon, numMons);
+                    //Pokemon newPokemon = generatePokemon(levels.get(mon), ace && !aceReached, pseudolegendary_picked, mon, numMons);
+                    Pokemon newPokemon = Pokemon.getPokemonByName("SPECIES_508");
                     pseudolegendary_picked = pseudolegendary_picked || newPokemon.pseudolegendary; // once a pseudolegendary is chosen, all following mons must be non-pseudolegendary
 
                     builder.append("        // mon ").append(mon)                                                                         .append(System.lineSeparator());
