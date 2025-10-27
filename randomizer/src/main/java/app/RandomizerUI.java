@@ -557,9 +557,9 @@ public class RandomizerUI {
         final Pattern AZALEA_BLOCK_START = Pattern.compile("^u16\\s+sAzaleaCityMart\\[\\]\\s*=\\s*\\{$"); 
         final Pattern ECRUTEAK_BLOCK_START = Pattern.compile("^u16\\s+sEcruteakMart\\[\\]\\s*=\\s*\\{$"); 
         final Pattern OLIVINE_BLOCK_START = Pattern.compile("^u16\\s+sOlivineMart\\[\\]\\s*=\\s*\\{$"); 
-        final Pattern SAFFRON_BLOCK_START = Pattern.compile("^u16\\s+sSaffronMart\\[\\]\\s*=\\s*\\{$"); 
-        final Pattern LAVENDER_BLOCK_START = Pattern.compile("^u16\\s+sLavenderMart\\[\\]\\s*=\\s*\\{$"); 
-        final Pattern CERULEAN_BLOCK_START = Pattern.compile("^u16\\s+sCeruleanMart\\[\\]\\s*=\\s*\\{$"); 
+        final Pattern BLACKTHORN_BLOCK_START = Pattern.compile("^u16\\s+sBlackthornAndBattleFrontierMart\\[\\]\\s*=\\s*\\{$"); 
+        final Pattern CIANWOOD_BLOCK_START = Pattern.compile("^u16\\s+sCianwoodPharmacy\\[\\]\\s*=\\s*\\{$"); 
+        final Pattern CELADON_BLOCK_START = Pattern.compile("^u16\\s+sCeladonDepartment4F\\[\\]\\s*=\\s*\\{$"); 
 
         final Pattern MART_BLOCK_END = Pattern.compile("^\\};$");
 
@@ -605,9 +605,9 @@ public class RandomizerUI {
                                           AZALEA_BLOCK_START.matcher(line).matches() || 
                                           ECRUTEAK_BLOCK_START.matcher(line).matches() || 
                                           OLIVINE_BLOCK_START.matcher(line).matches() || 
-                                          SAFFRON_BLOCK_START.matcher(line).matches() || 
-                                          LAVENDER_BLOCK_START.matcher(line).matches() || 
-                                          CERULEAN_BLOCK_START.matcher(line).matches();
+                                          BLACKTHORN_BLOCK_START.matcher(line).matches() || 
+                                          CIANWOOD_BLOCK_START.matcher(line).matches() || 
+                                          CELADON_BLOCK_START.matcher(line).matches();
                 boolean endsBlock = MART_BLOCK_END.matcher(line).matches(); // end of block matcher
                 if (startsDepartmentBlock) {
                     bw.append(line).append(System.lineSeparator());
