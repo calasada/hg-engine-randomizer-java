@@ -19,6 +19,7 @@ import java.util.Arrays;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
+import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
 import javax.swing.Box;
@@ -374,10 +375,11 @@ public class RandomizerUI {
         List<Pokemon> monsWithAreas = new ArrayList<>(STATIC_MONS);
 
         availableMons.removeIf(p -> !p.encounter_valid || !p.has_all_sprites);
-        monsWithAreas.removeIf(p -> !p.encounter_valid || !p.has_all_sprites || p.form);
         
         final Pattern ENCOUNTER_BLOCK_START = Pattern.compile(".*\\bencounterdata\\b.*"); // top of block delimiter
-        final Pattern DEXAREA_BLOCK_START = Pattern.compile("^\\s*(routesandcities|specialareas)\\b.*\\bSPECIES_(?!NONE\\b)[A-Z0-9_]+\\b.*",Pattern.CASE_INSENSITIVE); // top of block delimiter
+        final Pattern DEXAREA_BLOCK_START = Pattern.compile("^(specialareas|routesandcities)\\s+(SPECIES_(?!(?:NONE|EGG|BAD_EGG))[A-Z0-9_]+)\\s*,\\s*(DEX_[A-Z0-9_]+)\\s*$"); // top of block delimiter
+
+        final Pattern DEXAREA_BLOCK_END = Pattern.compile("^\\s*dexendareadata\\s*$");
 
         // Resolve the input from resources on the runtime classpath
         InputStream encountersRaw = Thread.currentThread()
@@ -459,18 +461,51 @@ public class RandomizerUI {
                      StandardOpenOption.CREATE, StandardOpenOption.TRUNCATE_EXISTING)) {
 
             String line;
+            boolean inBlock = false;
+
             while ((line = br.readLine()) != null) {
-                // If this line is the first match, stop here (exclude this line and everything after)
-                if (DEXAREA_BLOCK_START.matcher(line).matches()) {
-                    break;
+                // // If this line is the first match, stop here (exclude this line and everything after)
+                // if (DEXAREA_BLOCK_START.matcher(line).matches()) {
+                //     break;
+                // }
+                // // Otherwise, keep the line
+                // bw.append(line).append(System.lineSeparator());
+
+                Matcher m = DEXAREA_BLOCK_START.matcher(line);
+                boolean endsBlock = DEXAREA_BLOCK_END.matcher(line).matches();
+                if (m.find()) {
+                    
+                    bw.append(line).append(System.lineSeparator());
+
+                    String section  = m.group(1); // "specialareas"
+                    String species  = m.group(2); // "SPECIES_NONE"
+                    String modifier = m.group(3); // "DEX_MORNING"
+
+                    Pokemon mon = monsWithAreas.stream()
+                                        .filter(p -> p.species_name.equals(species))
+                                        .findFirst()
+                                        .orElse(null);
+
+                    if(mon == null) {
+                        System.out.println("No available mon found for dex area line: " + line);
+                        System.exit(4);
+                    }
+
+                    bw.append(mon.buildDexData(section, modifier));
+                    inBlock = true;
                 }
-                // Otherwise, keep the line
-                bw.append(line).append(System.lineSeparator());
+                if (endsBlock && inBlock) {
+                    inBlock = false;
+                }
+                
+                if(!inBlock) {
+                    bw.append(line).append(System.lineSeparator());
+                }
             }
 
-            for(Pokemon p : monsWithAreas) {
-                bw.append(p.buildDexData());
-            }
+            // for(Pokemon p : monsWithAreas) {
+            //     bw.append(p.buildDexData());
+            // }
 
             bw.flush();
 

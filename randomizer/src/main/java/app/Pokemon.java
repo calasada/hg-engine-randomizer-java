@@ -6,6 +6,7 @@ import java.util.LinkedHashSet;
 import java.util.List;
 import java.util.Set;
 import java.util.concurrent.ThreadLocalRandom;
+import java.util.stream.Collectors;
 
 public class Pokemon {
     
@@ -123,104 +124,124 @@ public class Pokemon {
         return this;
     }
 
-    public String buildDexData() {
+    public String buildDexData(String section, String modifier) {
 
         StringBuilder builder = new StringBuilder();
 
-        builder.append("specialareas ").append(species_name).append(", DEX_MORNING").append(System.lineSeparator());
-        for (DexMap<String, Area> a : dex_areas) {
-            if (a.dexFlag.equals("DEX_MORNING") && a.area.special && !a.area.area_name.equals("DEX_UNDEFINED")) {
-                builder.append("    .word ").append(a.area.area_name).append(System.lineSeparator());
-            }
-        }
-        builder.append("    dexendareadata")
-                .append(System.lineSeparator())
-                .append(System.lineSeparator())
-                .append(System.lineSeparator());
+        List<Area> matchingAreas = dex_areas.stream()
+            .filter(dm -> dm.dexFlag().equals(modifier))
+            .map(DexMap::area)
+            .filter(a -> switch (section) {
+                case "routesandcities" -> !a.special;
+                case "specialareas"    -> a.special;
+                default                -> true;
+            })
+            .collect(Collectors.toList());
+        
+        for (int i = 0; i < matchingAreas.size(); i++) {
+            Area a = matchingAreas.get(i);
 
-        builder.append("specialareas ").append(species_name).append(", DEX_DAY").append(System.lineSeparator());
-        for (DexMap<String, Area> a : dex_areas) {
-            if (a.dexFlag.equals("DEX_DAY") && a.area.special && !a.area.area_name.equals("UNDEFINED")) {
-                builder.append("    .word ").append(a.area.area_name).append(System.lineSeparator());
+            if(a.area_name.equals("UNDEFINED") || a.area_name.equals("DEX_UNDEFINED")) {
+                continue;
             }
-        }
-        builder.append("    dexendareadata")
-                .append(System.lineSeparator())
-                .append(System.lineSeparator())
-                .append(System.lineSeparator());
 
-        builder.append("specialareas ").append(species_name).append(", DEX_NIGHT").append(System.lineSeparator());
-        for (DexMap<String, Area> a : dex_areas) {
-            if (a.dexFlag.equals("DEX_NIGHT") && a.area.special && !a.area.area_name.equals("UNDEFINED")) {
-                builder.append("    .word ").append(a.area.area_name).append(System.lineSeparator());
-            }
+            builder.append("    .word ").append(a.area_name).append(System.lineSeparator());
         }
-        builder.append("    dexendareadata")
-                .append(System.lineSeparator())
-                .append(System.lineSeparator())
-                .append(System.lineSeparator());
 
-        builder.append("routesandcities ").append(species_name).append(", DEX_MORNING").append(System.lineSeparator());
-        for (DexMap<String, Area> a : dex_areas) {
-            if (a.dexFlag.equals("DEX_MORNING") && !a.area.special && !a.area.area_name.equals("UNDEFINED")) {
-                builder.append("    .word ").append(a.area.area_name).append(System.lineSeparator());
-            }
-        }
-        builder.append("    dexendareadata")
-                .append(System.lineSeparator())
-                .append(System.lineSeparator())
-                .append(System.lineSeparator());
+        // builder.append("specialareas ").append(species_name).append(", DEX_MORNING").append(System.lineSeparator());
+        // for (DexMap<String, Area> a : dex_areas) {
+        //     if (a.dexFlag.equals("DEX_MORNING") && a.area.special && !a.area.area_name.equals("DEX_UNDEFINED")) {
+        //         builder.append("    .word ").append(a.area.area_name).append(System.lineSeparator());
+        //     }
+        // }
+        // builder.append("    dexendareadata")
+        //         .append(System.lineSeparator())
+        //         .append(System.lineSeparator())
+        //         .append(System.lineSeparator());
 
-        builder.append("routesandcities ").append(species_name).append(", DEX_DAY").append(System.lineSeparator());
-        for (DexMap<String, Area> a : dex_areas) {
-            if (a.dexFlag.equals("DEX_DAY") && !a.area.special && !a.area.area_name.equals("UNDEFINED")) {
-                builder.append("    .word ").append(a.area.area_name).append(System.lineSeparator());
-            }
-        }
-        builder.append("    dexendareadata")
-                .append(System.lineSeparator())
-                .append(System.lineSeparator())
-                .append(System.lineSeparator());
+        // builder.append("specialareas ").append(species_name).append(", DEX_DAY").append(System.lineSeparator());
+        // for (DexMap<String, Area> a : dex_areas) {
+        //     if (a.dexFlag.equals("DEX_DAY") && a.area.special && !a.area.area_name.equals("UNDEFINED")) {
+        //         builder.append("    .word ").append(a.area.area_name).append(System.lineSeparator());
+        //     }
+        // }
+        // builder.append("    dexendareadata")
+        //         .append(System.lineSeparator())
+        //         .append(System.lineSeparator())
+        //         .append(System.lineSeparator());
 
-        builder.append("routesandcities ").append(species_name).append(", DEX_NIGHT").append(System.lineSeparator());
-        for (DexMap<String, Area> a : dex_areas) {
-            if (a.dexFlag.equals("DEX_NIGHT") && !a.area.special && !a.area.area_name.equals("UNDEFINED")) {
-                builder.append("    .word ").append(a.area.area_name).append(System.lineSeparator());
-            }
-        }
-        builder.append("    dexendareadata")
-                .append(System.lineSeparator())
-                .append(System.lineSeparator())
-                .append(System.lineSeparator());
+        // builder.append("specialareas ").append(species_name).append(", DEX_NIGHT").append(System.lineSeparator());
+        // for (DexMap<String, Area> a : dex_areas) {
+        //     if (a.dexFlag.equals("DEX_NIGHT") && a.area.special && !a.area.area_name.equals("UNDEFINED")) {
+        //         builder.append("    .word ").append(a.area.area_name).append(System.lineSeparator());
+        //     }
+        // }
+        // builder.append("    dexendareadata")
+        //         .append(System.lineSeparator())
+        //         .append(System.lineSeparator())
+        //         .append(System.lineSeparator());
 
-        builder.append("specialareas ").append(species_name).append(", DEX_SPECIAL").append(System.lineSeparator());
-        for (DexMap<String, Area> a : dex_areas) {
-            if (a.dexFlag.equals("DEX_SPECIAL") && a.area.special && !a.area.area_name.equals("UNDEFINED")) {
-                builder.append("    .word ").append(a.area.area_name).append(System.lineSeparator());
-            }
-        }
-        builder.append("    dexendareadata")
-                .append(System.lineSeparator())
-                .append(System.lineSeparator())
-                .append(System.lineSeparator());
+        // builder.append("routesandcities ").append(species_name).append(", DEX_MORNING").append(System.lineSeparator());
+        // for (DexMap<String, Area> a : dex_areas) {
+        //     if (a.dexFlag.equals("DEX_MORNING") && !a.area.special && !a.area.area_name.equals("UNDEFINED")) {
+        //         builder.append("    .word ").append(a.area.area_name).append(System.lineSeparator());
+        //     }
+        // }
+        // builder.append("    dexendareadata")
+        //         .append(System.lineSeparator())
+        //         .append(System.lineSeparator())
+        //         .append(System.lineSeparator());
 
-        builder.append("routesandcities ").append(species_name).append(", DEX_SPECIAL").append(System.lineSeparator());
-        for (DexMap<String, Area> a : dex_areas) {
-            if (a.dexFlag.equals("DEX_SPECIAL") && !a.area.special && !a.area.area_name.equals("UNDEFINED")) {
-                builder.append("    .word ").append(a.area.area_name).append(System.lineSeparator());
-            }
-        }
-        builder.append("    dexendareadata")
-                .append(System.lineSeparator())
-                .append(System.lineSeparator())
-                .append(System.lineSeparator());
+        // builder.append("routesandcities ").append(species_name).append(", DEX_DAY").append(System.lineSeparator());
+        // for (DexMap<String, Area> a : dex_areas) {
+        //     if (a.dexFlag.equals("DEX_DAY") && !a.area.special && !a.area.area_name.equals("UNDEFINED")) {
+        //         builder.append("    .word ").append(a.area.area_name).append(System.lineSeparator());
+        //     }
+        // }
+        // builder.append("    dexendareadata")
+        //         .append(System.lineSeparator())
+        //         .append(System.lineSeparator())
+        //         .append(System.lineSeparator());
+
+        // builder.append("routesandcities ").append(species_name).append(", DEX_NIGHT").append(System.lineSeparator());
+        // for (DexMap<String, Area> a : dex_areas) {
+        //     if (a.dexFlag.equals("DEX_NIGHT") && !a.area.special && !a.area.area_name.equals("UNDEFINED")) {
+        //         builder.append("    .word ").append(a.area.area_name).append(System.lineSeparator());
+        //     }
+        // }
+        // builder.append("    dexendareadata")
+        //         .append(System.lineSeparator())
+        //         .append(System.lineSeparator())
+        //         .append(System.lineSeparator());
+
+        // builder.append("specialareas ").append(species_name).append(", DEX_SPECIAL").append(System.lineSeparator());
+        // for (DexMap<String, Area> a : dex_areas) {
+        //     if (a.dexFlag.equals("DEX_SPECIAL") && a.area.special && !a.area.area_name.equals("UNDEFINED")) {
+        //         builder.append("    .word ").append(a.area.area_name).append(System.lineSeparator());
+        //     }
+        // }
+        // builder.append("    dexendareadata")
+        //         .append(System.lineSeparator())
+        //         .append(System.lineSeparator())
+        //         .append(System.lineSeparator());
+
+        // builder.append("routesandcities ").append(species_name).append(", DEX_SPECIAL").append(System.lineSeparator());
+        // for (DexMap<String, Area> a : dex_areas) {
+        //     if (a.dexFlag.equals("DEX_SPECIAL") && !a.area.special && !a.area.area_name.equals("UNDEFINED")) {
+        //         builder.append("    .word ").append(a.area.area_name).append(System.lineSeparator());
+        //     }
+        // }
+        // builder.append("    dexendareadata")
+        //         .append(System.lineSeparator())
+        //         .append(System.lineSeparator())
+        //         .append(System.lineSeparator());
 
         return builder.toString();
     }
 
-        @Override public String toString() {
-            return id + ", " + species_name + ", " + species_withform + " (" + typeA + (typeB != null ? "/" + typeB : "") + ") "
-                + (alt_spawns == null ? "" : alt_spawns.toString());
+    @Override public String toString() {
+        return id + ", " + species_name + ", " + species_withform + " (" + typeA + (typeB != null ? "/" + typeB : "") + ") "
+            + (alt_spawns == null ? "" : alt_spawns.toString());
     }
     
 
