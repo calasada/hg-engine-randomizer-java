@@ -9,6 +9,7 @@ import java.util.Map;
 import java.util.concurrent.ThreadLocalRandom;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
+import java.util.stream.Collectors;
 
 import app.Pokemon.DexMap;
 
@@ -22,7 +23,8 @@ public class Area {
 
     private static final Pattern HEADER = Pattern.compile("^encounterdata\\s+(\\d+)");
     private static final Pattern RATE = Pattern.compile("^(walkrate|surfrate)\\s+(\\d+)(.*)$");
-    private static final Pattern SPECIES_LINE = Pattern.compile("^(pokemon|encounter)(\\s+)([A-Z0-9_]+)(.*)$");
+    private static final Pattern WALKRATE = Pattern.compile("^(walklevels)\\s+(\\d+(?:\\s*,\\s*\\d+)*)\\s*$");
+    private static final Pattern SPECIES_LINE = Pattern.compile("^(pokemon|encounter)\\s+([A-Z0-9_]+)(?:\\s*,\\s*(\\d+(?:\\s*,\\s*\\d+)*))?$");
     private static final Pattern COMMENT = Pattern.compile("^\\s*//\\s*(.*)$");
 
     public static String processAreaEncounterBlock(String blockText, int blockIndex, List<Pokemon> availableMons, List<Pokemon> monsWithAreas) {
@@ -33,6 +35,7 @@ public class Area {
         // Track the current "flag" derived from the most recent // comment line
         String currentDexFlag = null;
 
+        
         // Ensure consistent replacement within this block:
         // original species -> chosen Pokemon (removed from pool on first use)
         Map<String, Pokemon> chosenByOriginal = new HashMap<>();
@@ -84,17 +87,50 @@ public class Area {
                 continue;
             }
 
+            // 2) Clamp walkrate/surfrate to 15
+            Matcher wr = WALKRATE.matcher(line);
+            if (wr.matches()) {
+
+                String key       = wr.group(1);
+                String leveldata = wr.group(2);
+
+                List<Integer> levels = (leveldata == null) ? List.of()
+                    : Pattern.compile("\\d+").matcher(leveldata).results()
+                        .map(java.util.regex.MatchResult::group)
+                        .map(Integer::parseInt)
+                        .collect(java.util.stream.Collectors.toList());
+
+                levels = levels.stream().map(n -> (int) Math.min(Math.round(n * Trainer.TRAINER_LEVEL_MULTIPLIER), 100)).collect(Collectors.toList());
+
+                out.append(key).append(" ");
+                for (int i = 0; i < levels.size(); i++) {
+                    out.append(levels.get(i));
+                    if (i < levels.size() - 1) {
+                        out.append(", ");
+                    }
+                }
+                out.append(System.lineSeparator());
+                continue;
+            }
+
             // 3) Replace species on pokemon/encounter lines
             Matcher sm = SPECIES_LINE.matcher(line);
             if (sm.matches()) {
 
-                String headToken = sm.group(1);   // "pokemon" | "encounter"
-                String ws        = sm.group(2);   // original spacing
-                String original  = sm.group(3);   // e.g., SPECIES_PIKACHU
-                String rest      = sm.group(4);   // keep the rest intact
+                String headToken      = sm.group(1);   // "pokemon" | "encounter"
+                String species        = sm.group(2);   // e.g., SPECIES_PIKACHU
+                String leveldata      = sm.group(3);   // keep the rest intact
+
+                List<Integer> levels = (leveldata == null) ? List.of()
+                    : Pattern.compile("\\d+").matcher(leveldata).results()
+                        .map(java.util.regex.MatchResult::group)
+                        .map(Integer::parseInt)
+                        .collect(java.util.stream.Collectors.toList());
+
+                levels = levels.stream().map(n -> (int) Math.min(Math.round(n * Trainer.TRAINER_LEVEL_MULTIPLIER), 100)).collect(Collectors.toList());
 
                 // skip SPECIES_NONE
-                if (original.equals("SPECIES_NONE")) {
+                if (species.equals("SPECIES_NONE")) {
                     out.append(line).append(System.lineSeparator());
                     continue;
                 } 
@@ -106,7 +142,7 @@ public class Area {
                     System.out.println("Refilling available mons on area " + areaId + "...");
                 }
 
-                Pokemon chosen = chosenByOriginal.get(original); // find current line's species in the chosen already list
+                Pokemon chosen = chosenByOriginal.get(species); // find current line's species in the chosen already list
                 if (chosen == null) { // if its not chosen this group yet....
                     
                     chosen = takeRandom(availableMons).chooseAltForm(); // replace it with a random pokemon, choosing randomly between all alt forms
@@ -116,7 +152,7 @@ public class Area {
                         System.exit(1);
                     }
 
-                    chosenByOriginal.put(original, chosen); // add the random pokemon to the chosen list
+                    chosenByOriginal.put(species, chosen); // add the random pokemon to the chosen list
                 }
 
                 if (currentDexFlag == null) {
@@ -148,9 +184,18 @@ public class Area {
                     newHead = headToken.equals("pokemon") ? "monwithform" : "encounterwithform";
                 }
 
-                // Replace only the species token; keep spacing and the tail as-is
-                String replaced = newHead + ws + chosen.species_withform + rest;
-                out.append(replaced).append(System.lineSeparator());
+                // Replace only the species token; keep spacing and the tail as-is holy fuck this is jank atp
+                String replaced = newHead + " " + chosen.species_withform + (sm.group(3) == null ? "" : ", ");
+
+                out.append(replaced);
+                for (int i = 0; i < levels.size(); i++) {
+                    out.append(levels.get(i));
+                    if (i < levels.size() - 1) {
+                        out.append(", ");
+                    }
+                }
+
+                out.append(System.lineSeparator());
                 continue;
             }
 

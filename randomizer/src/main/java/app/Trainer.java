@@ -73,6 +73,8 @@ public class Trainer {
 
     public String buildParty(int numMons, int ivs, List<Integer> levels, List<String> items) {
 
+        ace_level = levels.stream().max(Integer::compareTo).orElse(0); // get max level in party
+
         StringBuilder builder = new StringBuilder();
         builder.append("    party ").append(id)           .append(System.lineSeparator());
 
@@ -283,7 +285,7 @@ public class Trainer {
             // 4) "levels" -> generate trainer party
             Matcher l = LEVEL.matcher(line);
             if (l.find()) {
-                levels.add(Integer.valueOf(l.group(1)));
+                levels.add(Math.min(Math.round(Integer.parseInt(l.group(1)) * Trainer.TRAINER_LEVEL_MULTIPLIER), 100));
                 continue;
             }
 
