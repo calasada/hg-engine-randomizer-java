@@ -41,7 +41,7 @@ EVOLUTION_COL    = "evolution_tree" # "SPECIES_A:16,SPECIES_B:36" or JSON
 MOVESET_COL      = "moveset"        # "MOVE_A,MOVE_B,MOVE_C"
 
 # Boolean-like columns for Moves data
-MOVES_BOOL_COLS = ["implemented", "status"]
+MOVES_BOOL_COLS = ["implemented"]
 AREAS_BOOL_COLS = ["special"]
 TRAINERS_BOOL_COLS = ["moves_defined"]
 

@@ -2,6 +2,8 @@ package app;
 
 import java.util.List;
 
+import app.Pokemon.AttackType;
+
 public class RawPokemon {
 
     public int id;
@@ -22,6 +24,7 @@ public class RawPokemon {
     public boolean evil;
     public Type typeA;
     public Type typeB;
+    public AttackType attack_type;
     public List<AltSpawnRef> alt_spawns;
     public List<EvolutionRef> evolution_tree;
     public List<String> moveset;

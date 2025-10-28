@@ -41,6 +41,7 @@ public final class JsonLoader {
         try {
             raws = readRawMoves(resourcePath);
         } catch (Exception ex) {
+            System.out.println(ex);
         }
         return raws;
     }
@@ -93,6 +94,7 @@ public final class JsonLoader {
             p.evil = r.evil;
             p.typeA = r.typeA;
             p.typeB = r.typeB;
+            p.attack_type = r.attack_type;
             // alt_spawns,evolution_tree set in Pass 2
             pokeById.put(p.species_name, p);
         }

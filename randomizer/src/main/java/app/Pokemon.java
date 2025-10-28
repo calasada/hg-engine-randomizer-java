@@ -28,12 +28,19 @@ public class Pokemon {
     public boolean evil;
     public Type typeA;
     public Type typeB;
+    public AttackType attack_type;
     public List<AltSpawn> alt_spawns;
     public List<Evolution> evolution_tree;
     public List<Move> moveset;
     public List<DexMap<String, Area>> dex_areas = new ArrayList<>();
 
     public record DexMap<K, V>(K dexFlag, V area) {}
+
+    public enum AttackType {
+        PHYSICAL,
+        SPECIAL,
+        MIXED
+    }
 
     public String buildMoveset(Trainer trainer) {
 
@@ -43,16 +50,32 @@ public class Pokemon {
         List<Move> statusMoves = new ArrayList<>(moveset);
         List<Move> allMoves = new ArrayList<>(moveset);
 
-        stabMoves.removeIf(m -> !m.implemented);
-        stabMoves.removeIf(m -> m.status);
-        stabMoves.removeIf(m -> !(m.type == typeA || m.type == typeB));
+        boolean doubleCoverage = ThreadLocalRandom.current().nextInt(4) > 0; // 75% chance to have 2 coverage moves
 
-        coverageMoves.removeIf(m -> !m.implemented);
-        coverageMoves.removeIf(m -> m.status);
-        coverageMoves.removeIf(m -> (m.type == typeA || m.type == typeB));
+        // STAB
+        stabMoves.removeIf(m -> !m.implemented); // remove unimplemented moves
+        stabMoves.removeIf(m -> m.split == Move.MoveSplit.SPLIT_STATUS); // remove status moves
+        if(attack_type == AttackType.PHYSICAL) { // remove non-physical moves if physical attacker
+            stabMoves.removeIf(m -> m.split != Move.MoveSplit.SPLIT_PHYSICAL);
+        } else if(attack_type == AttackType.SPECIAL) { // remove non-special moves if special attacker
+            stabMoves.removeIf(m -> m.split != Move.MoveSplit.SPLIT_SPECIAL);
+        }
+        stabMoves.removeIf(m -> !(m.type == typeA || m.type == typeB)); // keep only moves that match the mons types
 
+
+        // COVERAGE
+        coverageMoves.removeIf(m -> !m.implemented); // remove unimplemented moves
+        coverageMoves.removeIf(m -> m.split == Move.MoveSplit.SPLIT_STATUS); // remove status moves
+        if(attack_type == AttackType.PHYSICAL) { // remove non-physical moves if physical attacker
+            coverageMoves.removeIf(m -> m.split != Move.MoveSplit.SPLIT_PHYSICAL);
+        } else if(attack_type == AttackType.SPECIAL) { // remove non-special moves if special attacker
+            coverageMoves.removeIf(m -> m.split != Move.MoveSplit.SPLIT_SPECIAL);
+        }
+        coverageMoves.removeIf(m -> (m.type == typeA || m.type == typeB)); // remove moves that match the mons types for coverage
+
+        // STATUS
         statusMoves.removeIf(m -> !m.implemented);
-        statusMoves.removeIf(m -> !m.status);
+        statusMoves.removeIf(m -> m.split != Move.MoveSplit.SPLIT_STATUS);
 
         allMoves.removeIf(m -> !m.implemented);
 
@@ -65,7 +88,11 @@ public class Pokemon {
 
             builder.append("        move ").append(stabMoves.isEmpty() ? "MOVE_NONE" : Area.takeRandom(stabMoves).move_name).append(System.lineSeparator());
             builder.append("        move ").append(coverageMoves.isEmpty() ? "MOVE_NONE" : Area.takeRandom(coverageMoves).move_name).append(System.lineSeparator());
-            builder.append("        move ").append(coverageMoves.isEmpty() ? "MOVE_NONE" : Area.takeRandom(coverageMoves).move_name).append(System.lineSeparator());
+            if(doubleCoverage) {
+                builder.append("        move ").append(coverageMoves.isEmpty() ? "MOVE_NONE" : Area.takeRandom(coverageMoves).move_name).append(System.lineSeparator());
+            } else {
+                builder.append("        move ").append(statusMoves.isEmpty() ? "MOVE_NONE" : Area.takeRandom(statusMoves).move_name).append(System.lineSeparator());
+            }
             builder.append("        move ").append(statusMoves.isEmpty() ? "MOVE_NONE" : Area.takeRandom(statusMoves).move_name);
 
         } else {

@@ -7,11 +7,17 @@ public class Move {
 
     public String move_name;
     public boolean implemented;
-    public boolean status;
+    public MoveSplit split;
     public Type type;
 
+    public enum MoveSplit {
+        SPLIT_PHYSICAL,
+        SPLIT_SPECIAL,
+        SPLIT_STATUS
+    }
+
     @Override public String toString() {
-        return move_name + "= type:" + type + ", implemented:" + implemented + ", status:" + status;
+        return move_name + "= type:" + type + ", implemented:" + implemented + ", status:" + split;
     }
 
     public static String buildDepartmentTMList(List<String> tmList, int amount) throws IOException {
