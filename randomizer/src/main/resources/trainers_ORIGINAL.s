@@ -921,7 +921,7 @@ trainerdata 29, "Rod"
 trainerdata 30, "Whitney"
     trainermontype TRAINER_DATA_TYPE_ITEMS | TRAINER_DATA_TYPE_MOVES
     trainerclass TRAINERCLASS_LEADER_WHITNEY
-    nummons 2
+    nummons 3
     item ITEM_SUPER_POTION
     item ITEM_SUPER_POTION
     item ITEM_NONE
@@ -953,6 +953,18 @@ trainerdata 30, "Whitney"
         move MOVE_ATTRACT
         move MOVE_STOMP
         move MOVE_MILK_DRINK
+        ballseal 0
+
+        // mon 2
+        ivs 100
+        abilityslot 0
+        level 17
+        pokemon SPECIES_CLEFAIRY
+        item ITEM_NONE
+        move MOVE_DOUBLE_SLAP
+        move MOVE_MIMIC
+        move MOVE_ENCORE
+        move MOVE_METRONOME
         ballseal 0
     endparty
 
@@ -1021,7 +1033,7 @@ trainerdata 31, "Morty"
 trainerdata 32, "Pryce"
     trainermontype TRAINER_DATA_TYPE_ITEMS | TRAINER_DATA_TYPE_MOVES
     trainerclass TRAINERCLASS_LEADER_PRYCE
-    nummons 3
+    nummons 4
     item ITEM_HYPER_POTION
     item ITEM_FULL_RESTORE
     item ITEM_NONE
@@ -1066,12 +1078,24 @@ trainerdata 32, "Pryce"
         move MOVE_MUD_BOMB
         move MOVE_BLIZZARD
         ballseal 0
+
+        // mon 3
+        ivs 150
+        abilityslot 0
+        level 30
+        pokemon SPECIES_SEEL
+        item ITEM_NONE
+        move MOVE_SNORE
+        move MOVE_HAIL
+        move MOVE_ICY_WIND
+        move MOVE_REST
+        ballseal 0
     endparty
 
 trainerdata 33, "Jasmine"
     trainermontype TRAINER_DATA_TYPE_ITEMS | TRAINER_DATA_TYPE_MOVES
     trainerclass TRAINERCLASS_LEADER_JASMINE
-    nummons 3
+    nummons 4
     item ITEM_HYPER_POTION
     item ITEM_HYPER_POTION
     item ITEM_NONE
@@ -1116,12 +1140,24 @@ trainerdata 33, "Jasmine"
         move MOVE_ROCK_THROW
         move MOVE_IRON_TAIL
         ballseal 0
+
+        // mon 3
+        ivs 150
+        abilityslot 0
+        level 30
+        pokemon SPECIES_MAGNEMITE
+        item ITEM_NONE
+        move MOVE_THUNDERBOLT
+        move MOVE_SUPERSONIC
+        move MOVE_SONIC_BOOM
+        move MOVE_THUNDER_WAVE
+        ballseal 0
     endparty
 
 trainerdata 34, "Chuck"
     trainermontype TRAINER_DATA_TYPE_ITEMS | TRAINER_DATA_TYPE_MOVES
     trainerclass TRAINERCLASS_LEADER_CHUCK
-    nummons 2
+    nummons 4
     item ITEM_HYPER_POTION
     item ITEM_HYPER_POTION
     item ITEM_NONE
@@ -1154,12 +1190,36 @@ trainerdata 34, "Chuck"
         move MOVE_FOCUS_PUNCH
         move MOVE_BODY_SLAM
         ballseal 0
+
+        // mon 2
+        ivs 150
+        abilityslot 0
+        level 29
+        pokemon SPECIES_PRIMEAPE
+        item ITEM_NONE
+        move MOVE_LEER
+        move MOVE_DOUBLE_TEAM
+        move MOVE_FOCUS_PUNCH
+        move MOVE_ROCK_SLIDE
+        ballseal 0
+
+        // mon 3
+        ivs 150
+        abilityslot 0
+        level 30
+        pokemon SPECIES_PRIMEAPE
+        item ITEM_NONE
+        move MOVE_LEER
+        move MOVE_DOUBLE_TEAM
+        move MOVE_FOCUS_PUNCH
+        move MOVE_ROCK_SLIDE
+        ballseal 0
     endparty
 
 trainerdata 35, "Clair"
     trainermontype TRAINER_DATA_TYPE_ITEMS | TRAINER_DATA_TYPE_MOVES
     trainerclass TRAINERCLASS_LEADER_CLAIR
-    nummons 4
+    nummons 5
     item ITEM_HYPER_POTION
     item ITEM_FULL_RESTORE
     item ITEM_NONE
@@ -1214,6 +1274,18 @@ trainerdata 35, "Clair"
         move MOVE_SMOKESCREEN
         move MOVE_HYDRO_PUMP
         move MOVE_HYPER_BEAM
+        move MOVE_DRAGON_PULSE
+        ballseal 0
+
+        // mon 4
+        ivs 200
+        abilityslot 0
+        level 38
+        pokemon SPECIES_GYARADOS
+        item ITEM_NONE
+        move MOVE_TWISTER
+        move MOVE_DRAGON_RAGE
+        move MOVE_BITE
         move MOVE_DRAGON_PULSE
         ballseal 0
     endparty
@@ -16150,7 +16222,7 @@ trainerdata 484, "Gerardo"
 trainerdata 485, "Archer"
     trainermontype TRAINER_DATA_TYPE_MOVES
     trainerclass TRAINERCLASS_EXECUTIVE_ARCHER
-    nummons 3
+    nummons 6
     item ITEM_NONE
     item ITEM_NONE
     item ITEM_NONE
@@ -16186,6 +16258,39 @@ trainerdata 485, "Archer"
         ivs 200
         abilityslot 0
         level 38
+        pokemon SPECIES_HOUNDOOM
+        move MOVE_FIRE_FANG
+        move MOVE_SMOG
+        move MOVE_BITE
+        move MOVE_FEINT_ATTACK
+        ballseal 0
+
+        // mon 3
+        ivs 200
+        abilityslot 0
+        level 36
+        pokemon SPECIES_HOUNDOOM
+        move MOVE_FIRE_FANG
+        move MOVE_SMOG
+        move MOVE_BITE
+        move MOVE_FEINT_ATTACK
+        ballseal 0
+
+        // mon 4
+        ivs 200
+        abilityslot 0
+        level 36
+        pokemon SPECIES_HOUNDOOM
+        move MOVE_FIRE_FANG
+        move MOVE_SMOG
+        move MOVE_BITE
+        move MOVE_FEINT_ATTACK
+        ballseal 0
+
+        // mon 5
+        ivs 200
+        abilityslot 0
+        level 36
         pokemon SPECIES_HOUNDOOM
         move MOVE_FIRE_FANG
         move MOVE_SMOG

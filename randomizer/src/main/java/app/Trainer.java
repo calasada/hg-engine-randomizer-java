@@ -28,16 +28,19 @@ public class Trainer {
     public static Pokemon[] rivalTeam_stage2_noforms = new Pokemon[6];
     public static Pokemon[] rivalTeam_stage3_noforms = new Pokemon[6];
 
+    public static float TRAINER_LEVEL_MULTIPLIER = 1.2f;
+
     public enum TrainerType {
 
-        TRAINERCLASS_UNIMPORTANT (60, 35, 5, false, false, false, false),
-        TRAINERCLASS_RIVAL       (10, 40, 50, true, false, true, false),
-        TRAINERCLASS_LEADER      (40, 60, 0, true, false, false, false),
-        TRAINERCLASS_ELITE_FOUR  (15, 50, 35, true, false, false, false),
-        TRAINERCLASS_CHAMPION    (0,  30, 70, true, false, false, false),
-        TRAINERCLASS_TEAM_ROCKET (60, 35, 5, false, true, false, false),
-        TRAINERCLASS_EXECUTIVE   (15, 50, 35, true, true, false, false),
-        TRAINERCLASS_ROCKET_BOSS (15, 35, 50, true, true, false, true);
+        TRAINERCLASS_UNIMPORTANT (60, 35, 5,  false, false, false, false),
+        TRAINERCLASS_KIMONO      (0,  0, 100, true,  false, false, false),
+        TRAINERCLASS_RIVAL       (10, 40, 50, true,  false, true,  false),
+        TRAINERCLASS_LEADER      (40, 60, 0,  true,  false, false, false),
+        TRAINERCLASS_ELITE_FOUR  (15, 50, 35, true,  false, false, false),
+        TRAINERCLASS_CHAMPION    (0,  25, 75, true,  false, false, false),
+        TRAINERCLASS_TEAM_ROCKET (60, 35, 5,  false, true,  false, false),
+        TRAINERCLASS_EXECUTIVE   (15, 50, 35, true,  true,  false, false),
+        TRAINERCLASS_ROCKET_BOSS (15, 35, 50, true,  true,  false, true);
 
         int cWeight;
         int bWeight;

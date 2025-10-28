@@ -1282,7 +1282,7 @@
   {
     "id": "160",
     "trainer_name": "Naoko",
-    "type": "TRAINERCLASS_UNIMPORTANT",
+    "type": "TRAINERCLASS_KIMONO",
     "original_gym": "",
     "ace_level": "38",
     "moves_defined": true
@@ -1290,7 +1290,7 @@
   {
     "id": "161",
     "trainer_name": "Sayo",
-    "type": "TRAINERCLASS_UNIMPORTANT",
+    "type": "TRAINERCLASS_KIMONO",
     "original_gym": "",
     "ace_level": "38",
     "moves_defined": true
@@ -1298,7 +1298,7 @@
   {
     "id": "162",
     "trainer_name": "Zuki",
-    "type": "TRAINERCLASS_UNIMPORTANT",
+    "type": "TRAINERCLASS_KIMONO",
     "original_gym": "",
     "ace_level": "38",
     "moves_defined": true
@@ -1306,7 +1306,7 @@
   {
     "id": "163",
     "trainer_name": "Kuni",
-    "type": "TRAINERCLASS_UNIMPORTANT",
+    "type": "TRAINERCLASS_KIMONO",
     "original_gym": "",
     "ace_level": "38",
     "moves_defined": true
@@ -1314,7 +1314,7 @@
   {
     "id": "164",
     "trainer_name": "Miki",
-    "type": "TRAINERCLASS_UNIMPORTANT",
+    "type": "TRAINERCLASS_KIMONO",
     "original_gym": "",
     "ace_level": "38",
     "moves_defined": true
@@ -3882,7 +3882,7 @@
   {
     "id": "485",
     "trainer_name": "Archer",
-    "type": "TRAINERCLASS_EXECUTIVE",
+    "type": "TRAINERCLASS_ROCKET_BOSS",
     "original_gym": "",
     "ace_level": "38",
     "moves_defined": true
